@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "baseUrl": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/quiz-catalog-example/",
+  "quizzes": [
+    {
+      "id": "demo",
+      "title": "Demo quiz",
+      "path": "demo-quiz.json"
+    }
+  ]
+}
