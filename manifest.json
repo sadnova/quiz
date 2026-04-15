@@ -1,6 +1,7 @@
 {
   "version": 1,
-  "baseUrl": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/quiz-catalog-example/",
+  "baseUrl": "",
+  "startPassword": "2026"
   "quizzes": [
     {
       "id": "demo",
