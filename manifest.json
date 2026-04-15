@@ -1,7 +1,6 @@
 {
   "version": 1,
-  "baseUrl": "",
-  "startPassword": "2026"
+  "startPassword": "2026",
   "quizzes": [
     {
       "id": "demo",
