@@ -12,6 +12,12 @@
       "title": "Electromagnetic Waves and the EM Spectrum",
       "path": "combined-electromagnetic-waves-and-the-em-spectrum.json",
       "name": "Electromagnetic Waves and the EM Spectrum"
+    },
+    {
+      "id": "combined-electromagnetic-waves-and-the-em-spectrum2",
+      "title": "Electromagnetic Waves and the EM Spectrum second",
+      "path": "combined-electromagnetic-waves-and-the-em-spectrum2.json",
+      "name": "Electromagnetic Waves and the EM Spectrum second"
     }
   ]
 }
