@@ -1,0 +1,607 @@
+{
+  "quizTitle": "Electromagnetic Waves and the EM Spectrum",
+  "quizDescription": "A comprehensive assessment covering the propagation, properties, uses, and dangers of electromagnetic waves and the various regions of the EM spectrum.",
+  "questions": [
+    {
+      "question": "What is the primary difference between how mechanical waves and **electromagnetic (EM) waves** transfer energy?",
+      "options": [
+        "EM waves transfer matter along with energy, while mechanical waves do not.",
+        "Mechanical waves require a physical medium to pass energy between particles, whereas EM waves can propagate through a vacuum.",
+        "EM waves are longitudinal and travel through empty space, while mechanical waves are always transverse.",
+        "Mechanical waves oscillate electric fields, whereas EM waves oscillate physical matter."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mechanical waves rely on particle-to-particle collisions within matter to transfer energy. In contrast, EM waves consist of oscillating electric and magnetic fields that do not require a medium, allowing them to travel through the vacuum of space.",
+      "hint": "Think about how sunlight reaches Earth through the vacuum of space compared to how sound travels through air."
+    },
+    {
+      "question": "An EM wave is described as a **transverse wave**. What does this specifically imply about its structure?",
+      "options": [
+        "The electric and magnetic fields oscillate parallel to the direction of the wave's travel.",
+        "The wave requires a medium like a rope to move at right angles.",
+        "The oscillations of the electric and magnetic fields are perpendicular to the direction of wave propagation.",
+        "The frequency of the wave is inversely proportional to the speed of light."
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, transverse waves involve oscillations that occur at right angles (perpendicular) to the direction of energy transfer. In EM waves, both the electric and magnetic fields vibrate perpendicularly to the wave's path.",
+      "hint": "Recall the visual of a wave on a rope where the rope moves up and down while the wave moves forward."
+    },
+    {
+      "question": "Which of the following best describes the source of all **electromagnetic waves**?",
+      "options": [
+        "The collision of uncharged atoms in a high-pressure environment.",
+        "Charged particles, such as electrons, vibrating or moving back and forth.",
+        "The transition of mechanical energy into radiant energy through friction.",
+        "The constant movement of water molecules in the Sun."
+      ],
+      "correctAnswer": 1,
+      "explanation": "EM waves are produced when charged particles (like electrons) vibrate. This movement creates the oscillating electric and magnetic fields that radiate outward.",
+      "hint": "Look for the role of 'vibrating charges' in the generation of fields."
+    },
+    {
+      "question": "Which two regions of the EM spectrum account for approximately **92%** of the radiant energy reaching Earth from the Sun?",
+      "options": [
+        "Radio waves and Microwaves",
+        "Ultraviolet and X-rays",
+        "Visible light and Infrared waves",
+        "Gamma rays and Visible light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that almost 92% of the Sun's radiant energy reaching Earth is carried by infrared (which we feel as heat) and visible light (which we see).",
+      "hint": "Consider which types of solar radiation are most abundant for warmth and sight."
+    },
+    {
+      "question": "If the **frequency** of an EM wave increases, what happens to its wavelength and energy according to the EM spectrum trends?",
+      "options": [
+        "Wavelength increases and energy decreases.",
+        "Wavelength decreases and energy increases.",
+        "Both wavelength and energy increase.",
+        "Both wavelength and energy decrease."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the EM spectrum, frequency and energy are directly proportional, while frequency and wavelength are inversely proportional. Therefore, high-frequency waves (like Gamma rays) have short wavelengths and high energy.",
+      "hint": "Compare Radio waves (low frequency) to Gamma rays (high frequency) in terms of their physical properties."
+    },
+    {
+      "question": "Why does lightning cause 'interference' on a radio receiver?",
+      "options": [
+        "Lightning creates mechanical waves that shake the radio antenna.",
+        "The heat from lightning shifts the radio's frequency into the infrared range.",
+        "Lightning is a natural source that emits radio waves.",
+        "The light from lightning overloads the radio's visible light sensors."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text notes that radio waves are given off by stars, sparks, and lightning. The EM waves produced by lightning are picked up by the radio as static or interference.",
+      "hint": "The radio is designed to receive a specific type of EM wave; consider what lightning might be emitting."
+    },
+    {
+      "question": "How do **microwaves** specifically interact with food to cook it?",
+      "options": [
+        "They use high energy to break the chemical bonds of the food.",
+        "They cause water and fat molecules to vibrate, generating heat.",
+        "They provide external radiant heat that slowly conducts to the center.",
+        "They convert the food's matter directly into radiant energy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Microwaves make water and fat molecules vibrate. This internal molecular motion creates the heat necessary to cook the food.",
+      "hint": "Focus on the 'vibration' of specific molecules within the substance."
+    },
+    {
+      "question": "A person working on an aircraft carrier wears a special suit to reflect **microwaves**. What is the specific health risk they are trying to avoid?",
+      "options": [
+        "Severe sunburn from high-frequency radiation.",
+        "Permanent damage to the retina from visible brightness.",
+        "Cataracts (clouding of the cornea) and potential brain effects.",
+        "Vitamin D deficiency caused by blocked UV rays."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prolonged exposure to microwaves is known to cause cataracts in the eyes and can affect the brain, especially when the transmitter is near the head.",
+      "hint": "Look for the specific eye-related 'clouding' mentioned in the safety warnings."
+    },
+    {
+      "question": "Why might a weather forecaster use **infrared cameras** on satellites to track storms at night?",
+      "options": [
+        "Infrared waves are the only waves that can pass through clouds.",
+        "Infrared waves show cloud and rain patterns more clearly by detecting heat, even without sunlight.",
+        "Infrared waves have the longest wavelengths and can see around the Earth's curve.",
+        "Visible light is converted into infrared energy by the satellite to increase resolution."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Infrared cameras detect heat (thermal energy). Because clouds and rain have different thermal signatures than the surface, they can be tracked even in the dark when visible light is unavailable.",
+      "hint": "What do infrared sensors detect that our eyes cannot see in the dark?"
+    },
+    {
+      "question": "What is the primary danger of wearing sunglasses that **do not** block UV light?",
+      "options": [
+        "They focus infrared heat onto the eye, causing burns.",
+        "They make the environment too dark to see clearly.",
+        "The pupils may dilate in the shade, allowing more UV to reach the retina than if no glasses were worn.",
+        "They cause the body to overproduce Vitamin D."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text warns that if sunglasses don't block UV, you get more UV on your retinas. This is because the dark lenses cause the eye to stop its natural defenses (like squinting or pupil contraction), letting harmful UV in.",
+      "hint": "Consider how the eye reacts to 'darkness' and how that affects the intake of invisible rays."
+    },
+    {
+      "question": "Which application of **Ultraviolet (UV) rays** is used in medical settings for sanitation?",
+      "options": [
+        "Radiotherapy for killing internal cancer cells.",
+        "Sterilizing surgical equipment and air in operating theaters.",
+        "Hardening dental fillings using thermal heat.",
+        "Detecting forged bank notes in the hospital pharmacy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "UV rays can kill microbes, making them effective for sterilizing equipment and the air in medical and food production environments.",
+      "hint": "Identify which property of UV rays makes them effective against bacteria and viruses."
+    },
+    {
+      "question": "How are **X-rays** typically produced for medical imaging?",
+      "options": [
+        "By heating a gas until it becomes a nebula.",
+        "By capturing radioactive emissions from concrete.",
+        "By firing a high-energy beam of electrons at a 'target'.",
+        "By vibrating water molecules at extremely high frequencies."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explains that X-rays are man-made by firing a beam of electrons at a target with enough energy to produce the radiation.",
+      "hint": "Look for the technical process involving 'electrons' and a 'target'."
+    },
+    {
+      "question": "Why are **Gamma rays** used in 'Radiotherapy' to treat cancer?",
+      "options": [
+        "They are easily stopped by healthy skin cells.",
+        "They carry high energy that can kill living cells, and cancer cells are less able to repair themselves.",
+        "They use thermal energy to melt tumors without affecting surrounding tissue.",
+        "They are the least penetrating waves, ensuring they stay only on the surface."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gamma rays carry a large amount of energy and can kill cells. In radiotherapy, they target cancer cells because these cells lack the repair mechanisms of healthy cells.",
+      "hint": "Think about the high-energy nature of Gamma rays and the vulnerability of cancer cells."
+    },
+    {
+      "question": "Which of the following materials would be **most effective** at blocking Gamma radiation?",
+      "options": [
+        "A thin sheet of aluminum foil.",
+        "A specialized microwave reflection suit.",
+        "Lead or thick concrete.",
+        "Plastic shielding used for UV protection."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gamma rays are extremely penetrating and pass through most materials. Only dense materials like lead or concrete are sufficient to block them.",
+      "hint": "Which material is the hardest for high-energy waves to penetrate?"
+    },
+    {
+      "question": "In the context of the EM spectrum, how does **Visible Light** compare to **Ultraviolet rays**?",
+      "options": [
+        "Visible light has a higher frequency than UV rays.",
+        "Visible light has a longer wavelength than UV rays.",
+        "Visible light carries more energy than UV rays.",
+        "UV rays are just below red light, while visible light is above it."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the spectrum (ordered by decreasing wavelength), Visible light comes before UV. This means Visible light has a longer wavelength and a lower frequency/energy than UV.",
+      "hint": "Check the order of the spectrum: Radio, Micro, IR, Visible, UV..."
+    },
+    {
+      "question": "Which of these is a **commonality** between Radio waves and X-rays?",
+      "options": [
+        "They both have the same wavelength.",
+        "They both require a medium to travel through space.",
+        "They are both types of electromagnetic waves that travel at the speed of light.",
+        "They both carry the same amount of energy."
+      ],
+      "correctAnswer": 2,
+      "explanation": "All waves in the EM spectrum, from radio to gamma rays, are the same 'kind' of wave and travel at the speed of light in a vacuum, differing only in frequency and wavelength.",
+      "hint": "What fundamental property is shared by all parts of the EM spectrum?"
+    },
+    {
+      "question": "A 'security marker pen' uses ink that is only visible under a UV lamp. What does this imply about the ink?",
+      "options": [
+        "The ink reflects all visible light frequencies.",
+        "The ink reacts to UV radiation to become visible to the human eye.",
+        "The ink is made of radioactive gamma-emitting isotopes.",
+        "The ink only works when heated by infrared rays."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ink is invisible in normal light but 'glows' or becomes visible when UV light is applied, which is a common use for security markers and identifying forged currency.",
+      "hint": "Consider how UV lamps make certain materials 'glow' in discos or security checks."
+    },
+    {
+      "question": "If you are sitting in the Sun and feel your skin getting warm, which wave is primarily responsible for this **thermal sensation**?",
+      "options": [
+        "Ultraviolet rays",
+        "Visible light",
+        "Infrared waves",
+        "Radio waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Infrared waves are often associated with heat because they are given off by hot objects (like the Sun) and are felt as warmth on the skin.",
+      "hint": "Distinguish between the rays that cause 'warmth' and those that cause 'sunburn'."
+    },
+    {
+      "question": "What happens to the **direction of oscillation** in a longitudinal wave compared to the wave's travel?",
+      "options": [
+        "It is perpendicular to the direction of travel.",
+        "It is parallel to the direction of travel.",
+        "It moves in a circular motion relative to the direction of travel.",
+        "There is no oscillation in a longitudinal wave."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a longitudinal wave, the direction of oscillation is parallel to the direction of propagation. This is the opposite of a transverse wave (like an EM wave), where oscillations are perpendicular.",
+      "hint": "Contrast 'parallel' and 'perpendicular' based on the definitions provided for wave types."
+    },
+    {
+      "question": "Which statement regarding the **Ozone layer** is correct based on the text?",
+      "options": [
+        "It produces Vitamin D for people on Earth.",
+        "It absorbs most of the Sun's ultraviolet radiation at high altitudes.",
+        "It acts as a shield that reflects radio waves back to space.",
+        "It is the source of the Earth's infrared heat."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer, located at an altitude of 40 to 50 km, absorbs most of the UV light from the Sun, protecting life on Earth from excessive exposure.",
+      "hint": "Recall the protective function of the atmosphere against solar radiation."
+    },
+    {
+      "question": "## Electromagnetic Waves and Spectrum: Advanced Concepts\n\nAn extended assessment focusing on complex reasoning, application of EM principles, and distinguishing between spectrum behaviors.\n\n---\n\nA scientist detects a wave that travels through a vacuum and has a wavelength of **1,000 meters**. In which category of the EM spectrum does this wave fall?",
+      "options": [
+        "Microwaves",
+        "Gamma rays",
+        "Radio waves",
+        "Infrared waves"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text defines radio waves as having wavelengths ranging from around 1 meter to thousands of meters. 1,000 meters fits perfectly within the long-wavelength end of the radio spectrum.",
+      "hint": "Identify which end of the spectrum is associated with 'thousands of meters'."
+    },
+    {
+      "question": "Why does the text advise keeping mobile phone calls short regarding **microwaves**?",
+      "options": [
+        "To save battery life on the transmitter chip.",
+        "Because microwaves can affect parts of the brain due to the proximity of the transmitter.",
+        "Because short calls prevent the antenna from reflecting sunlight.",
+        "To prevent the phone from emitting ionizing X-rays."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mobile phones use microwave transmitters. Because the phone is held right by the head, the radiation can interact with brain tissue, leading to the advice of keeping calls brief.",
+      "hint": "Think about the proximity of the device to a vital organ."
+    },
+    {
+      "question": "Contrast the **propagation** of a wave on a rope with a sound wave. Which statement correctly identifies their relationship to EM waves?",
+      "options": [
+        "A rope wave is transverse like an EM wave; sound is longitudinal.",
+        "A sound wave is transverse like an EM wave; a rope wave is longitudinal.",
+        "Both are EM waves because they carry energy.",
+        "Neither are transverse; only EM waves can be transverse."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A rope wave is a transverse wave (oscillation perpendicular to travel), which is the same mechanical behavior as EM waves. Sound, however, is a longitudinal wave (oscillation parallel to travel).",
+      "hint": "Recall the definition of transverse waves provided in the text regarding rope movement."
+    },
+    {
+      "question": "In a hospital, a **Radiographer** stands behind a shield when performing an X-ray. What principle of high-frequency waves justifies this action?",
+      "options": [
+        "X-rays are easily reflected by air, so the shield keeps them focused.",
+        "X-rays carry high energy and can cause cell damage or cancer over time.",
+        "The shield prevents the Radiographer from feeling the infrared heat of the X-ray machine.",
+        "The shield is necessary to block the visible light emitted by the electron target."
+      ],
+      "correctAnswer": 1,
+      "explanation": "X-rays are high-frequency, high-energy waves. While useful for diagnosis, they can cause biological damage like cancer; shields protect staff from repeated exposure.",
+      "hint": "Consider the long-term health risks of high-energy radiation."
+    },
+    {
+      "question": "Which of the following is a **similarity** between Infrared waves and Ultraviolet rays?",
+      "options": [
+        "They both cause the body to produce Vitamin D.",
+        "They are both used by police helicopters to track criminals.",
+        "They are both emitted by the Sun and stars.",
+        "They are both blocked effectively by a thin layer of ozone."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Sun and stars are broad-spectrum emitters, producing infrared, visible light, ultraviolet, and even radio waves.",
+      "hint": "Look for the universal source for most types of radiation mentioned."
+    },
+    {
+      "question": "A physiotherapist uses a 'heat lamp' to treat an injury. Which part of the EM spectrum is this lamp utilizing?",
+      "options": [
+        "Microwaves",
+        "X-rays",
+        "Infrared waves",
+        "Gamma rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Infrared waves are felt as heat and are commonly used in heat lamps for physical therapy to help heal injuries.",
+      "hint": "Link 'heat' directly to a specific region of the spectrum."
+    },
+    {
+      "question": "What happens to the **frequency** of an EM wave as it moves from the Gamma ray end toward the Radio wave end of the spectrum?",
+      "options": [
+        "The frequency increases.",
+        "The frequency stays the same, but speed changes.",
+        "The frequency decreases.",
+        "The frequency fluctuates based on the medium."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The spectrum is organized from high frequency/energy (Gamma) to low frequency/energy (Radio). Moving toward the radio end results in lower frequencies.",
+      "hint": "Compare the 'highest energy' waves to the 'lowest energy' waves."
+    },
+    {
+      "question": "How does the wavelength of **Visible Light** ($400\\text{--}700$ nm) compare to the wavelength of **Microwaves** (a few cm)?",
+      "options": [
+        "Visible light has a much longer wavelength.",
+        "Microwaves have a much longer wavelength.",
+        "They are roughly the same, differing only in frequency.",
+        "Visible light is measured in meters, while microwaves are in nanometers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nanometers (nm) are billionths of a meter, whereas centimeters (cm) are hundredths of a meter. Therefore, microwaves have significantly longer wavelengths than visible light.",
+      "hint": "Recall the units: $1 \\text{ nm} = 10^{-9} \\text{ m}$ vs. $1 \\text{ cm} = 10^{-2} \\text{ m}$."
+    },
+    {
+      "question": "Which of these devices operates using **Microwaves** for a purpose *other* than heating food?",
+      "options": [
+        "TV Remote Controls",
+        "Traffic speed cameras",
+        "Security marker pens",
+        "Physiotherapy heat lamps"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that microwaves are used by traffic speed cameras, radar for aircraft/ships, and mobile phones.",
+      "hint": "Exclude devices that use infrared or UV rays."
+    },
+    {
+      "question": "If an object is described as 'warm' but not glowing, it is most likely emitting which type of radiation most strongly?",
+      "options": [
+        "Visible Light",
+        "Ultraviolet rays",
+        "Infrared waves",
+        "X-rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anything that is warm, including the human body, lamps, and flames, gives off infrared radiation, even if it doesn't emit visible light.",
+      "hint": "Which wave is synonymous with 'thermal emission' from warm objects?"
+    },
+    {
+      "question": "Identify the **misconception**: 'Because Gamma rays are high-energy, they travel faster than Radio waves in a vacuum.' Why is this false?",
+      "options": [
+        "Radio waves actually travel faster because they are longer.",
+        "Gamma rays are slowed down by their high energy.",
+        "All EM waves radiate outward from the source at the same speed (the speed of light).",
+        "Waves only have speed when traveling through matter, not a vacuum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "All electromagnetic waves, regardless of their energy, frequency, or wavelength, travel at the same speed in a vacuum: approximately $3 \\times 10^8 \\text{ m/s}$.",
+      "hint": "The 'Key Concept' at the start of the text mentions a universal speed."
+    },
+    {
+      "question": "Why is **Lead or Concrete** necessary to stop Gamma rays, while a simple target target can produce X-rays?",
+      "options": [
+        "Gamma rays have extremely high frequency and are the most penetrating.",
+        "X-rays are actually harder to stop, but concrete is cheaper.",
+        "Gamma rays are longitudinal and require solid matter to dissipate.",
+        "Lead reflects Gamma rays, whereas it absorbs X-rays."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Gamma rays are the most penetrating radiation in the EM spectrum due to their extreme frequency and energy, requiring very dense materials to be blocked.",
+      "hint": "Compare the 'penetrating' power mentioned for Gamma rays vs. other waves."
+    },
+    {
+      "question": "What determines the **frequency** of an electromagnetic wave?",
+      "options": [
+        "The distance between two consecutive crests.",
+        "The number of times the electric and magnetic parts vibrate each second.",
+        "The speed at which the wave travels through a vacuum.",
+        "The type of medium the wave is currently passing through."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frequency is defined as the number of vibrations or oscillations per second of the field components of the wave.",
+      "hint": "Frequency is a measure of 'how often' something happens."
+    },
+    {
+      "question": "A forged bank note is placed under a specific lamp and reveals hidden marks. Which region of the spectrum is being used?",
+      "options": [
+        "X-ray",
+        "Infrared",
+        "Ultraviolet",
+        "Visible light"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly mentions detecting forged bank notes in shops as a use for Ultraviolet (UV) light.",
+      "hint": "Think of the 'blacklight' or UV security checks in retail."
+    },
+    {
+      "question": "Why are **radio waves** used for military aircraft and television transmissions?",
+      "options": [
+        "They carry the most energy over long distances.",
+        "They have the lowest frequencies and are used for communication purposes.",
+        "They can be seen by the human eye at night.",
+        "They are the only waves that can travel through the ozone layer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radio waves have the lowest frequency and longest wavelengths, which makes them ideal for various long-range communication technologies.",
+      "hint": "Identify the primary 'purpose' of radio waves listed in the text."
+    },
+    {
+      "question": "What is the result of the electric and magnetic fields vibrating at **right angles** to the direction of wave motion?",
+      "options": [
+        "The wave becomes mechanical.",
+        "The wave is classified as longitudinal.",
+        "The wave is classified as transverse.",
+        "The wave ceases to transfer energy."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vibrations at right angles (perpendicular) to the direction of travel is the defining characteristic of a transverse wave.",
+      "hint": "Perpendicular vibration = _______ wave."
+    },
+    {
+      "question": "Which of the following would be an **application of X-rays** in a non-medical field?",
+      "options": [
+        "Sterilizing surgical tools.",
+        "Airport security checks for luggage.",
+        "Remote controls for television.",
+        "Treating Vitamin D deficiency."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beyond medicine, X-rays are used by security personnel at airports to see inside luggage because they can pass through most substances.",
+      "hint": "Where else have you seen 'scanners' that see through solid objects?"
+    },
+    {
+      "question": "How does the **ozone layer** protect humans from skin cancer?",
+      "options": [
+        "It reflects infrared waves so the Earth doesn't get too hot.",
+        "It screens out most of the harmful UV radiation given off by the Sun.",
+        "It blocks high-energy Gamma rays from reaching the surface.",
+        "It converts X-rays into visible light."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ozone layer absorbs the majority of the Sun's UV rays, which are the specific rays known to cause sunburn and skin cancer.",
+      "hint": "Link 'sunburn' and 'skin cancer' to the specific ray type and its atmospheric filter."
+    },
+    {
+      "question": "What makes **Gamma rays** useful for 'Radiotherapy' compared to surgery?",
+      "options": [
+        "They can kill cancer cells without requiring invasive surgery.",
+        "They turn cancer cells into healthy cells.",
+        "They provide the surgeon with a better view of the tumor.",
+        "They are cheaper than using a scalpel."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radiotherapy uses the energy of Gamma rays to kill cancer cells, allowing doctors to treat internal tumors without cutting the body open.",
+      "hint": "Consider the 'cell-killing' property of high-energy waves."
+    },
+    {
+      "question": "If you move from **X-rays to Ultraviolet rays** on the spectrum, what is the change in energy and wavelength?",
+      "options": [
+        "Energy increases, Wavelength increases.",
+        "Energy decreases, Wavelength decreases.",
+        "Energy decreases, Wavelength increases.",
+        "Energy increases, Wavelength decreases."
+      ],
+      "correctAnswer": 2,
+      "explanation": "X-rays are higher in frequency/energy than UV. Therefore, moving from X-rays to UV means you are moving toward lower energy and longer (increasing) wavelengths.",
+      "hint": "X-rays are 'above' UV in energy. What does that mean for their relative wavelengths?"
+    },
+    {
+      "question": "How is the **wavelength** of an EM wave specifically measured according to the text?",
+      "options": [
+        "The time it takes for one vibration to occur.",
+        "The distance between the crests or troughs of the vibrating fields.",
+        "The speed of the wave divided by the number of particles moved.",
+        "The thickness of the electric field oscillation."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wavelength is the physical distance between identical points on a wave, such as crest to crest or trough to trough.",
+      "hint": "Focus on the 'distance' aspect of the definition."
+    },
+    {
+      "question": "Which of these is **NOT** a source of radio waves mentioned in the text?",
+      "options": [
+        "Stars",
+        "Lightning",
+        "Magnetrons",
+        "Transmitters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text associates 'magnetrons' with the production of microwaves, while radio waves are associated with transmitters, stars, and lightning.",
+      "hint": "Magnetrons are mentioned specifically in the 'Microwaves' section."
+    },
+    {
+      "question": "What is the relationship between **radiant energy** and electromagnetic waves?",
+      "options": [
+        "Radiant energy is the medium that EM waves travel through.",
+        "Radiant energy is the name for the energy carried by EM waves.",
+        "Radiant energy only exists in visible light waves.",
+        "Radiant energy is the matter transferred by the wave."
+      ],
+      "correctAnswer": 1,
+      "explanation": "As stated in the text, 'The energy carried by EM waves is called radiant energy.'",
+      "hint": "Look for the definition of the 'energy' component of these waves."
+    },
+    {
+      "question": "Why can EM waves travel from the Sun to Earth, but sound waves cannot?",
+      "options": [
+        "Sound waves are too slow to cover the distance.",
+        "Space is a vacuum, and sound (a mechanical wave) requires matter to propagate.",
+        "The Sun does not produce sound waves.",
+        "The Earth's atmosphere reflects all sound waves back into space."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sound is a mechanical wave that requires a medium (matter) to pass energy. Space is mostly empty (a vacuum), so only EM waves, which don't need a medium, can cross it.",
+      "hint": "Recall the difference between 'mechanical' and 'electromagnetic' propagation requirements."
+    },
+    {
+      "question": "Doctors use UV rays to treat which specific condition?",
+      "options": [
+        "Cataracts",
+        "Vitamin D deficiency",
+        "Cancerous tumors",
+        "Broken bones"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Suitable doses of UV rays help the body produce Vitamin D, which is used by doctors to treat deficiencies and certain skin disorders.",
+      "hint": "Which beneficial 'nutrient' is synthesized by the body in response to sunlight?"
+    },
+    {
+      "question": "Which EM wave has a frequency range of approximately $4 \\times 10^{14}$ Hz to $7 \\times 10^{14}$ Hz?",
+      "options": [
+        "Ultraviolet rays",
+        "Radio waves",
+        "Visible light",
+        "X-rays"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text specifies this exact frequency range for visible light, which corresponds to wavelengths between 400 nm and 700 nm.",
+      "hint": "This is the 'tiny part' of the spectrum our eyes can detect."
+    },
+    {
+      "question": "What is a 'magnetron' used for?",
+      "options": [
+        "Generating X-rays in medical targets.",
+        "Producing microwaves in an oven.",
+        "Detecting infrared signatures from stars.",
+        "Amplifying radio signals for television."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text explicitly states that in a microwave oven, microwaves are made by a 'magnetron'.",
+      "hint": "Search for this specific technical term in the Microwaves section."
+    },
+    {
+      "question": "Too much exposure to **visible light** can have what effect on the human body?",
+      "options": [
+        "Skin cancer",
+        "Leukaemia",
+        "Retina damage",
+        "Cataracts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While visible light is generally safe, looking at something very bright (like the Sun) can cause permanent damage to the retina in the eye.",
+      "hint": "Focus on the sensory organ designed to 'see' light."
+    },
+    {
+      "question": "Compare the **dangers** of Infrared and X-rays. What is the fundamental difference?",
+      "options": [
+        "Infrared causes cell mutation; X-rays just make you hot.",
+        "Infrared makes you hot; X-rays cause cell damage and cancer.",
+        "Both carry equal risks of cancer.",
+        "Infrared is more dangerous because it is invisible."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The danger of infrared is thermal (it makes you hot), whereas X-rays are ionizing radiation that can damage cells at a molecular level and cause cancer.",
+      "hint": "Which one is 'thermal' and which one is 'high-energy/cancer-causing'?"
+    },
+    {
+      "question": "In the summary of the EM Spectrum, which property is **inversely** related to frequency?",
+      "options": [
+        "Energy",
+        "Wavelength",
+        "Speed in a vacuum",
+        "Frequency of vibration"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Wavelength and frequency are inversely related; as one goes up, the other goes down. Energy and frequency, however, are directly related.",
+      "hint": "Recall that radio waves have the 'lowest frequency' but 'longest wavelength'."
+    }
+  ],
+  "quizId": "combined-electromagnetic-waves-and-the-em-spectrum"
+}
