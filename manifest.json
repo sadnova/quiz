@@ -6,6 +6,12 @@
       "id": "demo",
       "title": "Demo quiz",
       "path": "demo-quiz.json"
+    },
+    {
+      "id": "combined-electromagnetic-waves-and-the-em-spectrum",
+      "title": "Electromagnetic Waves and the EM Spectrum",
+      "path": "quizzes/combined-electromagnetic-waves-and-the-em-spectrum.json",
+      "name": "Electromagnetic Waves and the EM Spectrum"
     }
   ]
 }
