@@ -3,12 +3,6 @@
   "startPassword": "2026",
   "quizzes": [
     {
-      "id": "combined-electromagnetic-waves-and-the-em-spectrum",
-      "title": "Electromagnetic Waves and the EM Spectrum",
-      "path": "combined-electromagnetic-waves-and-the-em-spectrum.json",
-      "name": "Electromagnetic Waves and the EM Spectrum"
-    },
-    {
       "id": "combined-electromagnetic-waves-and-the-em-spectrum2",
       "title": "Electromagnetic Waves and the EM Spectrum second",
       "path": "combined-electromagnetic-waves-and-the-em-spectrum2.json",
