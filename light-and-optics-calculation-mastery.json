@@ -1,0 +1,306 @@
+{
+  "quizTitle": "Light and Optics: Calculation Mastery",
+  "quizDescription": "A 25-question quantitative assessment focusing on the wave equation, refractive index, Snell's Law, and total internal reflection calculations.",
+  "questions": [
+    {
+      "question": "Calculate the frequency of violet light that has a wavelength of $400$ nm in a vacuum. (Use $c = 3.00 \\times 10^8$ m/s)",
+      "options": [
+        "$1.33 \\times 10^{14}$ Hz",
+        "$7.50 \\times 10^{14}$ Hz",
+        "$7.50 \\times 10^{15}$ Hz",
+        "$1.20 \\times 10^{14}$ Hz"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the wave equation $f = c / \\lambda$: Substitute $c = 3.00 \\times 10^8$ m/s and $\\lambda = 400 \\times 10^{-9}$ m. $f = (3.00 \\times 10^8) / (4.00 \\times 10^{-7}) = 0.75 \\times 10^{15} = 7.50 \\times 10^{14}$ Hz. Option 0 is incorrect because it likely used $400$ as the numerator; option 2 has the wrong exponent.",
+      "hint": "Ensure the wavelength is converted from nanometers to meters ($10^{-9}$ m) before dividing."
+    },
+    {
+      "question": "An EM wave travels in a vacuum with a frequency of $2.4$ GHz ($2.4 \\times 10^9$ Hz). What is its wavelength?",
+      "options": [
+        "$0.125$ m",
+        "$12.5$ m",
+        "$1.25$ m",
+        "$0.0125$ m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using $\\lambda = c / f$: $\\lambda = (3.00 \\times 10^8 \\text{ m/s}) / (2.4 \\times 10^9 \\text{ Hz}) = 0.125$ m. Option 2 is a common decimal placement error.",
+      "hint": "Divide the speed of light by the frequency in hertz."
+    },
+    {
+      "question": "If light travels at $1.97 \\times 10^8$ m/s in a specific type of glass, what is the absolute refractive index ($n$) of that glass?",
+      "options": [
+        "0.66",
+        "1.33",
+        "1.52",
+        "1.65"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The absolute refractive index is $n = c / v$. Given $c = 3.00 \\times 10^8$ and $v = 1.97 \\times 10^8$, $n = 3.00 / 1.97 \\approx 1.52$. Option 1 is the inverse ($v/c$), which is incorrect as $n$ must be $\\ge 1$.",
+      "hint": "Refractive index is the ratio of light's speed in a vacuum to its speed in the medium."
+    },
+    {
+      "question": "Using Table 6.1, calculate the speed of light in water ($n = 1.33$).",
+      "options": [
+        "$2.26 \\times 10^8$ m/s",
+        "$3.99 \\times 10^8$ m/s",
+        "$1.33 \\times 10^8$ m/s",
+        "$2.00 \\times 10^8$ m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "From $n = c / v$, we derive $v = c / n$. $v = (3.00 \\times 10^8) / 1.33 \\approx 2.2556 \\times 10^8$ m/s, rounded to $2.26 \\times 10^8$ m/s. Option 1 incorrectly multiplies $c$ and $n$.",
+      "hint": "Light slows down in water; the speed should be less than $3.00 \\times 10^8$ m/s."
+    },
+    {
+      "question": "A ray of light in air ($n=1.00$) strikes a surface of diamond ($n=2.42$) with an angle of incidence of $30^{\\circ}$. Calculate the angle of refraction.",
+      "options": [
+        "$11.9^{\\circ}$",
+        "$72.1^{\\circ}$",
+        "$15.0^{\\circ}$",
+        "$48.4^{\\circ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Snell's Law: $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2$. $(1.00) \\sin(30^{\\circ}) = (2.42) \\sin \\theta_2$. $0.5 = 2.42 \\sin \\theta_2 \\rightarrow \\sin \\theta_2 = 0.5 / 2.42 \\approx 0.2066$. $\\theta_2 = \\arcsin(0.2066) \\approx 11.9^{\\circ}$.",
+      "hint": "Ensure your calculator is in degree mode and you use the sine function correctly."
+    },
+    {
+      "question": "Calculate the critical angle for light traveling from crown glass ($n = 1.52$) into water ($n = 1.33$).",
+      "options": [
+        "$28.9^{\\circ}$",
+        "$41.1^{\\circ}$",
+        "$61.0^{\\circ}$",
+        "$48.8^{\\circ}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The critical angle is $\\theta_c = \\arcsin(n_2 / n_1)$ where $n_1 > n_2$. $\\theta_c = \\arcsin(1.33 / 1.52) = \\arcsin(0.875) \\approx 61.04^{\\circ}$. Option 1 is $\\arcsin(1/1.33)$ and option 2 is the critical angle for glass to air.",
+      "hint": "The ratio in the $\\arcsin$ must be (rarer medium / denser medium)."
+    },
+    {
+      "question": "The Sun is $1.50 \\times 10^8$ km from Earth. How many seconds does it take for light to travel this distance?",
+      "options": [
+        "$0.5$ s",
+        "$50$ s",
+        "$500$ s",
+        "$5,000$ s"
+      ],
+      "correctAnswer": 2,
+      "explanation": "First, convert km to m: $1.50 \\times 10^8$ km $= 1.50 \\times 10^{11}$ m. $t = d / v = (1.50 \\times 10^{11}) / (3.00 \\times 10^8) = 0.5 \\times 10^3 = 500$ s. (Note: $500 / 60 \\approx 8.33$ minutes).",
+      "hint": "Distance must be in meters to match the speed of light in m/s."
+    },
+    {
+      "question": "A light ray strikes a mirror such that the angle **between the incident ray and the reflected ray** is $80^{\\circ}$. What is the angle of incidence?",
+      "options": [
+        "$80^{\\circ}$",
+        "$160^{\\circ}$",
+        "$40^{\\circ}$",
+        "$50^{\\circ}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the Law of Reflection, $\\theta_i = \\theta_r$. The total angle between rays is $\\theta_i + \\theta_r = 2\\theta_i$. So, $2\\theta_i = 80^{\\circ}$, meaning $\\theta_i = 40^{\\circ}$.",
+      "hint": "The normal line bisects the angle between the two rays."
+    },
+    {
+      "question": "A radio station broadcasts at $98.5$ MHz. Calculate the wavelength of these waves.",
+      "options": [
+        "$30.4$ m",
+        "$3.04$ m",
+        "$0.304$ m",
+        "$304$ m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\lambda = c / f$. $f = 98.5 \\times 10^6$ Hz. $\\lambda = (3.00 \\times 10^8) / (98.5 \\times 10^6) \\approx 3.045$ m. Option 0 is a power-of-ten error.",
+      "hint": "MHz stands for Megahertz ($10^6$ Hz)."
+    },
+    {
+      "question": "Calculate the speed of light in a diamond ($n = 2.42$) in km/s.",
+      "options": [
+        "$300,000$ km/s",
+        "$123,967$ km/s",
+        "$197,000$ km/s",
+        "$726,000$ km/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$v = c / n$. Using $c = 300,000$ km/s, $v = 300,000 / 2.42 \\approx 123,967$ km/s. Option 2 is the speed in glass mentioned in the text.",
+      "hint": "Use the value of $c$ in km/s to get the answer in km/s directly."
+    },
+    {
+      "question": "A light ray in water ($n=1.33$) strikes the interface with air ($n=1.00$) at an angle of incidence of $45^{\\circ}$. Will the light refract into the air? (Find $\\theta_c$ first).",
+      "options": [
+        "Yes, the angle of refraction is $70.1^{\\circ}$.",
+        "Yes, the angle of refraction is $32.1^{\\circ}$.",
+        "No, the critical angle is $48.8^{\\circ}$, so it refracts.",
+        "No, the critical angle is $48.8^{\\circ}$, so total internal reflection does not yet occur."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical angle for water-air: $\\theta_c = \\arcsin(1/1.33) \\approx 48.8^{\\circ}$. Since the incident angle ($45^{\\circ}$) is **less** than the critical angle, refraction occurs. Snell's Law: $1.33 \\sin(45^{\\circ}) = 1.00 \\sin \\theta_2 \\rightarrow 1.33(0.707) = \\sin \\theta_2 \\rightarrow 0.9403 = \\sin \\theta_2 \\rightarrow \\theta_2 \\approx 70.1^{\\circ}$.",
+      "hint": "If $\\theta_i < \\theta_c$, the light escapes. Use Snell's Law to find the exit angle."
+    },
+    {
+      "question": "Find the refractive index of a medium if light with a wavelength of $600$ nm in a vacuum has a wavelength of $400$ nm in that medium.",
+      "options": [
+        "0.67",
+        "1.50",
+        "1.33",
+        "2.25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since $f$ is constant, $n = c/v = \\lambda_{vacuum} / \\lambda_{medium}$. $n = 600 / 400 = 1.50$. Option 0 is the inverse ratio.",
+      "hint": "Refractive index can also be calculated as the ratio of wavelengths."
+    },
+    {
+      "question": "A light ray strikes a surface at an angle of $25^{\\circ}$ **to the surface**. What is the angle of reflection?",
+      "options": [
+        "$25^{\\circ}$",
+        "$90^{\\circ}$",
+        "$65^{\\circ}$",
+        "$50^{\\circ}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The angle of incidence $\\theta_i$ is measured from the normal. If the ray is $25^{\\circ}$ to the surface, $\\theta_i = 90^{\\circ} - 25^{\\circ} = 65^{\\circ}$. By the law of reflection, $\\theta_r = \\theta_i = 65^{\\circ}$.",
+      "hint": "Always calculate the angle from the perpendicular normal line, not the surface itself."
+    },
+    {
+      "question": "What is the speed of light in Ethyl Alcohol? (Refractive index $n = 1.36$ from Table 6.1).",
+      "options": [
+        "$2.21 \\times 10^8$ m/s",
+        "$4.08 \\times 10^8$ m/s",
+        "$2.25 \\times 10^8$ m/s",
+        "$1.36 \\times 10^8$ m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$v = c / n = (3.00 \\times 10^8) / 1.36 \\approx 2.2058 \\times 10^8$ m/s, rounded to $2.21$.",
+      "hint": "Divide $3.00$ by $1.36$ and maintain the $10^8$ multiplier."
+    },
+    {
+      "question": "Calculate the critical angle for a diamond ($n = 2.42$) in a vacuum.",
+      "options": [
+        "$24.4^{\\circ}$",
+        "$45.0^{\\circ}$",
+        "$65.6^{\\circ}$",
+        "$12.2^{\\circ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\theta_c = \\arcsin(1 / 2.42) = \\arcsin(0.4132) \\approx 24.4^{\\circ}$. This very small critical angle is why diamonds trap light so effectively.",
+      "hint": "The higher the refractive index, the smaller the critical angle."
+    },
+    {
+      "question": "A ray of light moves from kerosene ($n = 1.44$) into water ($n = 1.33$). If the angle of incidence is $20^{\\circ}$, find the angle of refraction.",
+      "options": [
+        "$18.4^{\\circ}$",
+        "$21.7^{\\circ}$",
+        "$25.2^{\\circ}$",
+        "$15.1^{\\circ}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\rightarrow 1.44 \\sin(20^{\\circ}) = 1.33 \\sin \\theta_2$. $1.44(0.342) = 1.33 \\sin \\theta_2 \\rightarrow 0.4925 / 1.33 = \\sin \\theta_2 \\rightarrow 0.3703 = \\sin \\theta_2 \\rightarrow \\theta_2 \\approx 21.7^{\\circ}$.",
+      "hint": "Since light moves from a denser ($1.44$) to a rarer ($1.33$) medium, it must bend away from the normal (angle increases)."
+    },
+    {
+      "question": "How far does light travel in a vacuum in one microsecond ($1 \\times 10^{-6}$ s)?",
+      "options": [
+        "$3$ m",
+        "$300$ m",
+        "$30,000$ m",
+        "$300,000$ m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$d = v t = (3.00 \\times 10^8 \\text{ m/s}) \\times (1 \\times 10^{-6} \\text{ s}) = 300$ m.",
+      "hint": "Multiply the speed of light by the time in seconds."
+    },
+    {
+      "question": "A particular EM wave has a wavelength of $10$ meters. What is its frequency?",
+      "options": [
+        "$30$ MHz",
+        "$3$ MHz",
+        "$300$ kHz",
+        "$3$ GHz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$f = c / \\lambda = (3.00 \\times 10^8) / 10 = 3.00 \\times 10^7$ Hz. To convert to MHz, divide by $10^6$: $30$ MHz.",
+      "hint": "Frequency is the speed of light divided by wavelength."
+    },
+    {
+      "question": "An optical fiber has a core with $n = 1.50$. To ensure total internal reflection when the fiber is in air ($n=1.00$), what is the minimum angle of incidence at the internal wall?",
+      "options": [
+        "$41.8^{\\circ}$",
+        "$48.2^{\\circ}$",
+        "$90^{\\circ}$",
+        "$30.0^{\\circ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The minimum angle for TIR is the critical angle. $\\theta_c = \\arcsin(1 / 1.50) = \\arcsin(0.666) \\approx 41.81^{\\circ}$.",
+      "hint": "Any angle greater than this critical angle will result in TIR."
+    },
+    {
+      "question": "If light travels $1$ meter in a vacuum, how long does it take in nanoseconds?",
+      "options": [
+        "$3.33$ ns",
+        "$300$ ns",
+        "$0.33$ ns",
+        "$33.3$ ns"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$t = d / c = 1 / (3.00 \\times 10^8) \\approx 3.33 \\times 10^{-9}$ s. $10^{-9}$ s is 1 nanosecond, so the answer is $3.33$ ns.",
+      "hint": "Divide 1 by the speed of light."
+    },
+    {
+      "question": "A light ray passes from air into a mystery liquid. The angle of incidence is $45^{\\circ}$ and the angle of refraction is $30^{\\circ}$. What is the refractive index of the liquid?",
+      "options": [
+        "1.22",
+        "1.41",
+        "1.50",
+        "1.73"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$1.00 \\sin(45^{\\circ}) = n_2 \\sin(30^{\\circ}) \\rightarrow 0.707 = n_2(0.5) \\rightarrow n_2 = 0.707 / 0.5 = 1.414$.",
+      "hint": "The refractive index is the ratio of $\\sin \\theta_1$ to $\\sin \\theta_2$ when starting from air."
+    },
+    {
+      "question": "Using the refractive index of Ice ($n = 1.31$), calculate the speed of light in ice.",
+      "options": [
+        "$2.29 \\times 10^8$ m/s",
+        "$2.54 \\times 10^8$ m/s",
+        "$1.31 \\times 10^8$ m/s",
+        "$3.93 \\times 10^8$ m/s"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$v = (3.00 \\times 10^8) / 1.31 \\approx 2.29007 \\times 10^8$ m/s.",
+      "hint": "Use $v = c/n$."
+    },
+    {
+      "question": "If the wavelength of green light is $550$ nm in a vacuum, what is its frequency?",
+      "options": [
+        "$5.45 \\times 10^{14}$ Hz",
+        "$1.83 \\times 10^{14}$ Hz",
+        "$5.45 \\times 10^{12}$ Hz",
+        "$6.00 \\times 10^{14}$ Hz"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$f = (3.00 \\times 10^8) / (550 \\times 10^{-9}) = 0.00545 \\times 10^{17} = 5.45 \\times 10^{14}$ Hz.",
+      "hint": "Standard wave equation calculation."
+    },
+    {
+      "question": "A light ray moves from Benzene ($n = 1.50$) to Rock salt ($n = 1.54$). If it enters at an angle of $40^{\\circ}$, what is the angle of refraction?",
+      "options": [
+        "$38.7^{\\circ}$",
+        "$41.3^{\\circ}$",
+        "$30.0^{\\circ}$",
+        "$45.2^{\\circ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$1.50 \\sin(40^{\\circ}) = 1.54 \\sin \\theta_2 \\rightarrow 1.50(0.6428) = 1.54 \\sin \\theta_2 \\rightarrow 0.9642 / 1.54 = \\sin \\theta_2 \\rightarrow 0.6261 = \\sin \\theta_2 \\rightarrow \\theta_2 \\approx 38.76^{\\circ}$.",
+      "hint": "Moving from a lower to higher index medium bends the light toward the normal (smaller angle)."
+    },
+    {
+      "question": "Calculate the ratio of the speed of light in air to the speed of light in a diamond.",
+      "options": [
+        "0.41",
+        "2.42",
+        "1.42",
+        "3.00"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ratio $v_{air} / v_{diamond}$ is approximately the same as $c / v_{diamond}$ (since $n_{air} \\approx 1$), which is the definition of the refractive index of diamond, $2.42$.",
+      "hint": "The ratio of speeds is equivalent to the refractive index of the second medium relative to the first."
+    }
+  ]
+}
