@@ -1,0 +1,607 @@
+{
+  "quizTitle": "Light as a Wave, Reflection, and Refraction: Mastery Assessment",
+  "quizDescription": "A comprehensive 30-question assessment designed to test deep conceptual understanding, mathematical application, and reasoning within the physics of light propagation, optics, and wave behavior.",
+  "questions": [
+    {
+      "question": "Light is classified as an **electromagnetic (EM) wave**. Which property fundamentally distinguishes light waves from mechanical waves like sound or water ripples?",
+      "options": [
+        "Light waves carry energy from one location to another.",
+        "Light waves can propagate through a vacuum (empty space).",
+        "Light waves exhibit a specific frequency and wavelength.",
+        "Light waves travel in straight lines when in a single medium."
+      ],
+      "correctAnswer": 1,
+      "explanation": "While sound and water waves require a physical medium to transfer energy, EM waves like light do not. This is why we can see light from distant stars across the vacuum of space. Option 0 and 2 are properties shared by most wave types.",
+      "hint": "Consider what is required for the wave to 'move' through space."
+    },
+    {
+      "question": "In a vacuum, how does the velocity of a low-frequency radio wave compare to the velocity of high-frequency visible light?",
+      "options": [
+        "The high-frequency light moves faster because it carries more energy.",
+        "The low-frequency radio wave moves slower due to its longer wavelength.",
+        "Both move at the constant velocity $c \\approx 3.00 \\times 10^8$ m/s.",
+        "Velocity depends on the medium, so it cannot be determined in a vacuum."
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the text, all EM waves, regardless of frequency or wavelength, move at the constant speed of light ($c$) when in a vacuum. Options 0 and 1 are common misconceptions linking speed to energy or frequency.",
+      "hint": "Recall the 'Key Concept' regarding the speed of EM waves in empty space."
+    },
+    {
+      "question": "Calculate the frequency of red light if its wavelength is $700\\text{ nm}$ ($700 \\times 10^{-9}\\text{ m}$) in a vacuum.",
+      "options": [
+        "$2.1 \\times 10^{17}\\text{ Hz}$",
+        "$4.29 \\times 10^{14}\\text{ Hz}$",
+        "$2.33 \\times 10^{14}\\text{ Hz}$",
+        "$4.29 \\times 10^{5}\\text{ Hz}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using $f = c / \\lambda$, where $c = 3.00 \\times 10^8$ m/s and $\\lambda = 700 \\times 10^{-9}$ m, the result is $4.29 \\times 10^{14}$ Hz. Option 2 results from inverted division.",
+      "hint": "Apply the formula $c = \\lambda \\times f$ and ensure your units for nanometers are correct."
+    },
+    {
+      "question": "A student observes that they can hear a person talking around a corner but cannot see them. Based on the text's description of **propagation**, why is this the case?",
+      "options": [
+        "Light waves only travel in a vacuum, while sound requires air.",
+        "Light travels in straight lines (rays), whereas sound can bend more easily.",
+        "Sound waves travel faster than light waves in air.",
+        "The human eye cannot detect the specific frequency of light around corners."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that light travels in straight lines (rectilinear propagation). Evidence of this is seen in how shadows form or how dust particles reveal straight paths of light. Sound waves diffract (bend) significantly more than light waves.",
+      "hint": "Think about the definition of a 'ray'."
+    },
+    {
+      "question": "As light moves from a vacuum into a block of glass, which of the following remains true according to the relationship $c = \\lambda \\times f$?",
+      "options": [
+        "The speed of light increases because the medium is denser.",
+        "The wavelength must decrease because the speed $v$ is lower than $c$.",
+        "The frequency must increase to compensate for the loss of speed.",
+        "The speed remains $3.00 \\times 10^8$ m/s because it is a constant of nature."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text notes that light slows down in matter ($v < c$). Since the frequency is determined by the source, the wavelength $\\lambda$ must decrease as the speed decreases to satisfy the wave equation. Option 0 is a misconception; light is fastest in a vacuum.",
+      "hint": "How does interacting with 'atoms and molecules' affect light's speed?"
+    },
+    {
+      "question": "Which of the following best defines a **beam** of light?",
+      "options": [
+        "A single imaginary line showing the path of one photon.",
+        "A perpendicular line to a reflecting surface.",
+        "A collection of multiple light rays.",
+        "The source of light, such as a light bulb or the sun."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly defines a 'ray' as an arrow-headed straight line representing the direction of propagation, and a 'beam' as a collection of these rays. Option 1 defines the 'normal'.",
+      "hint": "Compare the definitions of 'ray' and 'beam' provided in the section on propagation."
+    },
+    {
+      "question": "We can see the Moon at night even though it does not produce its own light. Which statement correctly explains this based on the text?",
+      "options": [
+        "The Moon is a secondary light source that generates light through reflection.",
+        "Light from the Sun reflects off the Moon and enters our eyes.",
+        "The vacuum of space amplifies the faint glow of the Moon's surface.",
+        "The Moon's high refractive index allows it to trap and release sunlight."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text clarifies that we see objects either because they are sources of light (like a bulb) or because they reflect light from a source into our eyes (like the Moon reflecting the Sun).",
+      "hint": "Look at the 'most important thing to remember' in the propagation section."
+    },
+    {
+      "question": "According to the **Law of Reflection**, if a light ray strikes a mirror such that the angle between the incident ray and the *surface* is $30^\\circ$, what is the angle of reflection $\\theta_r$?",
+      "options": [
+        "$30^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$",
+        "$120^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle of incidence $\\theta_i$ is measured between the incident ray and the *normal* (perpendicular). If the ray is $30^\\circ$ to the surface, $\\theta_i = 90 - 30 = 60^\\circ$. Since $\\theta_i = \\theta_r$, the angle of reflection is $60^\\circ$.",
+      "hint": "Remember that angles are measured from the **normal**, not the surface."
+    },
+    {
+      "question": "What is the primary difference between **specular** and **diffuse** reflection?",
+      "options": [
+        "Specular reflection follows the Law of Reflection, while diffuse reflection does not.",
+        "Specular reflection occurs on rough surfaces, while diffuse occurs on smooth surfaces.",
+        "Specular reflection maintains the parallelism of incident rays, while diffuse scatters them.",
+        "Specular reflection only occurs with white light, while diffuse occurs with colors."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In specular reflection (smooth surfaces), parallel rays remain parallel. In diffuse reflection (rough surfaces), rays are reflected in many directions. Crucially, the Law of Reflection applies to *each individual ray* in both types.",
+      "hint": "Look at Figure 6.7 and the behavior of parallel incident rays."
+    },
+    {
+      "question": "A road appears very shiny and causes a glare when it is wet, but looks dull when it is dry. This transition is an example of moving from:",
+      "options": [
+        "Refraction to Reflection.",
+        "Diffuse reflection to Specular reflection.",
+        "Specular reflection to Diffuse reflection.",
+        "Total internal reflection to Refraction."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text explains that water fills in the roughness of the road, creating a smooth surface that undergoes specular reflection (shiny/glare). A dry, rough road causes diffuse reflection (dull).",
+      "hint": "Which type of reflection involves light moving in 'a variety of directions'?"
+    },
+    {
+      "question": "What is the physical cause of the **refraction** of light?",
+      "options": [
+        "The absorption of light by opaque materials.",
+        "The change in the speed of light as it moves between different media.",
+        "The reflection of light off the internal boundaries of a material.",
+        "The transition of light from a wave to a particle."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Refraction is defined as the bending of light as it moves from one optical medium to another because light's velocity changes depending on the material's properties.",
+      "hint": "Consider why a pencil appears 'displaced' in water."
+    },
+    {
+      "question": "If a light ray enters a diamond ($n = 2.42$) from the air ($n \\approx 1.00$), how will the ray behave?",
+      "options": [
+        "It will bend away from the normal because it is speeding up.",
+        "It will bend toward the normal because it is slowing down.",
+        "It will continue in a straight line without bending.",
+        "It will undergo total internal reflection immediately."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When light moves from a material with a lower refractive index (higher speed) to one with a higher refractive index (lower speed), it bends toward the normal. Diamond has a very high $n$, causing significant slowing.",
+      "hint": "Check the relationship between 'higher refractive index' and 'bending direction'."
+    },
+    {
+      "question": "Calculate the speed of light in **Kerosene**, given its refractive index is $1.44$ and $c = 3.00 \\times 10^8\\text{ m/s}$.",
+      "options": [
+        "$4.32 \\times 10^8\\text{ m/s}$",
+        "$2.08 \\times 10^8\\text{ m/s}$",
+        "$1.44 \\times 10^8\\text{ m/s}$",
+        "$3.00 \\times 10^8\\text{ m/s}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using $n = c / v$, we rearrange to $v = c / n$. Thus, $v = (3.00 \\times 10^8) / 1.44 \\approx 2.08 \\times 10^8$ m/s. Option 0 incorrectly multiplied the values.",
+      "hint": "The refractive index is a ratio of the speed in a vacuum to the speed in the medium."
+    },
+    {
+      "question": "According to **Snell’s Law**, what remains constant when light passes between two specific media at various angles?",
+      "options": [
+        "The sum of the angles of incidence and refraction.",
+        "The difference between the index of refraction and the speed of light.",
+        "The ratio of the sine of the angle of incidence to the sine of the angle of refraction.",
+        "The angle of the refracted ray relative to the surface interface."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Snell's Law states $\\frac{\\sin \\theta_1}{\\sin \\theta_2} = \\text{constant}$. This constant represents the refractive index of the second medium relative to the first.",
+      "hint": "Recall the formula $\\frac{\\sin \\theta_1}{\\sin \\theta_2} = n_{21}$."
+    },
+    {
+      "question": "A light ray travels from water ($n = 1.33$) into air ($n = 1.00$). If the angle of incidence is $35^\\circ$, find the angle of refraction.",
+      "options": [
+        "$25.5^\\circ$",
+        "$35.0^\\circ$",
+        "$49.7^\\circ$",
+        "$90.0^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\rightarrow 1.33 \\times \\sin(35^\\circ) = 1.00 \\times \\sin \\theta_2$. $1.33 \\times 0.5736 = 0.7628$. $\\theta_2 = \\sin^{-1}(0.7628) \\approx 49.7^\\circ$.",
+      "hint": "Light is moving from a denser to a rarer medium; should it bend toward or away from the normal?"
+    },
+    {
+      "question": "Which of the following is a mandatory condition for **Total Internal Reflection (TIR)** to occur?",
+      "options": [
+        "The angle of incidence must be smaller than the critical angle.",
+        "Light must travel from a less dense medium to a denser medium.",
+        "Light must travel from an optically denser medium to a rarer medium.",
+        "The refractive indices of both media must be exactly equal."
+      ],
+      "correctAnswer": 2,
+      "explanation": "TIR only occurs when light moves from a medium with a higher refractive index to one with a lower refractive index, and the angle of incidence exceeds the critical angle. Option 1 is incorrect because it must be *greater* than the critical angle.",
+      "hint": "Review the two conditions listed under the 'Total Internal Reflection' subsection."
+    },
+    {
+      "question": "What happens to the refracted ray when the angle of incidence is exactly equal to the **critical angle** $\\theta_c$?",
+      "options": [
+        "It is reflected back at the same angle as the incident ray.",
+        "It disappears completely as light is absorbed.",
+        "It refracted at an angle of $90^\\circ$ and travels along the surface interface.",
+        "It passes through without any change in direction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, the critical angle is the specific angle of incidence that results in an angle of refraction of $90^\\circ$, causing the light to skim the boundary between the two media.",
+      "hint": "Refer to Figure 6.12(b) in the text."
+    },
+    {
+      "question": "Calculate the critical angle $\\theta_c$ for a glass-air interface where $n_{\\text{glass}} = 1.52$ and $n_{\\text{air}} = 1.00$.",
+      "options": [
+        "$30.0^\\circ$",
+        "$41.1^\\circ$ (approx. $42^\\circ$)",
+        "$48.8^\\circ$",
+        "$90.0^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\sin \\theta_c = n_2 / n_1 = 1.00 / 1.52 \\approx 0.657$. $\\theta_c = \\sin^{-1}(0.657) \\approx 41.1^\\circ$. The text approximates this to $42^\\circ$.",
+      "hint": "Use the formula $\\sin \\theta_c = \\frac{n_2}{n_1}$."
+    },
+    {
+      "question": "How do **optical fibers** transmit light over long distances with 'undiminished intensity' even if the fiber is bent?",
+      "options": [
+        "The glass is so clear that light never interacts with its atoms.",
+        "The light undergoes multiple total internal reflections along the fiber walls.",
+        "The fiber acts as a vacuum chamber where light speed is maximized.",
+        "The fiber uses refraction to focus the light into a single point at the exit."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Optical fibers rely on total internal reflection. Light strikes the boundary of the fiber at an angle greater than the critical angle, causing it to reflect repeatedly inside the core with minimal loss.",
+      "hint": "What 'powerful tool' is mentioned as the basis for fiber optics?"
+    },
+    {
+      "question": "In the medical device known as an **endoscope**, what is the primary function of the optical fibers?",
+      "options": [
+        "To provide heat to cauterize internal tissues.",
+        "To transmit laser pulses to destroy stomach bacteria.",
+        "To allow doctors to see inside the patient's body by guiding light.",
+        "To measure the refractive index of stomach acid."
+      ],
+      "correctAnswer": 2,
+      "explanation": "As stated in the text, endoscopes use optical fibers to examine the inside of a patient's stomach or bronchi by guiding light and images back to the observer.",
+      "hint": "Consider the application of fiber optics in medicine mentioned in section 6.4."
+    },
+    {
+      "question": "The phenomenon of **dispersion** occurs because:",
+      "options": [
+        "Different colors of light have different speeds in a vacuum.",
+        "The refractive index of a material varies slightly for different colors of light.",
+        "White light is a single frequency that splits when it hits glass.",
+        "The prism adds color to the white light as it passes through."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dispersion happens because different colors (wavelengths) of light travel at slightly different speeds in a medium (like glass), meaning they each have a slightly different refractive index and bend at different angles.",
+      "hint": "Why do different colors 'emerge along different paths' in a prism?"
+    },
+    {
+      "question": "When white light passes through a glass prism, which color is **refracted the most**?",
+      "options": [
+        "Red",
+        "Green",
+        "Violet",
+        "Yellow"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly states that 'red light refracts the least, while the violet light refracts the most.' This is why violet is at the bottom of the spectrum when exiting a prism.",
+      "hint": "Think of the acronym **VIBGYOR** and which end bends the furthest from the original path."
+    },
+    {
+      "question": "Which set of conditions is necessary for a **rainbow** to form in the sky?",
+      "options": [
+        "Sunlight reflecting off the Moon during a rain shower.",
+        "Water droplets acting as prisms to refract, reflect, and disperse sunlight.",
+        "The Sun must be at the same position as the observer's eye.",
+        "Light must travel from the ground up through a cloud of ice crystals."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text describes rainbows as natural spectra caused by water droplets that refract and disperse sunlight, reflect it internally, and refract it again upon exiting.",
+      "hint": "The observer must be between the Sun and the rain."
+    },
+    {
+      "question": "You are given three materials: **Water** ($n=1.33$), **Kerosene** ($n=1.44$), and **Diamond** ($n=2.42$). In which material does light travel the **slowest**?",
+      "options": [
+        "Water",
+        "Kerosene",
+        "Diamond",
+        "Light travels at the same speed in all three."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The higher the refractive index ($n$), the slower light travels in that medium ($v = c/n$). Diamond has the highest $n$ in the list, so light is slowest there.",
+      "hint": "Refractive index is a measure of 'how difficult it is for light to get through'."
+    },
+    {
+      "question": "If a light ray is incident on a piece of glass **parallel to the normal** ($0^\\circ$ incidence), what happens?",
+      "options": [
+        "It is reflected perfectly back to the source.",
+        "It undergoes maximum refraction and bends $90^\\circ$.",
+        "It passes through without any bending (no refraction occurs).",
+        "It is completely absorbed by the surface interface."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly states: 'If the incident ray of light is parallel to the normal, then no refraction (bending) occurs.'",
+      "hint": "Review the 'Key Concept' or text near Figure 6.10."
+    },
+    {
+      "question": "What is the correct sequence of colors in the visible spectrum as seen in a prism, starting from the one that bends the least?",
+      "options": [
+        "Violet, Indigo, Blue, Green, Yellow, Orange, Red",
+        "Red, Orange, Yellow, Green, Blue, Indigo, Violet",
+        "Red, Yellow, Green, Orange, Blue, Violet, Indigo",
+        "Violet, Blue, Green, Yellow, Red, Orange, Indigo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The acronym VIBGYOR represents the spectrum. Since Red refracts the least, it starts the sequence of emergent paths, followed by Orange, etc., ending with Violet which refracts the most.",
+      "hint": "The acronym is usually taught in the order of increasing refraction."
+    },
+    {
+      "question": "A student claims that 'Light rays are real physical entities like thin strings of energy.' According to the section summary, is this correct?",
+      "options": [
+        "Yes, they are the fundamental building blocks of an EM wave.",
+        "No, light rays are not real; they are models used to show the path of light.",
+        "Yes, evidence of dust particles in a room proves rays are physical strings.",
+        "No, rays only exist in a vacuum and disappear in matter."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The section summary states: 'Light rays are not real. They are merely used to show the path that light travels.' They are a geometric tool for visualization.",
+      "hint": "Check the 'Section summary' bullets."
+    },
+    {
+      "question": "Light takes about $8.5$ minutes to reach Earth from the Sun. If the distance is $1.5 \\times 10^8\\text{ km}$, what does this suggest about the speed of light?",
+      "options": [
+        "The speed of light is infinite.",
+        "The speed of light is extremely fast but finite.",
+        "Light travels slower in space than on Earth.",
+        "The speed of light changes as it gets closer to Earth's gravity."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The fact that it takes a measurable amount of time ($8.5$ mins) to travel a vast distance proves that light has a finite, though incredibly high, speed.",
+      "hint": "Does 'incredibly fast' mean 'instantaneous'?"
+    },
+    {
+      "question": "Why is it impossible for total internal reflection to occur when light travels from **Air** ($n=1.00$) into **Water** ($n=1.33$)?",
+      "options": [
+        "The critical angle for air is $0^\\circ$.",
+        "Air is not a dense enough medium to contain light.",
+        "TIR requires light to move from a higher refractive index to a lower one.",
+        "Water absorbs all reflected light at the interface."
+      ],
+      "correctAnswer": 2,
+      "explanation": "One of the two necessary conditions for TIR is that light must travel from an optically denser medium (higher $n$) to a rarer medium (lower $n$). Moving from Air to Water is the opposite.",
+      "hint": "Check the conditions for TIR in section 6.4."
+    },
+    {
+      "question": "When light interacts with atoms and molecules in a solid material, what is the observed macro-effect on the wave?",
+      "options": [
+        "The light speeds up because solids are better conductors.",
+        "The frequency of the light increases to penetrate the solid.",
+        "The light wave slows down compared to its speed in a vacuum.",
+        "The light wave turns into a sound wave due to vibrations."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that when light travels through matter, it 'interacts with the atoms and molecules in the material and slows down.' This interaction makes light travel slowest in solids.",
+      "hint": "Look at the 'Speed of light' section for the effect of matter."
+    },
+    {
+      "question": "## Light & Optics: Advanced Quantitative Assessment\n\nA collection of 20 challenging calculation-based questions focusing on the mathematical principles of wave propagation, refractive indices, Snell's Law, and total internal reflection.\n\n---\n\nA laser with a frequency of $5.0 \times 10^{14}\\text{ Hz}$ travels through a block of **Crown Glass** ($n = 1.52$). What is the wavelength of the light *inside* the glass?",
+      "options": [
+        "$395\\text{ nm}$",
+        "$600\\text{ nm}$",
+        "$912\\text{ nm}$",
+        "$456\\text{ nm}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First, find the speed in glass: $v = c/n = (3 \\times 10^8) / 1.52 \\approx 1.97 \\times 10^8\\text{ m/s}$. Then use $\\lambda = v/f$. $\\lambda = (1.97 \\times 10^8) / (5.0 \times 10^{14}) = 3.947 \\times 10^{-7}\\text{ m} \\approx 395\\text{ nm}$.",
+      "hint": "The frequency remains constant across media, but the speed and wavelength change."
+    },
+    {
+      "question": "An FM station broadcasts at $98.1\\text{ MHz}$. Calculate the time it takes for one full wave cycle to pass a fixed point.",
+      "options": [
+        "$1.02 \\times 10^{-8}\\text{ s}$",
+        "$9.81 \\times 10^{-7}\\text{ s}$",
+        "$3.06 \\times 10^{-6}\\text{ s}$",
+        "$1.02 \\times 10^{-2}\\text{ s}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The time for one cycle is the period $T$, which is the reciprocal of frequency ($T = 1/f$). $T = 1 / (98.1 \\times 10^6\\text{ Hz}) \\approx 1.019 \\times 10^{-8}\\text{ s}$.",
+      "hint": "Recall the relationship between period ($T$) and frequency ($f$)."
+    },
+    {
+      "question": "Light enters **Kerosene** ($n = 1.44$) from air at an angle of incidence of $45^\\circ$. Calculate the angle of refraction.",
+      "options": [
+        "$29.4^\\circ$",
+        "$31.3^\\circ$",
+        "$45.0^\\circ$",
+        "$64.8^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using Snell's Law: $1.00 \\times \\sin(45^\\circ) = 1.44 \\times \\sin(\\theta_2)$. $\\sin(\\theta_2) = 0.7071 / 1.44 \\approx 0.491$. $\\theta_2 = \\sin^{-1}(0.491) \\approx 29.4^\\circ$.",
+      "hint": "Ensure your calculator is in Degree mode for $\\sin(45^\\circ)$."
+    },
+    {
+      "question": "A fiber optic cable is made of **Dense Flint Glass** ($n = 1.65$). What is the speed of the data-carrying light pulses within this cable?",
+      "options": [
+        "$1.82 \\times 10^8\\text{ m/s}$",
+        "$4.95 \\times 10^8\\text{ m/s}$",
+        "$3.00 \\times 10^8\\text{ m/s}$",
+        "$2.14 \\times 10^8\\text{ m/s}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$v = c / n$. Here, $v = (3.00 \\times 10^8\\text{ m/s}) / 1.65 \\approx 1.818 \\times 10^8\\text{ m/s}$. Option 1 is calculated using the index for water.",
+      "hint": "Use the formula $n = c/v$ and solve for $v$."
+    },
+    {
+      "question": "Calculate the **critical angle** for light traveling from **Sapphire** ($n = 1.77$) into **Water** ($n = 1.33$).",
+      "options": [
+        "$38.6^\\circ$",
+        "$41.2^\\circ$",
+        "$48.7^\\circ$",
+        "$53.1^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\sin \\theta_c = n_2 / n_1$. $\\sin \\theta_c = 1.33 / 1.77 \\approx 0.7514$. $\\theta_c = \\sin^{-1}(0.7514) \\approx 48.7^\\circ$.",
+      "hint": "The 'rarer' medium (lower $n$) always goes in the numerator."
+    },
+    {
+      "question": "Light travels through a $10\\text{ cm}$ thick block of **Ice** ($n = 1.31$). How much time does it take for the light to pass through the block?",
+      "options": [
+        "$3.33 \\times 10^{-10}\\text{ s}$",
+        "$4.37 \\times 10^{-10}\\text{ s}$",
+        "$4.37 \\times 10^{-9}\\text{ s}$",
+        "$1.31 \\times 10^{-10}\\text{ s}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed in ice $v = c/n = (3 \\times 10^8) / 1.31 \\approx 2.29 \\times 10^8\\text{ m/s}$. Time $t = d/v$. $d = 0.1\\text{ m}$. $t = 0.1 / (2.29 \\times 10^8) \\approx 4.37 \\times 10^{-10}\\text{ s}$.",
+      "hint": "Convert the distance to meters before dividing by velocity."
+    },
+    {
+      "question": "A light ray in **Benzene** ($n = 1.50$) strikes the boundary with **Air** ($n = 1.00$) at an angle of $42^\\circ$. What is the resulting behavior?",
+      "options": [
+        "It refracts into the air at $90^\\circ$.",
+        "It refracts into the air at $85.6^\\circ$.",
+        "It undergoes Total Internal Reflection.",
+        "It passes through without any change in angle."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Critical angle $\\theta_c = \\sin^{-1}(1.00/1.50) \\approx 41.8^\\circ$. Since the incident angle ($42^\\circ$) is greater than the critical angle, TIR occurs.",
+      "hint": "Compare the incident angle to the critical angle of the Benzene-Air interface."
+    },
+    {
+      "question": "The speed of light in an unknown liquid is measured at $2.20 \\times 10^8\\text{ m/s}$. Using Table 6.1, identify the most likely material.",
+      "options": [
+        "Water",
+        "Alcohol",
+        "Kerosene",
+        "Ice"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$n = c/v = (3.00 \\times 10^8) / (2.20 \\times 10^8) \\approx 1.363$. According to the table, Alcohol has a refractive index of $1.36$.",
+      "hint": "Calculate the refractive index first, then look it up in the provided table."
+    },
+    {
+      "question": "Calculate the wavelength of an EM wave that has a frequency of $103.4\\text{ MHz}$ when it is traveling through **Water** ($n=1.33$).",
+      "options": [
+        "$2.90\\text{ m}$",
+        "$2.18\\text{ m}$",
+        "$3.86\\text{ m}$",
+        "$0.46\\text{ m}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Speed in water $v = c/n = 3 \\times 10^8 / 1.33 \\approx 2.25 \\times 10^8\\text{ m/s}$. $\\lambda = v/f = (2.25 \\times 10^8) / (103.4 \\times 10^6) \\approx 2.18\\text{ m}$. Option 0 is the wavelength in a vacuum.",
+      "hint": "The speed $c$ only applies to vacuum; use $v$ for water."
+    },
+    {
+      "question": "If the angle of incidence in air is $45^\\circ$ and the angle of refraction in a crystal is $25^\\circ$, what is the **absolute refractive index** of the crystal?",
+      "options": [
+        "$1.67$",
+        "$0.60$",
+        "$1.80$",
+        "$1.42$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\rightarrow 1.00 \\times \\sin(45^\\circ) = n_2 \\times \\sin(25^\\circ)$. $n_2 = 0.7071 / 0.4226 \\approx 1.673$.",
+      "hint": "Rearrange Snell's Law to solve for $n_2$."
+    },
+    {
+      "question": "Light passes from **Water** ($n = 1.33$) into **Crown Glass** ($n = 1.52$). If the angle of incidence is $40^\\circ$, find the angle of refraction.",
+      "options": [
+        "$34.3^\\circ$",
+        "$47.2^\\circ$",
+        "$26.3^\\circ$",
+        "$50.1^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$1.33 \\times \\sin(40^\\circ) = 1.52 \\times \\sin(\\theta_2)$. $1.33 \\times 0.6428 = 1.52 \\times \\sin(\\theta_2) \\rightarrow 0.8549 / 1.52 = \\sin(\\theta_2) \\approx 0.562$. $\\theta_2 = \\sin^{-1}(0.562) \\approx 34.2^\\circ$.",
+      "hint": "Note that light is moving to a denser medium, so it should bend *toward* the normal."
+    },
+    {
+      "question": "Calculate the **percentage reduction** in the speed of light when it moves from a vacuum into **Diamond** ($n = 2.42$).",
+      "options": [
+        "$242\\%$",
+        "$41.3\\%$",
+        "$58.7\\%$",
+        "$70.5\\%$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$v = c / 2.42 \\approx 0.413c$. The speed is $41.3\\%$ of its original. The reduction is $100\\% - 41.3\\% = 58.7\\%$.",
+      "hint": "Reduction is the difference between the original speed and the new speed, expressed as a percentage."
+    },
+    {
+      "question": "A ray of light strikes a surface at an angle of $25^\\circ$ *to the surface*. What is the angle between the **incident ray** and the **reflected ray**?",
+      "options": [
+        "$25^\\circ$",
+        "$50^\\circ$",
+        "$65^\\circ$",
+        "$130^\\circ$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If the ray is $25^\\circ$ to the surface, the angle of incidence $\\theta_i$ is $90 - 25 = 65^\\circ$. By the law of reflection, $\\theta_r = 65^\\circ$. The total angle between them is $\\theta_i + \\theta_r = 65 + 65 = 130^\\circ$.",
+      "hint": "Find the angle of incidence relative to the normal first."
+    },
+    {
+      "question": "What is the **relative refractive index** ($n_{21}$) for light traveling from **Alcohol** ($n = 1.36$) to **Benzene** ($n = 1.50$)?",
+      "options": [
+        "$1.10$",
+        "$0.91$",
+        "$2.86$",
+        "$1.50$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$n_{21} = n_2 / n_1 = 1.50 / 1.36 \\approx 1.103$.",
+      "hint": "The relative index $n_{21}$ is the ratio of the second medium's index to the first."
+    },
+    {
+      "question": "If a light ray traveling in **Diamond** ($n = 2.42$) strikes a boundary with an unknown material and the critical angle is measured at $45^\\circ$, what is the refractive index of the second material?",
+      "options": [
+        "$1.00$",
+        "$1.71$",
+        "$1.41$",
+        "$3.42$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\sin(45^\\circ) = n_2 / 2.42$. $0.7071 = n_2 / 2.42 \\rightarrow n_2 = 0.7071 \\times 2.42 \\approx 1.71$.",
+      "hint": "Use the formula for critical angle: $n_2 = n_1 \\sin \\theta_c$."
+    },
+    {
+      "question": "A violet light ray has a wavelength of $400\\text{ nm}$ in a vacuum. When it enters **Fused Quartz** ($n = 1.46$), by how many meters does its wavelength decrease?",
+      "options": [
+        "$4.00 \\times 10^{-7}\\text{ m}$",
+        "$2.74 \\times 10^{-7}\\text{ m}$",
+        "$1.26 \\times 10^{-7}\\text{ m}$",
+        "$5.84 \\times 10^{-7}\\text{ m}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\lambda_{medium} = \\lambda_{vacuum} / n = 400\\text{ nm} / 1.46 \\approx 274\\text{ nm}$. The decrease is $400\\text{ nm} - 274\\text{ nm} = 126\\text{ nm} = 1.26 \\times 10^{-7}\\text{ m}$.",
+      "hint": "Calculate the wavelength in the medium first, then find the difference."
+    },
+    {
+      "question": "Light travels from **Air** ($n=1.00$) into **Water** ($n=1.33$) with an incident angle of $60^\\circ$. Calculate the **angle of deviation** (the difference between the incident and refracted paths).",
+      "options": [
+        "$40.6^\\circ$",
+        "$19.4^\\circ$",
+        "$60.0^\\circ$",
+        "$30.0^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$1.00 \\times \\sin(60^\\circ) = 1.33 \\times \\sin(\\theta_2)$. $0.866 / 1.33 = \\sin(\\theta_2) \\approx 0.651$. $\\theta_2 = 40.6^\\circ$. Deviation $= |\\theta_1 - \\theta_2| = |60 - 40.6| = 19.4^\\circ$.",
+      "hint": "Deviation is how much the light was 'bent' from its original straight-line path."
+    },
+    {
+      "question": "Determine the frequency of an EM wave whose wavelength is equal to the distance light travels in a vacuum in one nanosecond ($1.0 \\times 10^{-9}\\text{ s}$).",
+      "options": [
+        "$1.0 \\times 10^9\\text{ Hz}$",
+        "$3.33 \\times 10^8\\text{ Hz}$",
+        "$3.0 \\times 10^8\\text{ Hz}$",
+        "$3.0 \\times 10^{17}\\text{ Hz}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distance $\\lambda = c \\times t = (3 \\times 10^8) \\times (10^{-9}) = 0.3\\text{ m}$. Frequency $f = c / \\lambda = (3 \\times 10^8) / 0.3 = 1.0 \\times 10^9\\text{ Hz} = 1\\text{ GHz}$.",
+      "hint": "Find the wavelength distance first, then use the wave equation."
+    },
+    {
+      "question": "In **Carbon Disulphide** ($n = 1.63$), light travels $50\\text{ meters}$. How much further would light have traveled in the same amount of time in **Water** ($n = 1.33$)?",
+      "options": [
+        "$61.3\\text{ m}$",
+        "$11.3\\text{ m}$",
+        "$40.8\\text{ m}$",
+        "$9.2\\text{ m}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Time $t = d_1 / v_1 = d_1 / (c/n_1) = (d_1 \\times n_1) / c$. $t = (50 \\times 1.63) / c = 81.5/c$. Distance in water $d_2 = v_2 \\times t = (c/n_2) \\times (81.5/c) = 81.5 / 1.33 \\approx 61.3\\text{ m}$. Difference $= 61.3 - 50 = 11.3\\text{ m}$.",
+      "hint": "Since time is constant, the ratio of distances is inversely proportional to the ratio of refractive indices ($d_1 n_1 = d_2 n_2$)."
+    },
+    {
+      "question": "A light ray in a mystery substance ($n = 2.0$) strikes a boundary with **Ice** ($n = 1.31$). Calculate the critical angle.",
+      "options": [
+        "$40.9^\\circ$",
+        "$48.9^\\circ$",
+        "$33.4^\\circ$",
+        "$25.2^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\sin \\theta_c = n_{ice} / n_{mystery} = 1.31 / 2.0 = 0.655$. $\\theta_c = \\sin^{-1}(0.655) \\approx 40.92^\\circ$.",
+      "hint": "Ensure the smaller index is the numerator in your sine calculation."
+    }
+  ],
+  "quizId": "combined-light-as-a-wave-reflection-and-refraction-mastery-assessment"
+}
