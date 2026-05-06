@@ -3,12 +3,6 @@
   "startPassword": "2026",
   "quizzes": [
     {
-      "id": "combined-electromagnetic-waves-and-the-em-spectrum2",
-      "title": "Electromagnetic Waves and the EM Spectrum second",
-      "path": "combined-electromagnetic-waves-and-the-em-spectrum2.json",
-      "name": "Electromagnetic Waves and the EM Spectrum second"
-    },
-    {
       "id": "combined-light-as-an-electromagnetic-wave-and-the-laws-of-optics",
       "title": "Light as an Electromagnetic Wave and the Laws of Optics",
       "path": "combined-light-as-an-electromagnetic-wave-and-the-laws-of-optics.json",
@@ -31,6 +25,12 @@
       "title": "Mastering Optics: Light as a Wave, Reflection, and Refraction",
       "path": "combined-mastering-optics-light-as-a-wave-reflection-and-refraction.json",
       "name": "Mastering Optics: Light as a Wave, Reflection, and Refraction"
+    },
+    {
+      "id": "combined-unit-4-cells-as-the-basis-of-life",
+      "title": "Unit 4: Cells as the Basis of Life",
+      "path": "combined-unit-4-cells-as-the-basis-of-life.json",
+      "name": "Unit 4: Cells as the Basis of Life"
     }
   ]
 }
