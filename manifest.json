@@ -21,16 +21,16 @@
       "name": "Light and Optics: Calculation Mastery"
     },
     {
-      "id": "combined-ancient-civilizations-egypt-nubia-and-the-rise-of-aksum",
-      "title": "Ancient Civilizations: Egypt, Nubia, and the Rise of Aksum",
-      "path": "combined-ancient-civilizations-egypt-nubia-and-the-rise-of-aksum.json",
-      "name": "Ancient Civilizations: Egypt, Nubia, and the Rise of Aksum"
-    },
-    {
       "id": "combined-light-as-a-wave-reflection-and-refraction-mastery-assessment",
       "title": "Light as a Wave, Reflection, and Refraction: Mastery Assessment",
       "path": "combined-light-as-a-wave-reflection-and-refraction-mastery-assessment.json",
       "name": "Light as a Wave, Reflection, and Refraction: Mastery Assessment"
+    },
+    {
+      "id": "combined-mastering-optics-light-as-a-wave-reflection-and-refraction",
+      "title": "Mastering Optics: Light as a Wave, Reflection, and Refraction",
+      "path": "combined-mastering-optics-light-as-a-wave-reflection-and-refraction.json",
+      "name": "Mastering Optics: Light as a Wave, Reflection, and Refraction"
     }
   ]
 }
