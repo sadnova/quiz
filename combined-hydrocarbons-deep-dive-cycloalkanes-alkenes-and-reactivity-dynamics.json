@@ -1,0 +1,727 @@
+{
+  "quizTitle": "Hydrocarbons Deep-Dive: Cycloalkanes, Alkenes, and Reactivity Dynamics",
+  "quizDescription": "An advanced conceptual diagnostic evaluating understanding of saturated cyclic systems, unsaturated aliphatic workflows, IUPAC geometric conventions, and multi-step elimination/addition mechanism logic.",
+  "questions": [
+    {
+      "question": "Cycloalkanes with a single ring possess two fewer hydrogen atoms than their open-chain alkane counterparts. What is the correct general formula for a monocyclic cycloalkane, and what is the absolute structural constraint on the value of $n$?",
+      "options": [
+        "$C_n H_{2n+2}$ where $n \\ge 1$",
+        "$C_n H_{2n}$ where $n \\ge 3$",
+        "$C_n H_{2n}$ where $n \\ge 2$",
+        "$C_n H_{2n-2}$ where $n \\ge 3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Monocyclic cycloalkanes drop two hydrogen atoms from the open-chain alkane baseline ($C_n H_{2n+2}$) to form a ring closure, resulting in $C_n H_{2n}$. Geometrically, a closed ring system requires a minimum of 3 carbon atoms ($n \\ge 3$), which constitutes cyclopropane. A two-carbon ring structure is chemically impossible.",
+      "hint": "Consider the lowest number of vertices needed to construct a closed, multi-dimensional geometric shape."
+    },
+    {
+      "question": "Which of the following molecules represents the absolute simplest **alicyclic hydrocarbon** capable of existing under standard structural constraints?",
+      "options": [
+        "Ethene",
+        "Cyclobutane",
+        "Cyclopropane",
+        "Methane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The term *alicyclic* is a portmanteau of aliphatic and cyclic. The simplest member of this family is cyclopropane, which contains exactly three carbon atoms arranged in a ring. Methane and ethene are open-chain (acyclic), while cyclobutane contains four carbons, making it larger than the baseline structural minimum.",
+      "hint": "Look for a cyclic molecule that contains the absolute fewest number of carbon atoms possible for a closed ring."
+    },
+    {
+      "question": "Although cycloalkanes are cyclic molecules, they are classified alongside alkanes and share highly similar physical and chemical traits. What underlying molecular property explains why both families exhibit low affinity to react with most substances at room temperature?",
+      "options": [
+        "They are nonpolar molecules consisting entirely of strong single covalent bonds.",
+        "They contain localized double bonds that undergo continuous resonance stabilization.",
+        "They form highly polar networks that shield internal atoms from chemical attack.",
+        "Their cyclic geometry blocks all access of incoming reagents to the carbon core."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alkanes and cycloalkanes are nonpolar hydrocarbons. Because carbon and hydrogen have very close electronegativities, and the bonds are single covalent $\\sigma$-bonds, they are highly stable and display low chemical reactivity. They lack high-density electron areas (like multiple bonds) or highly polar centers that invite ionic attack.",
+      "hint": "Analyze the electronegativity difference between carbon and hydrogen, along with the specific type of single covalent bonds involved."
+    },
+    {
+      "question": "Alkenes, or olefins, are categorized as **unsaturated hydrocarbons**. What structural feature uniquely defines an alkene homologous series containing a single site of unsaturation, and what is its general formula?",
+      "options": [
+        "A carbon-carbon triple bond; $C_n H_{2n-2}$",
+        "A carbon-carbon double bond; $C_n H_{2n+2}$",
+        "A carbon-carbon double bond; $C_n H_{2n}$",
+        "A closed ring architecture; $C_n H_{2n}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkenes are unsaturated hydrocarbons containing at least one carbon-carbon double bond, and their homologous series is represented by the formula $C_n H_{2n}$ (where $n = 2, 3, 4, \\dots$). Option 0 defines alkynes, option 1 incorrectly combines a double bond with an alkane formula, and option 3 describes cycloalkanes, which are saturated.",
+      "hint": "The suffix *-ene* explicitly indicates a double bond, which causes a loss of two hydrogens compared to the saturated alkane baseline."
+    },
+    {
+      "question": "Ethene ($C_2 H_4$) plays a vital biological role in nature that stands in stark contrast to its heavy industrial application as a polymer building block. Which of the following describes this natural biological function?",
+      "options": [
+        "It acts as a metabolic antifreeze agent within plant root systems during freezing conditions.",
+        "It accelerates the polymerization of cell walls to increase structural wood density.",
+        "It functions as a toxic chemical defense mechanism secreted by green tomatoes to repel insect pests.",
+        "It occurs naturally as a plant hormone responsible for regulating the ripening process of fruits."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The text highlights that ethene is a natural plant hormone produced by fruits like tomatoes and bananas. It acts as a chemical signal that coordinates and drives the fruit ripening process. The remaining options describe features unrelated to the biological action of ethene.",
+      "hint": "Recall why placing a ripe banana next to green tomatoes significantly changes their maturation state."
+    },
+    {
+      "question": "Based on the physical data provided in Table 6.4, what precise correlation exists between an alkene's carbon chain length and its melting point, boiling point, and density?",
+      "options": [
+        "Boiling points systematically decrease while densities increase.",
+        "Both boiling points and densities systematically decrease across the series.",
+        "Boiling points increase while densities remain completely static at $0.61 \\text{ g/L}$.",
+        "Melting points, boiling points, and densities all increase alongside increasing molecular weight."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Table 6.4 reveals that as the carbon number increases from ethene ($C_2$) to 1-decene ($C_{10}$), the boiling point increases (from $-102^\\circ\\text{C}$ to $171^\\circ\\text{C}$), the melting point rises, and the density climbs (from $0.61 \\text{ g/L}$ to $0.74 \\text{ g/L}$). This trend matches the growth of van der Waals intermolecular forces with larger molecular weights.",
+      "hint": "Examine the numerical changes from the first row ($C_2$) down to the last row ($C_{10}$) in the physical constants table."
+    },
+    {
+      "question": "The common nomenclature system for alkenes is still widely used in industrial contexts. Which of the following pairs correctly pairs the formal IUPAC name of an alkene with its recognized common name?",
+      "options": [
+        "2-Methylpropene $\\rightarrow$ Isobutylene",
+        "Propene $\\rightarrow$ Polypropylene",
+        "Ethene $\\rightarrow$ Ethane",
+        "Ethene $\\rightarrow$ Vinyl chloride"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to the text, the common names of alkenes are derived by changing the '-ane' ending of the matching alkane to '-ylene'. For instance, ethene is ethylene, propene is propylene, and 2-methylpropene is commonly referred to as isobutylene.",
+      "hint": "Check the list of older names that remain in common use, paying close attention to the four-carbon branched example."
+    },
+    {
+      "question": "An open-chain alkene features a six-carbon parent chain with a double bond situated between carbon-2 and carbon-3, alongside methyl branches attached to carbon-2 and carbon-5. What is the correct IUPAC name for this structural layout?",
+      "options": [
+        "2,5-Dimethyl-2-hexene",
+        "2,5-Dimethyl-4-hexene",
+        "1,4-Dimethyl-2-hexene",
+        "5,5-Dimethyl-2-hexene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The parent chain has six carbons with a double bond starting at position 2, designating it as a '2-hexene'. Substituents are located at carbons 2 and 5, leading to '2,5-dimethyl-2-hexene'. Numbering from the opposite direction would generate '2,5-dimethyl-4-hexene', which violates the rule prioritizing the lowest locant for the double bond.",
+      "hint": "Always number the parent carbon skeleton from the end closest to the double bond, regardless of where the alkyl branches sit."
+    },
+    {
+      "question": "A student analyzes an open-chain four-carbon alkene with a terminal double bond and records its name as **3-butene** because they numbered the chain from right to left. Why is this designation fundamentally incorrect under IUPAC convention?",
+      "options": [
+        "The suffix must be '-ane' since the chain contains a total of four carbon atoms.",
+        "The molecule is a chain isomer of 1-butene and requires the structural prefix *iso-.*",
+        "The chain numbering must prioritize giving the double bond the lowest possible locants, making it 1-butene.",
+        "A terminal double bond in a four-carbon chain must always sit on carbon-2 by definition."
+      ],
+      "correctAnswer": 2,
+      "explanation": "IUPAC rule 2 specifies that numbering must start from the end of the chain that gives the double bond carbon atoms the lowest possible position numbers. For a terminal four-carbon alkene, numbering from the end containing the double bond yields 1-butene. 3-Butene is incorrect because 1 is a lower locant than 3.",
+      "hint": "The functional group's double bond takes numbering priority over other directions when setting up the chain's index."
+    },
+    {
+      "question": "The structural units **vinyl** and **allyl** are common names for specific alkenyl groups. What are their formal substitutive IUPAC names when used in systematic nomenclature?",
+      "options": [
+        "Vinyl is *ethenyl*; Allyl is *prop-2-en-1-yl*",
+        "Vinyl is *ethynyl*; Allyl is *propenyl*",
+        "Vinyl is *prop-2-en-1-yl*; Allyl is *ethenyl*",
+        "Vinyl is *ethenyl*; Allyl is *allylcyclohexane*"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text notes that in systematic substitutive nomenclature, the vinyl group ($\\text{CH}_2=\\text{CH}-$) is called *ethenyl*, and the allyl group ($\\text{CH}_2=\\text{CH}-\\text{CH}_2-$) is called *prop-2-en-1-yl*. Option 1 uses *ethynyl*, which refers to a triple bond structure.",
+      "hint": "Count the number of carbon atoms in each group: vinyl is a two-carbon unit, whereas allyl contains a three-carbon chain."
+    },
+    {
+      "question": "What is the structural distinction between **chain isomers** and **position isomers** when evaluating alkene relationships?",
+      "options": [
+        "Chain isomers vary in double-bond locations; position isomers vary in carbon skeleton branching patterns.",
+        "Chain isomers vary in spatial geometry; position isomers have completely different molecular formulas.",
+        "Chain isomers vary in the branching layout of the carbon backbone; position isomers vary in the placement of the double bond on the same skeleton.",
+        "Chain isomers possess entirely different functional groups; position isomers have identical structures but different molecular weights."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chain isomerism is caused by variations in the branching or structure of the continuous carbon backbone (e.g., linear 1-pentene vs. branched 2-methyl-1-butene). Position isomerism occurs when the carbon skeleton remains identical, but the functional group's double bond shifts positions (e.g., 1-pentene vs. 2-pentene).",
+      "hint": "Focus on what the terms 'chain' (the carbon skeleton configuration) and 'position' (the functional group location) describe."
+    },
+    {
+      "question": "Why is **1-pentene** entirely incapable of displaying geometrical (*cis-trans*) isomerism, while **2-pentene** can easily exist as distinct *cis* and *trans* forms?",
+      "options": [
+        "The terminal double-bonded carbon in 1-pentene is attached to two identical hydrogen atoms.",
+        "1-Pentene has a lower boiling point, which permits free rotation around its double bond at room temperature.",
+        "2-Pentene contains a cyclic carbon ring that locks rotation, whereas 1-pentene is completely open-chain.",
+        "Geometrical isomerism is restricted to alkenes that possess an even total number of carbon atoms."
+      ],
+      "correctAnswer": 0,
+      "explanation": "An alkene cannot show geometrical isomerism if one of the double-bonded carbon atoms is attached to two identical groups. In 1-pentene ($\\text{CH}_2=\\text{CH}-\\text{CH}_2-\\text{CH}_2-\\text{CH}_3$), the terminal carbon is bonded to two identical hydrogen atoms. Swapping their positions creates no spatial difference. 2-Pentene has two unique groups attached to both double-bonded carbons.",
+      "hint": "Look closely at the individual atoms bonded to the first carbon of the double bond in 1-pentene."
+    },
+    {
+      "question": "When naming alkene stereoisomers, under what exact spatial orientation are we required to apply the structural prefix ***trans-*** to the parent IUPAC name?",
+      "options": [
+        "When identical or similar groups point toward the center of a cyclic ring.",
+        "When identical or similar groups are situated on opposite sides of the carbon-carbon double bond.",
+        "When similar groups are attached to the exact same carbon atom within the double bond.",
+        "When two methyl substituents lie on the same horizontal plane of a linear chain."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text defines geometrical prefixes based on spatial orientation: '*cis*' is applied when two similar groups are positioned on the same side of the double bond, and '*trans*' is applied when they are on opposite sides ('across') of the double bond.",
+      "hint": "Think of words like transatlantic—meaning across or on the opposite side of a boundary."
+    },
+    {
+      "question": "During the laboratory preparation of ethene via the dehydration of ethanol, what are the precise operational roles of the concentrated sulfuric acid ($H_2SO_4$) and the high heat profile?",
+      "options": [
+        "The acid acts as a primary chemical reactant; heat is maintained at $25^\\circ\\text{C}$ to avoid volatilization.",
+        "The acid acts as a basic catalyst; heat is restricted to $100^\\circ\\text{C}$ to vaporize excess water.",
+        "The acid functions as a dehydrating agent to eliminate water; heat is held near $170^\\circ\\text{C}$ to drive the reaction.",
+        "The acid acts as an inert solvent to stabilize ethene gas; no external heating is required."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Experiment 6.3 and Section 6.3.1 Part E show that ethene is prepared by heating ethanol with concentrated sulfuric acid at roughly $170^\\circ\\text{C}$. The acid acts as a dehydrating agent, removing an $-\\text{OH}$ group and a neighboring hydrogen atom to release a water molecule ($\\text{H}_2\\text{O}$) and form a double bond.",
+      "hint": "Dehydration literally means the removal of water, an elimination process that needs a strong, water-retaining acid and high heat."
+    },
+    {
+      "question": "What primary organic reactant and inorganic reagent are required for the **dehydrohalogenation** preparation of alkenes, and what secondary byproducts are produced alongside the alkene?",
+      "options": [
+        "An alcohol and concentrated $H_2SO_4$; produces water as the sole byproduct.",
+        "An alkane and elemental chlorine gas; produces hydrogen chloride gas as a hazardous byproduct.",
+        "A cycloalkane and alkaline $KMnO_4$; produces a brown manganese dioxide precipitate.",
+        "An alkyl halide and potassium hydroxide ($KOH$); produces a potassium halide salt ($KX$) and water ($H_2O$)."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dehydrohalogenation involves removing a hydrogen atom and a halogen atom from an alkyl halide. The general reaction highlights that an alkyl halide reacting with a strong base ($KOH$) produces an alkene, a potassium halide salt ($KX$), and water ($H_2O$).",
+      "hint": "Breaking down the name: 'Dehydro-' means losing hydrogen, and '-halogenation' means losing a halogen. A strong base is needed to pull these components off the carbon chain."
+    },
+    {
+      "question": "Using the general stoichiometric balancing equation for alkene combustion provided in the text:\n$$\\text{C}_n\\text{H}_{2n} + \\left(\\frac{3n}{2}\\right)\\text{O}_2 \\rightarrow n\\text{CO}_2 + n\\text{H}_2\\text{O}$$\nHow many total moles of oxygen gas ($\\text{O}_2$) are consumed during the complete, clean combustion of exactly $2 \\text{ moles}$ of **butene** ($C_4 H_8$)?",
+      "options": [
+        "6 moles",
+        "4 moles",
+        "12 moles",
+        "8 moles"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For butene, $n = 4$. The oxygen coefficient calculation is $\\frac{3n}{2} = \\frac{3(4)}{2} = 6$. This means $1 \\text{ mole}$ of butene requires $6 \\text{ moles}$ of $\\text{O}_2$. For $2 \\text{ moles}$ of butene, the required oxygen scales up to $2 \\times 6 = 12 \\text{ moles}$ of $\\text{O}_2$.",
+      "hint": "Find the stoichiometric oxygen requirement for a single mole of $C_4H_8$ first, then scale the value up for two moles."
+    },
+    {
+      "question": "When an unknown hydrocarbon sample is added to a solution of bromine in carbon tetrachloride ($\\text{Br}_2 \\text{ in CCl}_4$) in a dark room, the prominent reddish-brown color disappears immediately. What does this outcome reveal about the chemical nature of the sample?",
+      "options": [
+        "The hydrocarbon contains carbon-carbon multiple bonds (unsaturation) and underwent an addition reaction.",
+        "The hydrocarbon is a highly stable alkane that underwent rapid free-radical substitution.",
+        "The hydrocarbon decomposed completely into gaseous carbon dioxide and water vapor.",
+        "The hydrocarbon is highly polar, causing the bromine molecules to precipitate out of the solvent."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alkenes react quickly with bromine via an addition reaction across their double bond, breaking the $\\pi$-bond to incorporate the bromine atoms. This process decolorizes the reddish-brown bromine solution. Saturated alkanes cannot react with bromine in the dark; they require sunlight to undergo substitution.",
+      "hint": "Alkenes do not require light energy to break their weaker double bond component and react with halogens."
+    },
+    {
+      "question": "What chemical solution is known as **Baeyer’s reagent**, and what visual transition serves as a positive indicator for unsaturation when this reagent is mixed with an alkene?",
+      "options": [
+        "Concentrated $H_2SO_4$; turns from deep red to crystal clear with vigorous bubbling.",
+        "Bromine dissolved in $CCl_4$; its reddish-brown color transitions to completely colorless.",
+        "Aqueous zinc chloride solution; forms a dense white precipitate at the bottom of the tube.",
+        "Cold alkaline $\\text{KMnO}_4$ solution; its purple color fades away as a brown precipitate forms."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The text identifies cold alkaline potassium permanganate ($\\text{KMnO}_4$) solution as Baeyer's reagent. When mixed with an unsaturated hydrocarbon, the alkene is oxidized into a diol, causing the characteristic purple color of the permanganate ion to fade and produce a brown manganese dioxide ($\\text{MnO}_2$) precipitate.",
+      "hint": "Review the section covering the oxidation of alkenes to locate the alternative name given to alkaline $\\text{KMnO}_4$."
+    },
+    {
+      "question": "Alkenes show significantly higher chemical reactivity compared to alkanes. Which of the following options correctly explains this difference in reactivity based on their bonding?",
+      "options": [
+        "Alkenes have longer, flexible carbon chains that physically trap passing chemical reagents.",
+        "Alkenes are highly polar molecules, generating strong electrostatic attraction with ionic compounds.",
+        "The carbon-carbon double bond contains a weak bond alongside a strong bond; this weak bond breaks easily to enable addition reactions.",
+        "Alkanes have extra hydrogen atoms that sterically block incoming molecules from reaching the carbon core."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkenes are more reactive because their double bond consists of a strong $\\sigma$-bond and a weaker $\\pi$-bond. This weaker bond is easier to break, allowing the carbon atoms to accept new substituents via addition reactions without needing to displace existing atoms.",
+      "hint": "Compare why alkenes undergo addition reactions easily at room temperature, while alkanes are limited to substitution reactions."
+    },
+    {
+      "question": "Predict the major organic product formed when propene ($ \\text{CH}_3\\text{CH}=\\text{CH}_2 $) undergoes hydrohalogenation via a reaction with hydrogen bromide ($ \\text{HBr} $) according to **Markovnikov's rule**.",
+      "options": [
+        "2-Bromopropane",
+        "1-Bromopropane",
+        "1,2-Dibromopropane",
+        "1-Bromopropene"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Markovnikov's rule states that when an unsymmetrical alkene reacts with a hydrogen halide, the hydrogen adds to the double-bonded carbon with more hydrogen atoms, while the halogen adds to the carbon with fewer hydrogens. In propene ($ \\text{CH}_3\\text{CH}=\\text{CH}_2 $), the terminal carbon has 2 hydrogens and receives the $\\text{H}$, while the middle carbon has 1 hydrogen and receives the $\\text{Br}$, producing 2-bromopropane.",
+      "hint": "Apply the mnemonic 'the rich get richer' to the number of hydrogen atoms on each carbon atom of the double bond."
+    },
+    {
+      "question": "When propene reacts with water ($ \\text{H}_2\\text{O} $) in the presence of an aqueous phosphoric acid ($ \\text{H}_3\\text{PO}_4 $) catalyst, which product is formed preferentially, and what rule explains this selection?",
+      "options": [
+        "Ethanol; driven by the catalytic cracking of the parent carbon skeleton.",
+        "1-Propanol; driven by anti-Markovnikov addition across a symmetrical double bond.",
+        "2-Propanol; driven by Markovnikov's rule where the hydroxyl group ($-\\text{OH}$) binds to the carbon with fewer hydrogens.",
+        "Propane; driven by an acid-catalyzed reduction that removes oxygen from the system."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The addition of water (hydration) to an unsymmetrical alkene follows Markovnikov's rule. Water can be viewed as $\\text{H}^+$ and $\\text{OH}^-$. The hydrogen atom bonds to the terminal carbon ($=\\text{CH}_2$), and the hydroxyl group ($-\\text{OH}$) bonds to the central carbon ($-\\text{CH}=$), forming 2-propanol.",
+      "hint": "Treat water as a polar reagent consisting of $\\text{H}$ and $\\text{OH}$. Use the same orientation logic that governs the addition of $\\text{HBr}$."
+    },
+    {
+      "question": "Under high-pressure and high-temperature conditions ($1000 \\text{ atm}$, $473 \\text{ K}$) using an $\\text{O}_2$ catalyst, ethene molecules link together in a self-addition reaction. What macromolecule is formed, and what term describes the starting ethene units?",
+      "options": [
+        "Polypropylene; the starting units are polymers.",
+        "Polyvinylchloride; the starting units are isomers.",
+        "Polystyrene; the starting units are radicals.",
+        "Polyethylene; the starting units are monomers."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Polymerization is the chemical combining of small repeating molecules (monomers) into a long-chain macromolecule (polymer). Example 6.17 demonstrates that the self-addition of ethene monomers under these specific conditions yields the polymer polyethene, commonly known as polyethylene.",
+      "hint": "Look at Example 6.17 to see how $n(\\text{CH}_2=\\text{CH}_2)$ transforms into a continuous chain structure."
+    },
+    {
+      "question": "Beyond serving as a direct raw material for industrial plastics, what is another commercial use of ethene or its chemical derivatives as outlined in the text?",
+      "options": [
+        "Saponification of fatty acids to produce household soaps.",
+        "Direct conversion into long-chain diesel fuels.",
+        "Production of 1,2-ethanediol for engine antifreeze, and the artificial ripening of green fruits.",
+        "Formulating heavy industrial solvents to replace nonpolar alkanes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Section 6.3.1 Part G states that ethene is used to produce 1,2-ethanediol, which is widely utilized as an antifreeze material. Additionally, because ethene functions as a natural plant hormone, it is used commercially for the preservation and artificial ripening of fruits.",
+      "hint": "Recall the dual nature of ethene: it serves as an industrial chemical precursor and can trigger changes in green fruit."
+    },
+    {
+      "question": "Cycloalkenes are cyclic unsaturated hydrocarbons. What is their general formula, and which open-chain hydrocarbon family shares this same formula, making them structural isomers?",
+      "options": [
+        "$C_n H_{2n}$; isomeric with alkenes",
+        "$C_n H_{2n+2}$; isomeric with alkanes",
+        "$C_n H_{2n-2}$; isomeric with alkynes",
+        "$C_n H_{2n-4}$; isomeric with arenes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Section 6.3.1 Part H states that monocyclic cycloalkenes have the general formula $C_n H_{2n-2}$ ($n \\ge 3$). This formula matches that of open-chain alkynes ($C_n H_{2n-2}$), making cycloalkenes and alkynes structural isomers due to their identical molecular formulas but different atom arrangements.",
+      "hint": "Forming a ring drops two hydrogens from an alkene's baseline formula ($C_n H_{2n}$). Match this new formula to another class of hydrocarbons."
+    },
+    {
+      "question": "How is the numbering system of a monocyclic **substituted cycloalkene** established under IUPAC naming rules, given that the ring structure has no chain ends?",
+      "options": [
+        "The ring is numbered so the double bond is locked between C1 and C2, and the path continues in the direction that gives the first substituent the lowest possible number.",
+        "Numbering begins at the largest alkyl branch and moves strictly clockwise around the ring.",
+        "Numbering starts at the carbon closest to alphabetical priority, skipping the double bond positions.",
+        "The double bond is ignored during numbering, and its position must be written as a prefix locant like '3-cyclohexene'."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because a ring has no designated ends, IUPAC rules specify numbering a cycloalkene so that the double bond is positioned between carbon-1 and carbon-2. The numbering direction is chosen to give the substituents the lowest possible position numbers. The position of the double bond does not need to be written out for a single double bond because it is assumed to be at position 1.",
+      "hint": "The double bond forms the starting point of the ring's coordinate system, taking priority over any alkyl branches."
+    },
+    {
+      "question": "A technician sets up two test tubes in the dark: Tube A contains an alkene and bromine water; Tube B contains an alkane and bromine water. After several hours, Tube A is colorless, while Tube B remains reddish-brown. If Tube B is then placed in bright sunlight, its color fades. What occurred in these two instances?",
+      "options": [
+        "Both tubes underwent addition reactions, but Tube B required solar activation energy.",
+        "Tube A underwent an addition reaction failing due to lack of acid; Tube B underwent an oxidation reaction.",
+        "Tube A underwent a rapid addition reaction; Tube B underwent a slow substitution reaction that required activation by light.",
+        "Tube A underwent a polymerization reaction; Tube B underwent a combustion reaction."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkenes undergo addition reactions with halogens readily without needing light, breaking their weak double bond to form a dihaloalkane. Alkanes are saturated and unreactive in the dark; they require sunlight (UV light) to undergo free-radical substitution reactions where a chlorine or bromine atom replaces a hydrogen atom.",
+      "hint": "Think about which family of hydrocarbons requires light energy to break strong single covalent bonds and substitute individual atoms."
+    },
+    {
+      "question": "Which option correctly identifies the primary industrial process used to obtain bulk alkenes compared to the typical small-scale methods used in a chemistry laboratory?",
+      "options": [
+        "Industrial: Chemical synthesis from coal; Laboratory: Controlled partial combustion of methane gas.",
+        "Industrial: Extraction from fruit juices; Laboratory: Mixing base salts with pure water.",
+        "Industrial: Direct extraction from mineral deposits; Laboratory: Electrolysis of heavy oils.",
+        "Industrial: Fractional distillation and cracking of petroleum; Laboratory: Dehydration of alcohols or dehydrohalogenation of alkyl halides."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Industrially, alkenes are produced in large quantities during the fractional distillation of petroleum through a process called cracking. In contrast, laboratory preparations focus on small-scale elimination reactions, such as dehydrating an alcohol with acid or removing a hydrogen halide from an alkyl halide using a base.",
+      "hint": "Review the introduction to Section 6.3.1 Part E ('Preparation of Alkenes') to check the industrial source mentioned."
+    },
+    {
+      "question": "A student states that reacting ethene gas with chlorine gas ($ \\text{Cl}_2 $) will directly yield the unsaturated product **chloroethene**. What is the error in this statement?",
+      "options": [
+        "The reaction is an addition reaction across the double bond, which converts the unsaturated alkene into a saturated dihaloalkane (1,2-dichloroethane).",
+        "Chlorine gas cannot react with ethene unless a strong potassium hydroxide ($KOH$) base is added.",
+        "The reaction is a substitution reaction, which replaces carbon atoms to form chloromethane.",
+        "Ethene only reacts with chlorine gas under high pressure to form a large polymer network."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reacting an alkene with a halogen molecule ($ \\text{Cl}_2 $ or $ \\text{Br}_2 $) is an halogenation addition reaction. The double bond breaks, and a chlorine atom bonds to each carbon, forming a saturated dihaloalkane (1,2-dichloroethane). Chloroethene is an unsaturated product that cannot be formed by a direct addition reaction.",
+      "hint": "Addition reactions break the double bond, turning an unsaturated molecule into a saturated one containing two new halogen atoms."
+    },
+    {
+      "question": "When an alkene undergoes an oxidation reaction with a cold alkaline potassium permanganate solution, the resulting organic product belongs to which class of compounds?",
+      "options": [
+        "Alkyl halide",
+        "Monohydric alcohol",
+        "Diol (a compound containing two hydroxyl groups)",
+        "Carboxylic acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Section 6.3.1 Part F notes that the oxidation of alkenes using a cold alkaline potassium permanganate solution forms diols, which are organic compounds that contain two hydroxyl ($-\\text{OH}$) groups. Example 6.16 illustrates this conversion with ethene turning into 1,2-ethanediol.",
+      "hint": "Review the product definition and structure shown under the 'Oxidation of alkenes' subsection in Section F."
+    },
+    {
+      "question": "Which of the following reaction sequences would successfully transform a sample of ethanol ($ \\text{CH}_3\\text{CH}_2\\text{OH} $) into 1,2-ethanediol using the laboratory methods described in the text?",
+      "options": [
+        "React ethanol with $KOH$ to form an alkyl halide, then add bromine water.",
+        "Burn ethanol completely in oxygen, then mix the resulting gas with aqueous phosphoric acid.",
+        "Dehydrate ethanol using concentrated $H_2SO_4$ at $170^\\circ\\text{C}$ to produce ethene, then oxidize the ethene with cold alkaline $\\text{KMnO}_4$.",
+        "Polymerize ethanol under $1000 \\text{ atm}$ of pressure, then perform hydrohalogenation using $HCl$."
+      ],
+      "correctAnswer": 2,
+      "explanation": "To convert ethanol into 1,2-ethanediol, ethanol is first heated with concentrated sulfuric acid at $170^\\circ\\text{C}$ to undergo dehydration, yielding ethene gas. The ethene gas is then treated with cold alkaline potassium permanganate (Baeyer's reagent), which oxidizes the double bond to form a diol, specifically 1,2-ethanediol.",
+      "hint": "Break the synthesis down into two stages: first, remove water to form a double bond; second, add two hydroxyl groups across that double bond via oxidation."
+    },
+    {
+      "question": "## Advanced Hydrocarbons Diagnostic: Mastery Level Assessment\n\nA highly challenging conceptual and analytical examination focusing on multi-step organic mechanisms, complex IUPAC nomenclature constraints, stereochemical limitations, and quantitative stoichiometric tracking of aliphatic and alicyclic systems.\n\n---\n\nAn open-chain hydrocarbon is known to belong to the alkene homologous series and contains exactly 12 hydrogen atoms. If this molecule undergoes complete, clean combustion according to the text's balanced equation, how many total moles of oxygen gas ($O_2$) are required to consume exactly 1 mole of this alkene?",
+      "options": [
+        "6 moles",
+        "9 moles",
+        "12 moles",
+        "18 moles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An open-chain alkene follows the general formula $C_n H_{2n}$. Given that it has 12 hydrogen atoms ($2n = 12$), the number of carbon atoms must be $n = 6$ (hexene). Applying the stoichiometric balancing formula from the text, the coefficient for oxygen is $\\frac{3n}{2}$. Substituting $n = 6$ yields $\\frac{3(6)}{2} = 9$ moles of $O_2$. Option 0 mistakenly uses $n$ directly, while option 2 represents $2n$.",
+      "hint": "Identify the number of carbon atoms ($n$) first by matching the given hydrogen count to the general alkene formula, then use the fractional formula $\\frac{3n}{2}$."
+    },
+    {
+      "question": "Why is a name like **4-chloro-2-butene** considered completely invalid under systematic IUPAC nomenclature rules, even though it describes the exact same physical structural layout as **1-chloro-2-butene**?",
+      "options": [
+        "The chlorine substituent must always take numbering priority over the double bond functional group.",
+        "The parent chain must be numbered from the end closer to the double bond, which forces the lower locant set for both features.",
+        "Alkenes containing halogen substituents must use common nomenclature ending in *-ylene* exclusively.",
+        "Numbering must proceed alphabetically, meaning the carbon attached to chlorine must be designated as carbon-4."
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to IUPAC Rule 2, the carbon chain must be numbered from the end that gives both carbon atoms of the double bond the lowest possible position numbers. Numbering the chain from right to left gives the double bond a locant of 2 and the chlorine a locant of 1 (1-chloro-2-butene). Numbering from left to right gives the double bond a locant of 2 but the chlorine a locant of 4. The locant set (1, 2) is lower than (4, 2), making 1-chloro-2-butene the correct IUPAC name.",
+      "hint": "Compare the two sets of position numbers generated by numbering the four-carbon skeleton from left to right versus right to left."
+    },
+    {
+      "question": "Which of the following structurally distinct derivatives of propene is completely **incapable** of displaying geometrical (*cis-trans*) isomerism?",
+      "options": [
+        "1-Chloropropene",
+        "2-Methylpropene",
+        "1-Bromopropene",
+        "2-Butene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text specifies that alkenes cannot exhibit geometrical (*cis-trans*) isomerism if two identical groups are attached to *any one* of the carbon atoms linked by the double bond. In 2-methylpropene (isobutylene), the terminal carbon (carbon-1) is bonded to two identical hydrogen atoms, and carbon-2 is bonded to two identical methyl groups. Swapping groups on either carbon produces an identical molecule spatially.",
+      "hint": "Draw out the double-bonded carbons and check if either carbon holds two identical attached groups."
+    },
+    {
+      "question": "A chemical synthesis engineer is tasked with producing propene via the **dehydration** of an alcohol. What is the exact molecular formula of the required monohydric alcohol starter, and what specific reagent setup is demanded by this conversion?",
+      "options": [
+        "$C_3H_8O$; treated with hot concentrated $H_2SO_4$",
+        "$C_3H_6O$; treated with potassium hydroxide ($KOH$)",
+        "$C_2H_6O$; treated with alumina ($Al_2O_3$) at room temperature",
+        "$C_3H_7Cl$; treated with concentrated acid and high heat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dehydration is an elimination reaction that removes a water molecule ($H_2O$) from an alcohol to yield an alkene. To synthesize a three-carbon alkene (propene, $C_3H_6$), the starting material must be a three-carbon alcohol like propanol ($C_3H_7OH$, which simplifies to the molecular formula $C_3H_8O$). The required reaction conditions specified in the text include concentrated sulfuric acid ($H_2SO_4$) or alumina accompanied by high heat. Option 1 describes an alkyl halide removal setup, and option 2 lacks the correct carbon baseline count.",
+      "hint": "Dehydration implies adding the elements of water back onto the alkene structure to find your starting organic reagent."
+    },
+    {
+      "question": "During an asymmetric hydrohalogenation reaction, **2-methyl-2-butene** is mixed with hydrogen chloride ($HCl$). According to the underlying mechanical logic of **Markovnikov's rule**, which carbon atom of the double bond receives the chlorine atom, and what is the IUPAC name of the major product?",
+      "options": [
+        "Carbon-3 receives the chlorine; product is 3-chloro-2-methylbutane.",
+        "Carbon-2 receives the chlorine; product is 2-chloro-2-methylbutane.",
+        "Carbon-1 receives the chlorine; product is 1-chloro-2-methylbutane.",
+        "Both carbons receive a chlorine atom; product is 2,3-dichloro-2-methylbutane."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Markovnikov's rule states that the hydrogen atom adds to the double-bonded carbon that already possesses the greater number of hydrogen atoms, while the halogen adds to the carbon with fewer hydrogens. In 2-methyl-2-butene ($(CH_3)_2C=CH-CH_3$), carbon-2 is bonded to zero hydrogens (two methyl groups), while carbon-3 is bonded to one hydrogen atom. Therefore, the hydrogen from $HCl$ adds to carbon-3, and the chlorine adds to carbon-2, yielding 2-chloro-2-methylbutane.",
+      "hint": "Count the number of hydrogen atoms directly attached to carbon-2 and carbon-3 along the unsaturated double bond."
+    },
+    {
+      "question": "The industrial conversion of ethene gas into **polyethylene** is explicitly categorized as an *addition polymerization* rather than a *substitution polymerization*. What structural rationale supports this classification?",
+      "options": [
+        "Individual carbon atoms are cleaved from the chain and replaced by oxygen catalyst atoms.",
+        "The reaction requires exactly 1000 atm of pressure to force single bonds to mutate into double bonds.",
+        "Monomer units link together via the opening of their weak $\\pi$-bonds without the loss or elimination of any small byproduct molecules.",
+        "The process converts a cyclic alicyclic hydrocarbon into an open-chain saturated alkane network."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polymerization of alkenes is a self-addition process. Because alkenes are unsaturated, the weaker component of the double bond breaks open, enabling individual monomer units (ethene) to link together directly. No atoms are lost or cast off as byproducts during this reaction, matching the definition of an addition process. Substitution would require displacing an existing atom or group.",
+      "hint": "Consider what happens to the total atom count when thousands of separate ethene units form a single continuous polymer chain."
+    },
+    {
+      "question": "A substituted cycloalkene is systematically named **1,5-dimethylcyclopentene**. Why is it structurally incorrect to name this identical molecule **2,3-dimethylcyclopentene** under IUPAC guidelines?",
+      "options": [
+        "The methyl substituents must always sit on numbers lower than the double bond locants.",
+        "IUPAC rules dictate that numbering must pass through the double bond carbons as C1 and C2, selecting the direction that gives the first encountered substituent the lowest possible number.",
+        "Cycloalkenes must be numbered counter-clockwise exclusively regardless of substituent positions.",
+        "The prefix *cyclo-* requires that the double bond always be ignored when evaluating substituent positions."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For substituted cycloalkenes, numbering must assign positions 1 and 2 to the double bond carbons. To determine the correct direction around the ring, you must choose the path that assigns the lowest possible locants to the substituents at the first point of difference. Numbering the double bond carbons such that the first methyl is at C1 and counting away from the double bond puts the second methyl at C5 (locants 1,5). If you numbered it the opposite way, the locants would be higher, making 2,3-dimethylcyclopentene incorrect because the double bond wouldn't be optimized properly.",
+      "hint": "Remember that the double bond is fundamentally locked into positions 1 and 2. Choose the numbering path that minimizes the position numbers of the attached methyl groups."
+    },
+    {
+      "question": "When propene is treated with **Baeyer's reagent**, a clear purple solution transitions into a colorless fluid filled with a brown precipitate. What organic compound is produced, and what does the brown precipitate physically represent?",
+      "options": [
+        "1,2-Dichloropropane is produced; the precipitate is elemental chlorine gas.",
+        "Propane is produced; the precipitate is oxidized platinum catalyst.",
+        "1,2-Propanediol is produced; the precipitate is manganese dioxide ($MnO_2$).",
+        "2-Propanol is produced; the precipitate is potassium hydroxide salt."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Baeyer's reagent is a cold alkaline potassium permanganate ($KMnO_4$) solution used to qualitatively detect unsaturation. It oxidizes alkenes into diols (compounds with two hydroxyl groups). For propene, this forms 1,2-propanediol. During this redox reaction, the purple permanganate ion ($MnO_4^-$) is reduced to manganese dioxide ($MnO_2$), which drops out of solution as a characteristic brown precipitate.",
+      "hint": "Look at Section F's discussion of oxidation reactions to identify the specific multi-hydroxyl functional group and the chemical identity of the faded reagent."
+    },
+    {
+      "question": "An analysis of the boiling point values across the alkene homologous series in Table 6.4 shows a clear physical trend: Ethene is at $-102^\\circ\\text{C}$, Propene is at $-48^\\circ\\text{C}$, and 1-Butene is at $-6.5^\\circ\\text{C}$. What molecular phenomenon accounts for this consistent upward shift?",
+      "options": [
+        "An increase in molecular weight enhances the permanent dipole-dipole interactions between polar molecules.",
+        "The double bond becomes progressively stronger and harder to rupture as more carbons are added.",
+        "An expansion of the electron cloud and surface area increases the strength of London dispersion intermolecular forces.",
+        "Longer alkene chains form internal hydrogen bonding networks that hold the liquid phase together."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Alkenes, like alkanes, are nonpolar molecules. They are held together in the liquid phase primarily by weak London dispersion forces. As the carbon chain length increases, the size of the electron cloud and the molecular surface area grow, increasing polarizability and strengthening these dispersion forces. Consequently, more thermal energy is needed to separate the molecules into the gas phase, raising the boiling point.",
+      "hint": "Recall that hydrocarbons are nonpolar compounds, which rules out permanent dipole-dipole attraction or hydrogen bonding."
+    },
+    {
+      "question": "Suppose a technician initiates a **dehydrohalogenation** reaction using **2-bromopropane** as the primary organic reactant in the presence of hot potassium hydroxide ($KOH$). What is the systematic IUPAC name of the resulting organic product?",
+      "options": [
+        "Propene",
+        "1-Propanol",
+        "Propane",
+        "Cyclopropane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dehydrohalogenation is an elimination reaction where a hydrogen atom and a halogen atom are removed from an alkyl halide by a strong base. Reacting 2-bromopropane ($CH_3-CHBr-CH_3$) with $KOH$ removes the bromine atom from carbon-2 and a hydrogen atom from an adjacent carbon, generating a double bond to produce propene ($C_3H_6$). Potassium bromide ($KBr$) and water ($H_2O$) are formed as inorganic byproducts.",
+      "hint": "Eliminating a hydrogen atom and a halogen atom from adjacent carbons converts a saturated alkyl halide into an unsaturated molecule."
+    },
+    {
+      "question": "Utilizing the general balanced stoichiometric equation for open-chain alkene combustion:\n$$\\text{C}_n\\text{H}_{2n} + \\left(\\frac{3n}{2}\\right)\\text{O}_2 \\rightarrow n\\text{CO}_2 + n\\text{H}_2\\text{O}$$\nIf a combustion chamber completely burns exactly **0.5 moles** of **1-decene** ($C_{10}H_{20}$), how many total moles of gaseous carbon dioxide ($CO_2$) are released into the system?",
+      "options": [
+        "1.5 moles",
+        "5.0 moles",
+        "10.0 moles",
+        "15.0 moles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For 1-decene, $n = 10$. The balanced chemical equation states that 1 mole of $C_{10}H_{20}$ yields $n$ moles of $CO_2$, which equals 10 moles of $CO_2$. Since the problem specifies burning 0.5 moles of 1-decene, the output scale is halved: $0.5 \\times 10 = 5.0$ moles of $CO_2$. Option 2 represents the output for a full mole, and option 3 corresponds to the oxygen count.",
+      "hint": "Determine the molar ratio of alkene to carbon dioxide from the balanced equation before multiplying by the given 0.5 mole constraint."
+    },
+    {
+      "question": "The text states that monocyclic **cycloalkenes** are constitutional (structural) isomers of open-chain **alkynes**. Which of the following structural pairs shares an identical molecular formula, validating this isomeric relationship?",
+      "options": [
+        "Cyclobutene and 1-butene",
+        "Cyclopentene and 1-pentyne",
+        "Cyclobutene voters and cyclobutane",
+        "Cyclobutene and 1-butyne"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cycloalkenes contain a ring and one double bond, giving them the general formula $C_n H_{2n-2}$. Alkynes also share the general formula $C_n H_{2n-2}$ due to their triple bond. Cyclobutene ($n=4$) has the molecular formula $C_4H_6$. 1-Butyne ($n=4$) also has the formula $C_4H_6$. Because they share the same molecular formula but have different bonding arrangements, they are structural isomers.",
+      "hint": "Calculate and match the exact hydrogen and carbon atom counts for a four-carbon ring containing one double bond versus a four-carbon chain containing one triple bond."
+    },
+    {
+      "question": "An unknown chlorinated hydrocarbon is labeled as **allyl chloride**. According to the substitutive systematic IUPAC naming conventions detailed in the text, what is the formal name of this compound?",
+      "options": [
+        "Chloroethene",
+        "1-chloropropene",
+        "3-chloropropene",
+        "Vinyl chloride"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text states that the common *allyl* group corresponds to the systematic name *prop-2-en-1-yl*. When a chlorine atom is attached to this group ($\\text{CH}_2=\\text{CH}-\\text{CH}_2-\\text{Cl}$), the parent chain is a propene. Numbering starts from the double bond end to give it priority (carbons 1 and 2), which places the chlorine substituent on carbon-3. This yields the systematic name 3-chloropropene.",
+      "hint": "Draw out the three-carbon allyl skeleton, give the double bond numbering priority, and identify which carbon carries the chlorine atom."
+    },
+    {
+      "question": "Why does the text state that **1-pentene** cannot display geometrical (*cis-trans*) isomerism, while **2-pentene** exhibits distinct *cis* and *trans* configurations?",
+      "options": [
+        "1-Pentene is a cyclic hydrocarbon that restricts rotation, whereas 2-pentene is completely linear.",
+        "The terminal double-bonded carbon in 1-pentene is attached to two identical hydrogen atoms, making spatial swaps meaningless.",
+        "2-Pentene has a higher molecular weight, allowing its covalent bonds to lock into place.",
+        "1-Pentene lacks the required structural $\\pi$-bond component needed to create geometric variants."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Geometrical isomerism requires that both carbon atoms in the double bond are attached to two completely different chemical groups. In 1-pentene ($\\text{CH}_2=\\text{CH}-\\text{CH}_2-\\text{CH}_2-\\text{CH}_3$), the first carbon ($C1$) is bonded to two identical hydrogen atoms. Interchanging their spatial positions yields the exact same molecule. In 2-pentene, both double-bonded carbons are attached to two unique groups, allowing distinct *cis* and *trans* structures.",
+      "hint": "Analyze the substituents attached to the very first carbon atom of the double bond in a terminal alkene like 1-pentene."
+    },
+    {
+      "question": "An industrial chemist runs an acid-catalyzed **hydration** reaction on an unsymmetrical alkene, producing **2-propanol** as the primary product. Based on the regioselective logic of Markovnikov's addition, what was the starting alkene monomer?",
+      "options": [
+        "Ethene",
+        "Propene",
+        "Butene",
+        "Cyclopropane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydration adds $H_2O$ (as $H$ and $OH$) across a double bond. According to Markovnikov's rule, the hydrogen adds to the carbon with more hydrogens, and the hydroxyl group ($OH$) bonds to the carbon with fewer hydrogens. To form 2-propanol ($CH_3-CH(OH)-CH_3$), the starting material must be a three-carbon chain with a double bond, which is propene ($CH_3-CH=CH_2$). Ethene hydration forms ethanol, and butene forms butanol derivatives.",
+      "hint": "Look at the three-carbon layout of the product alcohol and replace the hydroxyl group and an adjacent hydrogen with a double bond."
+    },
+    {
+      "question": "What is the critical distinction between a **qualitative chemical test** (such as the bromine water test) and a quantitative test when evaluating hydrocarbon unsaturation?",
+      "options": [
+        "A qualitative test measures the exact number of double bonds per molecule via weight changes.",
+        "A qualitative test provides a distinct, visible physical change—like color loss—to confirm the presence of a functional group without measuring quantities.",
+        "A qualitative test alters the carbon chain length through cracking to create an alkane.",
+        "A qualitative test requires solar radiation to break strong single covalent bonds."
+      ],
+      "correctAnswer": 1,
+      "explanation": "As shown in the laboratory text experiments, qualitative tests are used to identify the presence or absence of a specific functional group based on clear visual changes. The rapid disappearance of bromine's reddish-brown color or the fading of alkaline $KMnO_4$'s purple tint provides visual proof of multiple bonds (unsaturation) without measuring concentration or yield.",
+      "hint": "Focus on what information is gathered when observing a color transition in a test tube without using measuring instruments."
+    },
+    {
+      "question": "Exercise 6.7 explicitly introduces the concept of an **alkyl radical**. Based on the structural relationship between saturated hydrocarbons and their corresponding radicals, how does an alkyl radical differ from its parent alkane?",
+      "options": [
+        "It contains an extra hydrogen atom bonded to a carbon core.",
+        "It features a carbon-carbon double bond within a cyclic ring.",
+        "It lacks one hydrogen atom compared to the parent alkane, leaving an open valence for bonding.",
+        "It has twice the number of carbon atoms as the baseline homologous series."
+      ],
+      "correctAnswer": 2,
+      "explanation": "An alkyl radical (or alkyl group) is formed when one hydrogen atom is removed from a saturated alkane molecule. For example, removing a hydrogen from methane ($C_1H_4$) creates a methyl radical ($\\cdot C_1H_3$). This leaves an open valence, allowing the group to attach as a substituent to another chemical structure.",
+      "hint": "Think about how a methane molecule transforms into a methyl group, or an ethane molecule into an ethyl group."
+    },
+    {
+      "question": "Review the IUPAC name **1-bromo-2-methyl-1-(prop-2-en-1-yl)cyclopentane** from Exercise 6.10. What specific structural group does the parenthetic term **(prop-2-en-1-yl)** represent?",
+      "options": [
+        "A vinyl group attached directly to carbon-1.",
+        "An allyl group substituent attached to the cyclopentane ring.",
+        "A saturated propane chain branch on carbon-2.",
+        "An isolated cyclobutene ring system."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that the common *allyl* group ($\\text{CH}_2=\\text{CH}-\\text{CH}_2-$) is systematically named *prop-2-en-1-yl* in substitutive nomenclature. Therefore, the parenthetic term indicates an allyl substituent attached to carbon-1 of the cyclopentane ring.",
+      "hint": "Match the systematic parenthetic phrase to the common alkenyl groups defined in Section B, Rule 4."
+    },
+    {
+      "question": "According to the physical constants in Table 6.4, **ethene** and **propene** are assigned identical density values of **$0.61 \\text{ g/L}$**, yet their boiling points differ significantly ($-102^\\circ\\text{C}$ vs $-48^\\circ\\text{C}$). What explains this variance?",
+      "options": [
+        "Density is measured in the gas phase where intermolecular spacing masks weight differences, while boiling points reflect the distinct intermolecular forces needed for a phase change.",
+        "Propene molecules are completely polar, which directly alters its boiling point without affecting mass distribution.",
+        "Ethene undergoes spontaneous polymerization at room temperature, keeping its density artificially low.",
+        "The density value of propene is lower because its cyclic geometry occupies less volume."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both ethene and propene exist as gases at standard room conditions. Gas density values reflect molecular mass relative to molar volume under those conditions. However, the boiling point is governed by the strength of intermolecular forces in the liquid phase. Propene has a larger surface area than ethene, strengthening its London dispersion forces and giving it a significantly higher boiling point.",
+      "hint": "Consider the states of matter for these two light hydrocarbons at room temperature and how intermolecular forces govern phase changes."
+    },
+    {
+      "question": "Section E states that bulk industrial alkenes are primarily obtained via the **cracking** of petroleum fractions. What structural change occurs during a cracking process?",
+      "options": [
+        "Small gas molecules are combined under pressure to build long-chain polymers.",
+        "Long-chain saturated hydrocarbons are cleaved by heat or catalysts into shorter alkanes and unsaturated alkenes.",
+        "Water molecules are introduced to convert nonpolar molecules into industrial alcohols.",
+        "Halogen atoms are substituted onto an alkane backbone to generate an alkyl halide."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cracking is an industrial refinery process where large, long-chain hydrocarbon molecules from crude oil are broken down (cracked) using heat and catalysts into smaller, more valuable molecules. This bond cleavage produces a mixture of shorter saturated alkanes and unsaturated open-chain alkenes like ethene and propene.",
+      "hint": "Think about what the word 'cracking' implies regarding the size and bonds of a long-chain hydrocarbon starter."
+    },
+    {
+      "question": "The text notes that 'The locant for the alkene suffix may precede the parent name or be placed immediately before the suffix.' Which of the following pairs illustrates this exact structural naming alternative for the same compound?",
+      "options": [
+        "1-Butene and 2-butene",
+        "5,5-Dimethyl-2-hexene and 5,5-dimethylhex-2-ene",
+        "Vinyl chloride and allyl chloride",
+        "2-Methylpropene and isobutylene"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The rule permits placing the double bond position number (locant) either directly before the parent chain name (5,5-dimethyl-2-hexene) or immediately before the functional suffix '-ene' (5,5-dimethylhex-2-ene). Both names describe the exact same molecule. Option 0 shows position isomers, option 2 lists entirely different molecules, and option 3 compares an IUPAC name to a common name.",
+      "hint": "Look for a pair of names where the position numbers are identical but placed in different slots within the text string."
+    },
+    {
+      "question": "If a monocyclic cycloalkane ring loses exactly two hydrogen atoms to introduce a single carbon-carbon double bond into its cyclic structure, how does its general molecular formula shift?",
+      "options": [
+        "From $C_n H_{2n+2}$ to $C_n H_{2n}$",
+        "From $C_n H_{2n}$ to $C_n H_{2n-2}$",
+        "From $C_n H_{2n-2}$ to $C_n H_{2n}$",
+        "From $C_n H_{2n}$ to $C_n H_{2n-4}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A monocyclic cycloalkane has the general formula $C_n H_{2n}$. Introducing a double bond removes two more hydrogen atoms to accommodate the new $\\pi$-bond. This reduces the hydrogen count by two, shifting the general formula to $C_n H_{2n-2}$ (the cycloalkene series).",
+      "hint": "Each site of unsaturation or ring closure removes two hydrogen atoms from the fully saturated open-chain formula ($C_n H_{2n+2}$)."
+    },
+    {
+      "question": "When propene gas undergoes a halogenation addition reaction with pure chlorine gas ($Cl_2$), the text states that the product is **dichloropropane**. Why is the product specifically **1,2-dichloropropane** rather than **1,1-dichloropropane**?",
+      "options": [
+        "The chlorine atoms substitute hydrogens on the terminal methyl group exclusively.",
+        "The addition reaction must place one chlorine atom onto each of the two carbon atoms that shared the double bond.",
+        "Propene undergoes cracking during chlorination, splitting the molecule into smaller fragments.",
+        "The Markovnikov rule forces both halogen atoms to seek out the carbon with fewer hydrogens."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Halogenation is an addition reaction across a double bond. The $\\pi$-bond breaks, and one halogen atom bonds to *each* of the two carbon atoms that formed the original double bond. In propene ($CH_3-CH=CH_2$), the double bond is between carbons 1 and 2. Therefore, the chlorine atoms attach to carbons 1 and 2, producing 1,2-dichloropropane.",
+      "hint": "Addition reactions involve adding atoms across a double bond, meaning the new atoms bond to adjacent carbons."
+    },
+    {
+      "question": "Exercise 6.12 states: 'Alkene reacts readily with $Br_2$ even in the dark but alkanes react only in the presence of sunlight.' Which option correctly identifies the reaction types for these two hydrocarbon families?",
+      "options": [
+        "Alkene: Substitution reaction; Alkane: Addition reaction",
+        "Alkene: Combustion reaction; Alkane: Dehydration reaction",
+        "Alkene: Addition reaction; Alkane: Substitution reaction",
+        "Alkene: Dehydrohalogenation; Alkane: Polymerization"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alkenes are unsaturated hydrocarbons that undergo addition reactions. The weak component of their double bond breaks easily, allowing new atoms to add to the molecule without losing any existing atoms. Alkanes are saturated hydrocarbons with single bonds only; they can only undergo substitution reactions, where a hydrogen atom is replaced by another atom, a process that requires sunlight (UV light) to proceed.",
+      "hint": "Consider whether the molecule breaks a double bond to add atoms or must swap out an existing hydrogen atom."
+    },
+    {
+      "question": "Why is there no such molecule as **methene** within the alkene homologous series, forcing **ethene** to be the absolute simplest member?",
+      "options": [
+        "Methane derivatives are highly polar and cannot form unsaturated bonds.",
+        "A carbon-carbon double bond requires a minimum of two carbon atoms to exist, which is impossible with a single-carbon prefix like *meth-*.",
+        "Single carbon atoms are too small to undergo industrial cracking.",
+        "The prefix *meth-* is reserved exclusively for cyclic alicyclic ring systems."
+      ],
+      "correctAnswer": 1,
+      "explanation": "By definition, an alkene is an unsaturated hydrocarbon that contains at least one carbon-carbon double bond ($C=C$). The prefix *meth-* indicates a compound containing only a single carbon atom. Because a double bond requires two carbon atoms to exist, a single-carbon alkene is structurally impossible. Therefore, the series must begin at $n=2$ with ethene.",
+      "hint": "Consider the minimum number of carbon atoms required to establish a functional double bond."
+    },
+    {
+      "question": "Ethene is a versatile starting material for many industrial compounds, including ethanol, ethylene oxide, ethanal, and polyethylene. What type of reaction must be performed to synthesize **ethanol** from ethene in a single step?",
+      "options": [
+        "Dehydrohalogenation using a strong base",
+        "Oxidation using cold alkaline potassium permanganate",
+        "Acid-catalyzed hydration (addition of water)",
+        "Thermal cracking under high pressure"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Section F, Subsection iv states that when alkenes are hydrated in the presence of an acid catalyst, they add a molecule of water ($H_2O$) across the double bond to produce an alcohol. Hydrating ethene ($CH_2=CH_2$) adds $H$ to one carbon and $OH$ to the other, producing ethanol ($CH_3-CH_2OH$). Oxidation would yield a diol, and cracking breaks carbon-carbon bonds.",
+      "hint": "Look for a reaction pathway that incorporates the elements of water ($H$ and $OH$) into an unsaturated alkene framework."
+    },
+    {
+      "question": "Why is a name like **2,3-dimethylcyclopentene** considered completely invalid under IUPAC naming rules, while **1,2-dimethylcyclopentene** is accepted?",
+      "options": [
+        "Alkyl substituents on a ring must always be given position numbers higher than 3.",
+        "IUPAC rules mandate that the double bond in a cycloalkene must be assigned positions 1 and 2, which determines the numbering around the ring.",
+        "The prefix *cyclo-* requires all substituent group attachments to be alphabetical.",
+        "Cycloalkenes cannot contain more than one methyl group branch per ring structure."
+      ],
+      "correctAnswer": 1,
+      "explanation": "When naming a substituted cycloalkene, the ring must be numbered so the double bond falls between carbon-1 and carbon-2. If two methyl groups are attached to the two carbons sharing the double bond, those carbons are designated C1 and C2, making the correct name 1,2-dimethylcyclopentene. Naming it 2,3-dimethylcyclopentene is incorrect because it implies the double bond is not given numbering priority.",
+      "hint": "Remember that the double bond forms the foundation of a cycloalkene's numbering system, taking priority as positions 1 and 2."
+    },
+    {
+      "question": "During the catalytic hydrogenation of propene into propane, what is the role of the platinum ($Pt$) or nickel ($Ni$) catalyst?",
+      "options": [
+        "The catalyst reacts with the alkene to form a potassium halide salt byproduct.",
+        "The catalyst provides a surface that weakens the reactant bonds, lowering the activation energy for hydrogen addition.",
+        "The catalyst acts as a strong base to remove hydrogen atoms from the hydrocarbon backbone.",
+        "The catalyst shifts the nonpolar alkene into a cyclic alicyclic compound."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hydrogenation requires a metal catalyst like platinum ($Pt$) or nickel ($Ni$) along with heat. The catalyst provides a solid surface where hydrogen gas and alkene molecules adsorb. This weakens their bonds, lowering the activation energy needed to add the hydrogen atoms across the double bond and convert the unsaturated alkene into a saturated alkane.",
+      "hint": "Consider how a catalyst speeds up a chemical reaction without being consumed as a primary reactant."
+    },
+    {
+      "question": "Based on the structural examples in Section B, the compound **ethenylcyclopropane** contains which two distinct structural sub-units?",
+      "options": [
+        "A four-carbon unsaturated chain attached to an open alkane group.",
+        "A saturated three-carbon ring substituent attached to a long-chain alkyne.",
+        "A two-carbon unsaturated vinyl group attached to a three-carbon saturated ring.",
+        "A five-carbon alicyclic ring that contains two localized double bonds."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The name *ethenylcyclopropane* combines the substituent *ethenyl* (commonly known as a vinyl group, $-CH=CH_2$) with the parent alicyclic hydrocarbon *cyclopropane* (a saturated three-carbon ring). This matches the structural example provided in Section B, Rule 4.",
+      "hint": "Break down the compound name into its prefix substituent group and its parent cyclic hydrocarbon ring."
+    },
+    {
+      "question": "A student performs a two-step synthesis: first, **2-bromobutane** is heated with potassium hydroxide ($KOH$) to produce **2-butene** via elimination. Next, this 2-butene is treated with bromine water ($Br_2 \\text{ in } CCl_4$) in the dark. What is the structural classification of the final product?",
+      "options": [
+        "An unsaturated alkenyl halide",
+        "A saturated dihaloalkane, specifically 2,3-dibromobutane",
+        "A monohydric alicyclic alcohol",
+        "An unreactive long-chain polymer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first step is a dehydrohalogenation elimination reaction that removes $HBr$ from 2-bromopropane to form 2-butene ($CH_3-CH=CH-CH_3$). The second step is a halogenation addition reaction where elemental bromine ($Br_2$) adds across the double bond of 2-butene, breaking the $\\pi$-bond to yield the saturated dihaloalkane 2,3-dibromobutane ($CH_3-CHBr-CHBr-CH_3$).",
+      "hint": "Trace the functional changes: an elimination reaction creates a double bond, which is then broken by an addition reaction that adds two bromine atoms."
+    }
+  ],
+  "quizId": "combined-hydrocarbons-deep-dive-cycloalkanes-alkenes-and-reactivity-dynamics"
+}
