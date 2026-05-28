@@ -55,6 +55,12 @@
       "title": "Hydrocarbons: Cycloalkanes and Alkenes Deep Understanding Assessment",
       "path": "hydrocarbons-cycloalkanes-and-alkenes-deep-understanding-assessment.json",
       "name": "Hydrocarbons: Cycloalkanes and Alkenes Deep Understanding Assessment"
+    },
+    {
+      "id": "geometrical-optics-mirrors-and-lenses-assessment",
+      "title": "Geometrical Optics: Mirrors and Lenses Assessment",
+      "path": "geometrical-optics-mirrors-and-lenses-assessment.json",
+      "name": "Geometrical Optics: Mirrors and Lenses Assessment"
     }
   ]
 }
