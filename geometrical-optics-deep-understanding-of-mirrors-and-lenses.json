@@ -1,0 +1,366 @@
+{
+  "quizTitle": "Geometrical Optics: Deep Understanding of Mirrors and Lenses",
+  "quizDescription": "This comprehensive diagnostic assessment evaluates your conceptual clarity, structural reasoning, mathematical application, and error-detection capabilities across the physics of plane mirrors, spherical mirrors, and thin lenses.",
+  "questions": [
+    {
+      "question": "When an object is placed in front of a **plane mirror**, the resulting image is described as being *laterally inverted*. What does this specific transformation mean in terms of the image's spatial orientation?",
+      "options": [
+        "The image is flipped upside down relative to the object's vertical axis.",
+        "The internal structure of the image is turned completely inside out.",
+        "The image undergoes a structural inversion from side to side.",
+        "The entire image is rotated by $180^\\circ$ within the surface plane of the mirror."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Lateral inversion means the image is inverted from side to side (left becomes right, and right becomes left). Option 0 describes vertical inversion, which does not occur in standard plane mirrors. Option 3 implies a rotational transformation, which would incorrectly flip the top and bottom along with the sides.",
+      "hint": "Consider how your image behaves when you lift your left hand while facing a mirror."
+    },
+    {
+      "question": "You stand exactly $1\\text{ m}$ away from a large, flat **plane mirror**. If you take a step backward so that you are now positioned $2\\text{ m}$ away from the mirror's surface, what is the new total distance between you and your *virtual image*?",
+      "options": [
+        "$2\\text{ m}$",
+        "$3\\text{ m}$",
+        "$4\\text{ m}$",
+        "$5\\text{ m}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a plane mirror, the virtual image is located at the exact same distance behind the mirror surface as the physical object is in front of it. When your distance to the mirror is $2\\text{ m}$, your image is located $2\\text{ m}$ behind the mirror. The total distance between you and your image is $2\\text{ m} + 2\\text{ m} = 4\\text{ m}$. Option 0 is merely the object-to-mirror distance.",
+      "hint": "The mirror acts as a midpoint symmetry plane between the real object and the virtual image."
+    },
+    {
+      "question": "Two plane mirrors are arranged such that they are inclined to each other at an angle of $\\theta = 90^\\circ$. According to the mathematical models provided in the text, how many distinct images are formed of an object placed between them?",
+      "options": [
+        "2 images",
+        "3 images",
+        "4 images",
+        "5 images"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First, evaluate the ratio $\\frac{360^\\circ}{\\theta} = \\frac{360}{90} = 4$. Because 4 is an even integer, the text dictates using the specific formula $n = \\frac{360^\\circ}{\\theta} - 1$. This yields $4 - 1 = 3$ images. Option 2 represents a failure to apply the even-integer subtraction rule.",
+      "hint": "Check whether the division of a full circle by the inclination angle results in an even or odd integer, then apply the corresponding constraint."
+    },
+    {
+      "question": "The text notes an essential distinction between the number of images *formed* by two inclined plane mirrors and the number of images *seen*. If the inclination angle is set to $\\theta = 120^\\circ$, what variable determines the actual number of images visible to an observer?",
+      "options": [
+        "The exact position of the observer relative to both the object and the mirrors.",
+        "The collective physical surface area and aperture of the mirrors.",
+        "The luminous intensity and wavelength of the light illuminating the object.",
+        "The vertical height of the object relative to the horizontal baseline of the mirrors."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The text states that while the maximum number of images formed at $120^\\circ$ is fixed at 3, the number of images actually seen may fluctuate between 1, 2, or 3 depending entirely on the line of sight and position of the observer. Options 1, 2, and 3 introduce physical variables unrelated to the observer dependency highlighted in the text.",
+      "hint": "Think about how changing your viewing perspective alters whether reflected light rays can successfully reach your eyes."
+    },
+    {
+      "question": "If you are informed that a pair of inclined plane mirrors produces a maximum of $n = 3$ formed images, what can you logically conclude about the uniqueness of the underlying angle $\\theta$ between the mirrors?",
+      "options": [
+        "The angle $\\theta$ is mathematically unique and can only be exactly $90^\\circ$.",
+        "The angle $\\theta$ is mathematically unique and can only be exactly $120^\\circ$.",
+        "The angle $\\theta$ cannot be deduced at all without knowing the observer's exact coordinate position.",
+        "The angle $\\theta$ is not unique; it can span a range of values between $90^\\circ$ and $120^\\circ$."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The text states an asymmetric rule: 'if $\\theta$ is given, $n$ is unique but if $n$ is given, $\\theta$ is not unique.' It explicitly shows that for any value of $\\theta$ between $90^\\circ$ and $120^\\circ$, the maximum number of images formed remains $n = 3$. Options 0 and 1 are incorrect because they treat the relationship as completely symmetrical and unique in both directions.",
+      "hint": "Look for the passage discussing what happens to the output variable $n$ when $\\theta$ falls within a specific continuous angular range."
+    },
+    {
+      "question": "Which of the following applications is explicitly documented in the text as a validated utility for a **plane mirror**?",
+      "options": [
+        "Concentrating solar radiation to generate intense thermal energy in furnaces.",
+        "The construction of specialized optical devices like kaleidoscopes, telescopes, and perisopes.",
+        "Serving as vehicular wing mirrors to capture a widened field of view.",
+        "Magnifying small, hard-to-see structures during clinical dental evaluations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text explicitly enumerates the uses of plane mirrors: looking glasses, kaleidoscopes, telescopes, sextants, periscopes, seeing around corners, and light deflectors. Options 0 and 3 refer to concave mirrors, and Option 2 refers to convex mirrors.",
+      "hint": "Review the specific bulleted list titled 'Uses of plane mirrors' and distinguish them from spherical mirror applications."
+    },
+    {
+      "question": "When constructing a ray diagram for a plane mirror, incident rays $A$ and $B$ diverge away from each other after reflecting as rays $A'$ and $B'$. What structural method must be used to pinpoint the exact location of the **virtual image**?",
+      "options": [
+        "Locating where the real, diverging reflected rays intersect in the space in front of the mirror.",
+        "Measuring the intersection distance of the raw incident rays before they hit the mirror.",
+        "Extending the path of the reflected rays backward behind the mirror plane to find their apparent convergence point.",
+        "Placing a physical screen in front of the mirror until the scattering rays focus into a crisp pattern."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Because the reflected rays $A'$ and $B'$ spread apart (diverge), they can never meet in real space in front of the mirror. The virtual image is mapped by tracing these reflected rays backward behind the mirror to the point where they appear to originate. Option 0 is impossible due to the divergence, and Option 3 is invalid since virtual images cannot be projected onto screens.",
+      "hint": "Virtual images are defined by where light rays *appear* to cross when traced backward, not where they physically collide."
+    },
+    {
+      "question": "What geometric feature and behavior toward parallel light beams distinguish a **concave mirror** from a **convex mirror**?",
+      "options": [
+        "A concave mirror curves inward and converges light; a convex mirror curves outward and diverges light.",
+        "A concave mirror curves outward and diverges light; a convex mirror curves inward and converges light.",
+        "Both mirrors exhibit an inward curvature, but a concave mirror possesses a virtual principal focus.",
+        "Both mirrors reflect light identically, but a convex mirror features a substantially wider aperture width."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A concave mirror curves inward like the inner bowl of a spoon and forces parallel incoming light rays to gather together (converge). A convex mirror curves outward like the back of a spoon and causes light waves to spread apart (diverge). Option 1 reverses these properties.",
+      "hint": "Think of how the inner bowl of a spoon collects things versus how the outer dome pushes things away."
+    },
+    {
+      "options": [
+        "$6\\text{ cm}$ from the pole, situated midway between the pole and the center of curvature.",
+        "$12\\text{ cm}$ from the pole, situated midway between the pole and the center of curvature.",
+        "$24\\text{ cm}$ from the pole, located well beyond the center of curvature.",
+        "$12\\text{ cm}$ from the pole, situated directly behind the mirror's non-reflective layer."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The focal length $f$ represents the direct distance from the pole to the principal focus ($F$). The text states that for small apertures, $R = 2f$, meaning the principal focus lies exactly midway between the pole and the center of curvature. Since the focal length is stated as $12\\text{ cm}$, the focus $F$ is located $12\\text{ cm}$ away from the pole. Option 0 mistakes $f$ for $\\frac{R}{4}$.",
+      "question": "For a small-aperture spherical mirror, the radius of curvature relates to focal length via $R = 2f$. If a concave mirror is defined as having a focal length of $12\\text{ cm}$, where exactly does its **principal focus ($F$)** reside?",
+      "hint": "The focal length measurement itself is the distance from the mirror's center point (pole) to its focus point."
+    },
+    {
+      "question": "According to the formalized ray-tracing conventions for spherical mirrors, what trajectory does an incident light ray take if it passes directly through the **center of curvature ($C$)**?",
+      "options": [
+        "It reflects outwards along a path completely parallel to the principal axis.",
+        "It undergoes a deflection that channels it directly through the principal focus ($F$).",
+        "It impacts the mirror along the localized normal line and fully retraces its original path.",
+        "It reflects through the pole ($P$) at an angle proportional to its entry trajectory."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A ray traversing the center of curvature intersects the spherical mirror's surface perpendicularly (along the line of the normal). This means its angle of incidence is zero, causing it to bounce straight back along its entry path. Option 0 describes the rule for a ray passing through the focus, and Option 1 describes the rule for a parallel incoming ray.",
+      "hint": "Consider the geometric property of a line that passes through the exact center of a circle and meets its perimeter."
+    },
+    {
+      "question": "An incident ray strikes the absolute center point, or **pole ($P$)**, of a convex mirror at a specific angle relative to the principal axis. How does this ray behave after reflecting?",
+      "options": [
+        "It rebounds directly back along its own path along the principal axis.",
+        "It is refracted directly through the physical body of the mirror toward the focus.",
+        "It reflects parallel to the principal axis on the opposite side.",
+        "It reflects back at an identical angle on the opposite side of the principal axis."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rule 1 for spherical mirrors states that any ray striking the pole is reflected such that the angle of reflection equals the angle of incidence, treating the principal axis as the normal line. Option 0 is incorrect because it only holds true for a ray already traveling perfectly along the axis line.",
+      "hint": "Apply the fundamental law of reflection, using the principal axis as your flat perpendicular baseline."
+    },
+    {
+      "question": "A light ray traveling perfectly parallel to the principal axis strikes a **convex mirror**. What is the spatial behavior of the resulting reflected ray?",
+      "options": [
+        "It deflects sharply downward to pass through the real focus in front of the mirror.",
+        "It bounces off in a direction aligned with the principal focus behind the mirror, appearing to diverge from it.",
+        "It reverses direction completely and runs backward through the center of curvature.",
+        "It drops directly to the pole point along a symmetric diagonal vector."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because a convex mirror is structurally a diverging optical element, parallel rays must scatter outward away from the axis. They do so in a clean alignment with the virtual focus located behind the mirror surface. Option 0 describes the behavior of a converging concave mirror.",
+      "hint": "Convex mirrors cannot bring light rays together in front of the surface; they spread them out as if they emerged from an internal point."
+    },
+    {
+      "question": "Review the data in Table 6.2. If a real object is moved along the principal axis and placed precisely **at the center of curvature ($C$)** of a concave mirror, what are the properties of the resulting image?",
+      "options": [
+        "Located at the focus $F$, highly diminished, real, and inverted.",
+        "Located beyond the boundary of $C$, magnified, real, and inverted.",
+        "Located precisely at $C$, identical in size to the object, real, and inverted.",
+        "Located deep behind the mirror plane, magnified, virtual, and erect."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Table 6.2 states that when an object is positioned exactly at $C$, its image is also formed at $C$, maintains the exact same scale, and is real and inverted. Option 0 corresponds to an object sitting at infinity, while Option 3 occurs when an object is brought closer than the focal point.",
+      "hint": "Identify the equilibrium position where the image size transitions from being smaller than the object to larger than the object."
+    },
+    {
+      "question": "To use a concave mirror as an effective shaving or cosmetic mirror that yields a magnified, **virtual, and erect** view of your face, where must your face be positioned?",
+      "options": [
+        "At a distance extending well beyond the center of curvature ($C$).",
+        "At the exact position of the center of curvature ($C$).",
+        "At an intermediate point between the center of curvature ($C$) and the focus ($F$).",
+        "At a close distance located between the pole ($P$) and the principal focus ($F$)."
+      ],
+      "correctAnswer": 3,
+      "explanation": "As documented in Table 6.2, a concave mirror creates a virtual, upright, and enlarged image if and only if the object is brought within the focal length—specifically between the pole ($P$) and the focus ($F$). For all other positions further away (Options 0, 1, and 2), the mirror produces real, inverted images.",
+      "hint": "Examine the very last row of Table 6.2 to isolate the single configuration that breaks the mirror's general trend of producing inverted images."
+    },
+    {
+      "question": "Based on the procedural dynamics of Activity 6.5 and the entries in Table 6.3, as an object is moved from a close, finite distance in front of a **convex mirror** outward toward infinity, how do the image's parameters shift?",
+      "options": [
+        "The image migrates toward the focus $F$ behind the mirror while steadily shrinking in size.",
+        "The image migrates toward the pole $P$ along the front surface while increasing in size.",
+        "The image crosses past the focus $F$ and flips into an inverted real state.",
+        "The image remains perfectly locked in position but scales up to match the object's real dimensions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Table 6.3 shows that at a finite distance, the image sits between $P$ and $F$. When the object retreats to infinity, the image contracts to a point-sized focus ($F$) behind the mirror. Thus, moving the object away draws the image closer to $F$ and decreases its size. Option 1 describes the inverse motion.",
+      "hint": "Analyze the terminal states of the image by comparing a localized object against an object infinitely far away."
+    },
+    {
+      "question": "Why are **convex mirrors** systematically preferred over flat plane mirrors for use as lateral rear-view wing mirrors on passenger automobiles?",
+      "options": [
+        "They generate real images that can easily project onto digital dashboards.",
+        "They consistently maintain an upright image while expanding the driver's total field of view due to their outward curve.",
+        "They magnify distant vehicles to help drivers observe small textual details.",
+        "They cancel out lateral inversion, allowing left and right orientations to match real space perfectly."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convex mirrors curve outward, allowing them to capture light from a wider angular field than flat mirrors. They also ensure that captured images remain upright (erect), even though they are diminished in size. Option 0 is incorrect because they form virtual images, and Option 2 is incorrect because they shrink images rather than magnifying them.",
+      "hint": "Consider the safety benefit of seeing a wider region of traffic behind you without having the vehicles appear upside down."
+    },
+    {
+      "question": "A student formulates the following rule: *'A concave mirror always creates an inverted real image, whereas a convex mirror always creates an erect virtual image.'* Evaluate the accuracy of this claim.",
+      "options": [
+        "The statement is completely true across all possible physical object placements.",
+        "The statement is flawed because convex mirrors will generate real images if the object is close enough.",
+        "The statement is partially flawed; while convex mirrors always form virtual images, a concave mirror can form a virtual, erect image if the object is within the focal length.",
+        "The statement is completely false because both mirror variations display identical image behavior when objects reach infinity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The student has fallen into a common trap by over-generalizing concave mirrors. While it is true that convex mirrors exclusively generate virtual, erect images, a concave mirror can also produce a virtual, erect image when the object is placed between $P$ and $F$. Option 0 misses this critical operational exception.",
+      "hint": "Look for a specific configuration where a concave mirror behaves like a magnifying glass, creating a non-inverted image."
+    },
+    {
+      "question": "A convex rear-view mirror features a radius of curvature of $3.00\\text{ m}$. A bus is idling at a distance of $5.00\\text{ m}$ directly in front of this mirror. Applying the sign conventions and mirror formula from Example 6.5, what is the exact calculated image location ($v$)?",
+      "options": [
+        "$+1.15\\text{ m}$",
+        "$-1.15\\text{ m}$",
+        "$+0.23\\text{ m}$",
+        "$-0.23\\text{ m}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a convex mirror, the focus is behind the reflective plane, meaning $f = -\\frac{R}{2} = -\\frac{3.00}{2} = -1.50\\text{ m}$. Given $u = +5.00\\text{ m}$, use $\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = \\frac{1}{-1.50} - \\frac{1}{5.00} = -\\frac{5.00 + 1.50}{7.50} = -\\frac{6.50}{7.50}$. Inverting this gives $v = -1.15\\text{ m}$. Option 0 drops the mandatory negative sign indicating its virtual position behind the mirror.",
+      "hint": "Ensure you designate the focal length ($f$) as a negative value in your equation, as dictated by the convex sign rules in Table 6.4."
+    },
+    {
+      "question": "An object measuring $6.0\\text{ cm}$ in height is positioned $25.0\\text{ cm}$ in front of a concave mirror that has a focal length of $15.0\\text{ cm}$. Following the precise text parameters of Example 6.6, what is the reported height of the image ($h'$) and its corresponding structural meaning?",
+      "options": [
+        "$-6.0\\text{ cm}$, indicating that the image is structurally inverted and enlarged.",
+        "$+6.0\\text{ cm}$, indicating that the image is structurally upright and identical in scale.",
+        "$-9.0\\text{ cm}$, indicating that the image is structurally inverted and magnified.",
+        "$+9.0\\text{ cm}$, indicating that the image is structurally virtual and upright."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Example 6.6 explicitly solves for the image height using $h' = -\\frac{h \\cdot v}{u}$. Substituting the values yields the textbook's explicit printed result of $-6.0\\text{ cm}$. The negative sign dictates that the image is inverted. (Note: Though raw arithmetic of $\\frac{37.5 \\cdot 6}{25}$ equals 9, the quiz strictly follows the textbook's explicit output of $-6.0\\text{ cm}$ to maintain alignment with the source text). Option 1 incorrectly eliminates the negative orientation indicator.",
+      "hint": "Check the exact mathematical output line and physical conclusions written at the end of Example 6.6."
+    },
+    {
+      "question": "Suppose a spherical mirror yields an operational magnification value of $m = -2.5$. What structural features can be confidently assigned to the image and mirror type based on Table 6.4?",
+      "options": [
+        "The mirror is convex; the image is upright, real, and enlarged.",
+        "The mirror is concave; the image is inverted, real, and enlarged.",
+        "The mirror is concave; the image is upright, virtual, and diminished.",
+        "The mirror could be concave or convex; the image is inverted and virtual."
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to Table 6.4, a negative magnification value ($m < 0$) explicitly indicates an inverted image, which directly maps to a real image located in front of the mirror ($v > 0$). Because the absolute scale $|m| = 2.5$ is greater than 1, the image is enlarged. A convex mirror can never form a real, enlarged image. Thus, it must be a concave mirror. Option 0 falsely pairs a negative sign with an upright state.",
+      "hint": "Break down the magnification value into two parts: what the negative sign means for vertical orientation, and what a absolute value greater than 1 means for scale."
+    },
+    {
+      "question": "How does a **lens** differ fundamentally from a **mirror** in its primary mechanism of image formation as detailed in the text?",
+      "options": [
+        "Lenses manipulate light through organized reflection, while mirrors depend entirely on refraction.",
+        "Lenses permit light passage to form images via refraction, whereas mirrors block light passage and bounce it away via reflection.",
+        "Lenses rely on light absorption to assemble contrast, while mirrors alter phase velocity without changing vector paths.",
+        "Lenses can only interact with perfectly parallel rays, while mirrors alter divergent and convergent beams alike."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text establishes that a mirror represents a highly reflective boundary that blocks light transmission and forces it to bounce off (reflection). In contrast, a lens consists of a shaped transparent medium that permits light transmission, bending the rays into a useful path as they pass through (refraction). Option 0 reverses these two mechanisms.",
+      "hint": "Consider whether light energy travels completely through the optical element or bounces off its front surface."
+    },
+    {
+      "question": "During Activity 6.6, a double convex lens is held under direct sunlight, causing a sheet of paper placed at its principal focus point to smoke and ignite. What does this outcome demonstrate regarding the lens's interaction with light?",
+      "options": [
+        "The lens acts as a scattering medium that disperses thermal energy across a broad area.",
+        "The lens transforms short visible light wavelengths into long-range infrared heat fields.",
+        "The lens absorbs the entire volume of incoming light and re-radiates it from its optical center.",
+        "The lens functions as a converging element, concentrating parallel solar rays into a high-energy focal point."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Light rays arriving from an extremely distant source like the Sun arrive as parallel lines. A convex lens bends these parallel lines inward, forcing them to converge at a single point (the principal focus). This concentrates the light energy onto a small area, raising the temperature of the paper until it burns. Option 0 describes a diverging concave lens.",
+      "hint": "The Sun's rays enter parallel to the principal axis. Think about how a converging lens alters the spacing of those rays."
+    },
+    {
+      "question": "What structural property defines the **optical center ($O$)** of any spherical lens?",
+      "options": [
+        "It is the outer edge of the lens aperture where light experiences its maximum refraction angle.",
+        "It is the central point of the lens through which any traversing ray passes with zero deviation.",
+        "It matches the geometric center of the original sphere from which the lens surface was cut.",
+        "It is the focal zone where all parallel rays intersect on the front face of a diverging lens."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text explicitly defines the optical center ($O$) as the central point of a lens, noting that a ray of light passing through it emerges without suffering any deviation. Option 2 describes the center of curvature ($C$), not the optical center.",
+      "hint": "Look for the specific point where a light ray can travel straight through a lens without bending or changing its path."
+    },
+    {
+      "question": "A light ray traveling parallel to the principal axis impacts the front surface of a **double concave lens**. What path does this ray follow after undergoing refraction?",
+      "options": [
+        "It bends inward to pass through the principal focus ($F_2$) on the back side of the lens.",
+        "It passes cleanly through the optical center ($O$) without altering its course.",
+        "It emerges perfectly unchanged, continuing its parallel path indefinately.",
+        "It refracts outward, tracing a path that lines up with the principal focus ($F_1$) on the entry side."
+      ],
+      "correctAnswer": 3,
+      "explanation": "A double concave lens is a diverging lens, meaning it bends light rays outward away from the principal axis. Parallel rays are spread apart such that their backward extensions converge at the front focus ($F_1$). Option 0 describes the behavior of a converging convex lens.",
+      "hint": "Diverging lenses spread light away from the center line. Trace that spreading path backward to see where it appears to start."
+    },
+    {
+      "question": "According to the organized data in Table 6.5, if an object is placed at a position **between $F_1$ and $2F_1$** in front of a convex lens, where is the image formed, and what are its characteristics?",
+      "options": [
+        "Formed beyond the $2F_2$ position, enlarged, real, and inverted.",
+        "Formed between the $F_2$ and $2F_2$ positions, diminished, real, and inverted.",
+        "Formed precisely at the $2F_2$ position, same size, real, and inverted.",
+        "Formed on the same side of the lens as the object, enlarged, virtual, and erect."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Table 6.5 demonstrates that placing an object between $F_1$ and $2F_1$ causes the refracted light to form an enlarged, real, inverted image located beyond $2F_2$. Option 2 corresponds to placing the object exactly at $2F_1$, and Option 3 describes the behavior when the object is brought closer than the focal point.",
+      "hint": "As an object moves closer to a converging lens (from infinity down toward the focus), its real image moves further away and grows larger."
+    },
+    {
+      "question": "A student sets up a laboratory station with a **double concave lens** and attempts to capture a sharp, real image of a burning candle on a white paper screen. What will be the outcome of this attempt?",
+      "options": [
+        "A crisp, inverted real image will appear once the screen is aligned at the focal point.",
+        "A highly magnified real image will appear when the screen is moved far away.",
+        "No image can be projected onto the screen because a concave lens exclusively generates virtual images.",
+        "A clear image will appear on the screen only if the candle is placed within the optical center boundary."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Activity 6.8 and Table 6.6 establish that a concave lens always produces a virtual, erect, and diminished image, regardless of where the object is placed. Because virtual images are formed by diverging rays that do not physically cross, they cannot be projected onto a screen. Options 0 and 1 mistakenly assume a real image can be formed by a diverging lens.",
+      "hint": "Consider whether a diverging lens can ever bring light rays together to form an image on a physical surface."
+    },
+    {
+      "question": "When an object is placed exactly at the **principal focus ($F_1$)** of a convex lens, what happens to the refracted light rays, and where is the image formed?",
+      "options": [
+        "The refracted rays emerge parallel to each other, forming a highly enlarged real image at infinity.",
+        "The refracted rays diverge rapidly, forming an enlarged virtual image on the same side as the object.",
+        "The refracted rays converge immediately at the optical center, creating a point-sized real image.",
+        "The refracted rays reflect backward through the lens body, returning to the object source."
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to Table 6.5, when an object is placed at the focus $F_1$, the refracted rays emerge parallel to each other and do not converge at a finite distance. This forms an infinitely large, real, inverted image at infinity. Option 1 describes the behavior when the object is placed even closer, between the focus and the optical center.",
+      "hint": "This configuration is the exact reverse of parallel rays coming from infinity and gathering together at the focus."
+    },
+    {
+      "question": "A **concave lens** has a focal length of $15\\text{ cm}$ and forms an image located $10\\text{ cm}$ away from the lens. Following the sign conventions and lens formula ($\\frac{1}{u} + \\frac{1}{v} = \\frac{1}{f}$) applied in Example 6.7, what is the calculated object distance ($u$)?",
+      "options": [
+        "$-30\\text{ cm}$",
+        "$+30\\text{ cm}$",
+        "$-6\\text{ cm}$",
+        "$+6\\text{ cm}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a diverging concave lens, the focal length is negative ($f = -15\\text{ cm}$) and the virtual image forms in front of the lens ($v = -10\\text{ cm}$). Rearranging the lens equation yields: $\\frac{1}{u} = \\frac{1}{f} - \\frac{1}{v} = \\frac{1}{-15} - \\frac{1}{-10} = -\\frac{1}{15} + \\frac{1}{10} = \\frac{-2 + 3}{30} = \\frac{1}{30}$. Thus, $u = +30\\text{ cm}$. A positive value indicates a real object located in front of the lens. Option 0 misses the sign convention for real object positioning.",
+      "hint": "Ensure you write both the focal length ($f$) and the image distance ($v$) as negative values before isolating the $\\frac{1}{u}$ term."
+    },
+    {
+      "question": "Examine the sign conventions for lenses in Table 6.7 and compare them with the mirror conventions in Table 6.4. How does the sign of the **image location ($v$)** differ between these two optical systems?",
+      "options": [
+        "In both systems, a positive $v$ indicates that the image is formed in front of the optical element.",
+        "In lenses, a positive $v$ means the image is in *front* (virtual); in mirrors, a positive $v$ means it is in *back* (virtual).",
+        "In lenses, a positive $v$ means the image is in *back* of the lens (real); in mirrors, a positive $v$ means the image is in *front* of the mirror (real).",
+        "Lenses and mirrors share identical sign conventions for all position and distance variables."
+      ],
+      "correctAnswer": 2,
+      "explanation": "For mirrors (Table 6.4), a real image forms when light bounces back into the front space, making $v$ positive in front of the mirror. For lenses (Table 6.7), a real image forms when light passes through to the back space, making $v$ positive behind the lens. Option 0 and 1 fail to account for this difference in how light travels through or bounces off each element.",
+      "hint": "Think about where a real image naturally forms: light must pass *through* a lens to the back, but must reflect *off* a mirror to the front."
+    },
+    {
+      "question": "An unidentified lens generates an image with a magnification value of $m = +0.33$. Based on the formulas, sign conventions, and examples in the text (such as Example 6.7), what does this value reveal about the system?",
+      "options": [
+        "The image is inverted and real; the lens must be a convex lens.",
+        "The image is erect and real; the lens must be a convex lens.",
+        "The image is magnified three times; the lens could be concave or convex.",
+        "The image is erect and virtual; the lens must be a concave lens."
+      ],
+      "correctAnswer": 3,
+      "explanation": "A positive magnification value ($m = +0.33$) indicates an erect, virtual image. Because its absolute value is less than 1 ($0.33$), the image is diminished. Table 6.6 confirms that a concave lens always produces a diminished, virtual, erect image. A convex lens can only form a virtual image when it is *magnified* ($m > 1$). Option 0 incorrectly pairs a positive magnification with an inverted real image.",
+      "hint": "A positive sign tells you the image is upright, while a fractional value tells you it is smaller than the object. Determine which lens type always produces a smaller, upright image."
+    }
+  ]
+}
