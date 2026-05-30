@@ -61,6 +61,12 @@
       "title": "Geometrical Optics: Mirrors and Lenses Assessment",
       "path": "geometrical-optics-mirrors-and-lenses-assessment.json",
       "name": "Geometrical Optics: Mirrors and Lenses Assessment"
+    },
+    {
+      "id": "geometrical-optics-deep-understanding-of-mirrors-and-lenses",
+      "title": "Geometrical Optics: Deep Understanding of Mirrors and Lenses",
+      "path": "geometrical-optics-deep-understanding-of-mirrors-and-lenses.json",
+      "name": "Geometrical Optics: Deep Understanding of Mirrors and Lenses"
     }
   ]
 }
