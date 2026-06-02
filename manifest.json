@@ -73,6 +73,12 @@
       "title": "Grade 8 General Science: Scientific Measurements & Investigation",
       "path": "grade-8-general-science-scientific-measurements-investigation.json",
       "name": "Grade 8 General Science: Scientific Measurements & Investigation"
+    },
+    {
+      "id": "cycloalkanes-and-alkenes-deep-understanding-assessment",
+      "title": "Cycloalkanes and Alkenes Deep Understanding Assessment",
+      "path": "cycloalkanes-and-alkenes-deep-understanding-assessment.json",
+      "name": "Cycloalkanes and Alkenes Deep Understanding Assessment"
     }
   ]
 }
