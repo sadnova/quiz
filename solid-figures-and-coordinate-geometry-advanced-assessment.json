@@ -1,0 +1,847 @@
+{
+  "quizTitle": "Solid Figures and Coordinate Geometry: Advanced Assessment",
+  "quizDescription": "A comprehensive, high-fidelity quiz evaluating conceptual mastery, structural derivations, and spatial reasoning across solid geometry and Cartesian coordinate systems.",
+  "questions": [
+    {
+      "question": "Which of the following formulas correctly represents the **Lateral Surface Area (LSA)** of a frustum of a right circular cone with slant height `l` and base radii `r` and `r'`?",
+      "options": [
+        "$\\text{LSA} = \\pi l(r - r')$",
+        "$\\text{LSA} = \\pi l(r + r')$",
+        "$\\text{LSA} = 2\\pi l(r + r')$",
+        "$\\text{LSA} = \\pi h(r + r')$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As derived in the text, the lateral surface area of a frustum of a cone is obtained by subtracting the LSA of the smaller top cone from that of the larger cone, resulting in $\\pi l(r + r')$. Option 0 incorrectly uses a subtraction sign. Option 2 incorporates an extra factor of 2, which applies to cylinders, not cones. Option 3 misplaces vertical height $h$ for slant height $l$.",
+      "hint": "Think about how the unwrapped net of a frustum expands linearly based on both the upper and lower circular boundaries."
+    },
+    {
+      "question": "During the derivation of the frustum formulas, the text establishes the structural ratio $\\frac{l'}{L} = \\frac{r'}{r}$. What fundamental geometric property justifies this relationship?",
+      "options": [
+        "The Pythagorean theorem applied to the slant height and vertical altitude.",
+        "The similarity of triangles $\\Delta VO'A \\sim \\Delta VOB$.",
+        "The ratio of the areas of parallel circular bases.",
+        "The congruence of the upper and lower base sectors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship is derived from the fact that the small top cone and the original larger cone share a vertex and have parallel circular bases, creating similar right-angled triangles ($\\Delta VO'A \\sim \\Delta VOB$). Option 0 describes a relationship between sides of a single triangle, not a ratio between two. Option 2 concerns squared dimensions, whereas this is a linear ratio.",
+      "hint": "Look at the proportional relationship between the dimensions of the small removed cone tip and the entire original cone solid."
+    },
+    {
+      "question": "A frustum of a right circular cone has a height of 24 cm, a larger base radius of 22 cm, and a slant height of 26 cm. What is the radius of its smaller base?",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "16 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the relationship derived from the right triangle inside the frustum walls, $l^2 = h^2 + (r - r')^2$. Substituting the values gives $26^2 = 24^2 + (22 - r')^2 \\implies 676 = 576 + (22 - r')^2 \\implies 100 = (22 - r')^2 \\implies 22 - r' = 10 \\implies r' = 12$ cm.",
+      "hint": "Set up a right-angled triangle using the vertical height, the slant height, and the horizontal difference between the two radii."
+    },
+    {
+      "question": "When calculating the **Total Surface Area (TSA)** of a typical open-top physical bucket shaped like a frustum, which common mistake must be avoided?",
+      "options": [
+        "Omitting the lateral surface area completely.",
+        "Including both the top and bottom circular base areas.",
+        "Using the vertical height instead of the slant height for the lateral area.",
+        "Subtracting the smaller base area from the larger base area."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An open-top bucket only has a physical material surface on its lateral side and its bottom base. Including both base areas ($\\pi r^2 + \\pi r'^2$) calculates a closed solid, not an open container. Option 0 and 3 are completely incorrect procedures, and option 2 confuses the components of the base area formula.",
+      "hint": "Consider which parts of a real-world bucket actually consist of solid material versus open space."
+    },
+    {
+      "question": "The volume of a frustum of a cone or pyramid can be written in terms of its base areas `$A$` and `$A'$` and altitude `$h$`. Which formula represents this relationship?",
+      "options": [
+        "$V = \\frac{1}{3}h(A + A' + AA')$",
+        "$V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$",
+        "$V = h(A + A' + \\sqrt{AA'})$",
+        "$V = \\frac{1}{3}h(A - A' + \\sqrt{AA'})$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that the volume formula can be rewritten universally as $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$, where the term $\\sqrt{AA'}$ accounts for the geometric mean of the two base areas. Option 0 omits the square root, option 2 omits the one-third factor, and option 3 incorrectly uses a subtraction sign.",
+      "hint": "The formula is a variation of the standard one-third base times height pyramid volume rule, adjusted to account for transitioning base areas."
+    },
+    {
+      "question": "Why can the exact same volume formula, $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$, be used for both a frustum of a right circular cone and a frustum of a regular pyramid?",
+      "options": [
+        "Because circles and regular polygons have identical perimeter-to-area scaling constants.",
+        "Because any frustum is formed by slicing a uniformly tapering solid with a plane parallel to its base.",
+        "Because the slant heights of regular pyramids and cones are always mathematically equivalent.",
+        "Because both figures can be perfectly decomposed into an identical number of uniform rectangular prisms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both cones and pyramids taper uniformly to a single vertex point. Slicing either solid parallel to its base yields cross-sectional areas that scale quadratically with height, ensuring their frustums share the same volumetric structure. Option 0 is false because shape factors differ. Option 2 is irrelevant to volume, which relies on vertical altitude $h$.",
+      "hint": "Think about what happens when you cut any sharp-peaked, uniformly tapering solid parallel to its floor."
+    },
+    {
+      "question": "A right circular cone of altitude 16 m is cut by a plane parallel to the base 4 m from the vertex to form a frustum. If the radius of the larger base is 12 m, what is the volume of the resulting frustum?",
+      "options": [
+        "$576\\pi\\text{ m}^3$",
+        "$504\\pi\\text{ m}^3$",
+        "$756\\pi\\text{ m}^3$",
+        "$684\\pi\\text{ m}^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The total height of the cone is $H = 16$ m. It is cut 4 m from the vertex, so the small cone height is $h' = 4$ m. The height of the frustum is $h = 16 - 4 = 12$ m. Using similar triangles for the radii: $\\frac{r'}{12} = \\frac{4}{16} \\implies r' = 3$ m. Now compute the frustum volume: $V = \\frac{1}{3}\\pi(12)(12^2 + 3^2 + 12 \\times 3) = 4\\pi(144 + 9 + 36) = 4\\pi(189) = 756\\pi\\text{ m}^3$.",
+      "hint": "First find the radius of the smaller top base using ratios, determine the height of the frustum section, and then apply the volume formula."
+    },
+    {
+      "question": "If the vertical altitude `$h$` of a frustum of a cone is precisely doubled while keeping both base radii `$r$` and `$r'$` completely constant, how does its total volume change?",
+      "options": [
+        "The volume increases by a factor of 4 because volume scales quadratically.",
+        "The volume increases by a factor of 8 because volume scales cubically.",
+        "The volume is exactly doubled because volume is directly proportional to height.",
+        "The volume stays the same because volume depends strictly on base radius changes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Looking at the formula $V = \\frac{1}{3}\\pi h(r^2 + r'^2 + rr')$, the height $h$ appears as a linear multiplier outside the parenthesis. If $h$ is doubled and the radii do not change, the volume doubles exactly. A common trap is assuming that because volume is a three-dimensional metric, any individual parameter change scales cubically or quadratically.",
+      "hint": "Examine the linear role that altitude plays outside the radius terms in the volume equation."
+    },
+    {
+      "question": "Which of the following best defines a **composed solid** as described in the text?",
+      "options": [
+        "A solid figure whose surfaces are entirely composed of regular polygons.",
+        "A solid formed by rotating a two-dimensional shape 360 degrees around a fixed axis.",
+        "A solid structure made up of a combination of two or more independent solids.",
+        "A solid that has been hollowed out by removing an identical inner version of itself."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly defines a composed solid as 'a solid that is made up of two or more solids.' Option 0 defines a polyhedron. Option 1 defines a solid of revolution. Option 3 describes a hollow shell, which is only a specific subcategory of composed solids.",
+      "hint": "Think about a composite structure made by joining a cylinder and a cone together."
+    },
+    {
+      "question": "When determining the **Total Surface Area (TSA)** of a composed solid made of a cylinder joined end-to-end with a cone, why can you NOT simply add the independent total surface areas of the cylinder and the cone?",
+      "options": [
+        "Because the overlapping base surfaces are hidden inside the solid and are no longer exposed.",
+        "Because the joining process alters the slant height of the conical component.",
+        "Because the volume of the cylinder partially displaces the surface area of the cone.",
+        "Because the value of $\\pi$ changes depending on whether a surface is flat or curved."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total Surface Area measures only the exposed outer boundaries of a solid. When two solids are joined at a common face, those overlapping faces become interior regions and are no longer part of the external surface area. Option 1 and 3 are mathematically false. Option 2 confuses volume with surface area.",
+      "hint": "Picture painting the outside of the combined object; would your brush touch the overlapping faces?"
+    },
+    {
+      "question": "A solid figure consists of a circular cylinder of radius 4 cm at the bottom and a right circular cone of altitude 3 cm on top. If the overall height of the entire composed solid is 10 cm, what is its **Total Surface Area (TSA)**?",
+      "options": [
+        "$92\\pi\\text{ cm}^2$",
+        "$112\\pi\\text{ cm}^2$",
+        "$76\\pi\\text{ cm}^2$",
+        "$128\\pi\\text{ cm}^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is 4 cm. The cone height is 3 cm, so its slant height $l = \\sqrt{3^2 + 4^2} = 5$ cm. The LSA of the cone is $\\pi r l = 4 \\times 5 \\times \\pi = 20\\pi$. The total height is 10 cm, so the cylinder height is $10 - 3 = 7$ cm. The LSA of the cylinder is $2\\pi r h = 2\\pi(4)(7) = 56\\pi$. The bottom base area of the cylinder is $\\pi r^2 = \\pi(4^2) = 16\\pi$. Adding these exposed surfaces: $20\\pi + 56\\pi + 16\\pi = 92\\pi\\text{ cm}^2$.",
+      "hint": "Break down the exposed outer surfaces into three distinct components: the cone's side wall, the cylinder's side wall, and the single bottom circular floor."
+    },
+    {
+      "question": "A triangular prism hole is cleanly drilled straight through a right circular cylinder. When calculating the **Total Surface Area (TSA)** of the remaining solid, how must the lateral surface area of the inner drilled prism be treated?",
+      "options": [
+        "It must be subtracted from the total, because drilling removes material.",
+        "It must be added to the total, because it creates new exposed internal walls.",
+        "It should be completely ignored, as surface area only counts the outermost boundaries.",
+        "It must be multiplied by $\\pi$ to normalize it with the cylinder's curved face."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drilling a hole through a solid removes volume but increases the total exposed surface area by creating new interior faces that can be touched or painted. Therefore, the inner prism's lateral surface area must be added. Option 0 is a classic trap where students confuse volume reduction with surface area reduction.",
+      "hint": "If you dipped this drilled solid into paint, would the inner walls of the triangular hole get coated?"
+    },
+    {
+      "question": "When dealing with fluid capacities in geometric application problems (such as the bucket example), what is the exact conversion factor between liters and cubic centimeters (`cm³`)?",
+      "options": [
+        "1 liter = $100\\text{ cm}^3$",
+        "1 liter = $1,000\\text{ cm}^3$",
+        "1 liter = $10,000\\text{ cm}^3$",
+        "1 liter = $100,000\\text{ cm}^3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As stated in the text solution for Example 1, 'Since 1 liter is equal to 1000 $\\text{cm}^3$...'. Options 0, 2, and 3 are incorrect volumetric metric scale factors.",
+      "hint": "Think about the volume of a cube that measures 10 cm on each of its three edges."
+    },
+    {
+      "question": "A company paints the outer lateral surface of a cylindrical tank of radius `$r$` and height `$h$` with an anti-rust layer of thickness `$t$`. Why is the exact volume of paint needed calculated using the difference of two cylinders ($\\pi h(r_{\\text{outer}}^2 - r_{\\text{inner}}^2)$) rather than simply multiplying the lateral surface area by the thickness ($2\\pi r h \\times t$)?",
+      "options": [
+        "Because the simple product fails to account for the additional paint volume required to wrap around the increasing outer radius of the layer.",
+        "Because the anti-rust properties of the paint chemically contract its physical dimensions upon application.",
+        "Because the product method incorrectly assumes the top and bottom bases are also being fully painted.",
+        "Because the thickness of the material must always match the vertical altitude of the cylinder."
+      ],
+      "correctAnswer": 0,
+      "explanation": "When paint is applied in a thick layer, it forms a concentric cylindrical shell. The volume of a shell scales with the difference of the squares of the radii ($r_{\\text{outer}}^2 - r_{\\text{inner}}^2$). Using the linear approximation $2\\pi r h \\times t$ treats the layer as a flat sheet, which underestimates the true volume because the outer surface area is larger than the inner surface area.",
+      "hint": "Consider that as a paint layer gets thicker, its outer radius grows, requiring more paint for the outer ring than the inner boundary."
+    },
+    {
+      "question": "On a Cartesian coordinate plane, what is the distance between point `$A(1, 2)$` and point `$B(4, 2)$`?",
+      "options": [
+        "2 units",
+        "3 units",
+        "4 units",
+        "5 units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because both points share the same y-coordinate ($y = 2$), the line segment connecting them is perfectly horizontal. The distance is simply the absolute difference between their x-coordinates: $|x_2 - x_1| = |4 - 1| = 3$ units.",
+      "hint": "Since the vertical positions are identical, you only need to evaluate the horizontal shift between the coordinates."
+    },
+    {
+      "question": "If `$P(x_1, y_1)$` and `$Q(x_2, y_2)$` are the endpoints of an arbitrary line segment, which formula defines the exact distance `$d$` between them?",
+      "options": [
+        "$d = \\sqrt{(x_2 - x_1) + (y_2 - y_1)}$",
+        "$d = (x_2 - x_1)^2 + (y_2 - y_1)^2$",
+        "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+        "$d = \\sqrt{(x_2 + x_1)^2 + (y_2 + y_1)^2}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Definition 7.1 explicitly states that the distance $d$ between two points is given by the formula $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Option 0 misses the squares, option 1 misses the square root, and option 3 adds the coordinates instead of finding their difference.",
+      "hint": "This formula is directly derived from finding the hypotenuse of a right-angled triangle formed in the Cartesian grid."
+    },
+    {
+      "question": "The general distance formula in coordinate geometry relies on constructing horizontal and vertical lines through the endpoints to form a right-angled triangle. Which mathematical theorem is directly applied to these lengths to complete the formula?",
+      "options": [
+        "Thales' Intercept Theorem",
+        "The Pythagorean Theorem",
+        "The Law of Cosines",
+        "Cavalieri's Principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states: 'Pythagoras Theorem is used to calculate the distance between two points when the line interval between them is neither vertical nor horizontal.' The horizontal leg is $|x_2 - x_1|$ and the vertical leg is $|y_2 - y_1|$, so the hypotenuse squared equals the sum of their squares.",
+      "hint": "Think about the classic geometric rule used for finding the longest side of a right-angled triangle."
+    },
+    {
+      "question": "Suppose you compute the distance from point `$P$` to point `$Q$` using the distance formula. If you reverse the order of the points to compute the distance from point `$Q$` to point `$P$`, what is the result?",
+      "options": [
+        "The distance changes sign and becomes negative.",
+        "The distance value is completely unaltered because squaring a negative difference yields a positive value.",
+        "The distance becomes the mathematical reciprocal of the original value.",
+        "The distance can only be evaluated if $Q$ lies strictly in the first quadrant."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because $(x_2 - x_1)^2 = (x_1 - x_2)^2$, the algebraic sign inside the parenthesis is neutralized by the square exponent. Distance is geometrically symmetric; the path from $P$ to $Q$ is identical in length to the path from $Q$ to $P$.",
+      "hint": "Consider what happens to any real number—whether positive or negative—when it is multiplied by itself."
+    },
+    {
+      "question": "Let a line segment have endpoints `$P(x_1, y_1)$` and `$Q(x_2, y_2)$`. If point `$R(x_0, y_0)$` divides the segment internally in the ratio `$p:q$$, what is the correct formula to calculate the x-coordinate `$x_0$`?",
+      "options": [
+        "$x_0 = \\frac{px_1 + qx_2}{p + q}$",
+        "$x_0 = \\frac{px_2 + qx_1}{p + q}$",
+        "$x_0 = \\frac{px_2 - qx_1}{p - q}$",
+        "$x_0 = \\frac{p + q}{px_2 + qx_1}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As derived at the end of section 7.2, cross-multiplying the similar triangle ratio equations yields the coordinate section formula: $x_0 = \\frac{px_2 + qx_1}{p + q}$. Option 0 reverses the weighting factors across the endpoints. Option 2 applies to external division, which is not evaluated here.",
+      "hint": "Notice that the ratio factor $p$ (which scales the distance from $P$) is multiplied by the coordinate of the opposite endpoint $Q(x_2)$."
+    },
+    {
+      "question": "Find the coordinates of point `$R$` that divides the line segment joining `$P(1, 2)$` and `$Q(7, 5)$` internally in the ratio `$2:1$$.",
+      "options": [
+        "$(3, 3)$",
+        "$(5, 4)$",
+        "$(4, 3.5)$",
+        "$(5, 3)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Here, $x_1=1, y_1=2$, $x_2=7, y_2=5$, and $p=2, q=1$. Using the internal section formulas: $x_0 = \\frac{2(7) + 1(1)}{2+1} = \\frac{15}{3} = 5$. For the y-coordinate: $y_0 = \\frac{2(5) + 1(2)}{2+1} = \\frac{12}{3} = 4$. Thus, the coordinates are $(5, 4)$.",
+      "hint": "Substitute the endpoint coordinates and the ratio weights directly into the derived equations $x_0 = \\frac{px_2 + qx_1}{p+q}$ and $y_0 = \\frac{py_2 + qy_1}{p+q}$."
+    },
+    {
+      "question": "If a point `$R$` divides a line segment `$PQ$` internally in a ratio of exactly `$1:1$$, what specific geometric entity does `$R$` represent, and how do the coordinate formulas simplify?",
+      "options": [
+        "The origin; coordinates simplify to $(0, 0)$.",
+        "The midpoint; coordinates simplify to $(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$.",
+        "An intercept; coordinates simplify to $(x_1 + x_2, y_1 + y_2)$.",
+        "An asymptote; coordinates simplify to a division by zero expression."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A ratio of $1:1$ means $R$ is exactly equidistant from both endpoints, making it the midpoint. Substituting $p=1$ and $q=1$ into the section formula yields $x_0 = \\frac{1\\cdot x_2 + 1\\cdot x_1}{1+1} = \\frac{x_1 + x_2}{2}$, which is the standard arithmetic mean of the coordinates.",
+      "hint": "When a line segment is split into two perfectly equal parts, the dividing point sits directly in the center."
+    },
+    {
+      "question": "A line segment `$AB$` has a total physical length of 15 cm. If a point `$C$` divides the segment internally such that the ratio of lengths `$AC:CB$` is `$2:1$$, what are the explicit lengths of the segments `$AC$` and `$CB$`?",
+      "options": [
+        "$AC = 5\\text{ cm}, CB = 10\\text{ cm}$",
+        "$AC = 10\\text{ cm}, CB = 5\\text{ cm}$",
+        "$AC = 7.5\\text{ cm}, CB = 7.5\\text{ cm}$",
+        "$AC = 12\\text{ cm}, CB = 3\\text{ cm}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text analyzes this scenario in Section 7.2: If $CB = x$, then $AC = 2x$. The total length is $AC + CB = 2x + x = 3x = 15\\text{ cm} \\implies x = 5$ cm. Therefore, $CB = 5$ cm and $AC = 2(5) = 10$ cm. Option 0 incorrectly reverses the mapping of the segments.",
+      "hint": "The ratio tells you that $AC$ is twice as long as $CB$, and together their lengths must combine to match the full distance of 15 cm."
+    },
+    {
+      "question": "How is the standard Cartesian coordinate plane structurally configured by its reference lines?",
+      "options": [
+        "It is split into two equal regions by a single diagonal line passing through $(1, 1)$.",
+        "It is divided into four distinct quadrants by a horizontal $x$-axis and a vertical $y$-axis intersecting at the origin $(0, 0)$.",
+        "It is mapped out using three mutually perpendicular axes that intersect to form concentric spheres.",
+        "It is structured as a continuous linear loop with no definite intersecting nodes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The introduction to Unit 7 states that the Cartesian plane is divided into four quadrants by two perpendicular axes called the $x$-axis (horizontal line) and the $y$-axis (vertical line), which intersect at an origin denoted by $(0,0)$.",
+      "hint": "Think about the classic grid layout used to plot coordinates in two dimensions."
+    },
+    {
+      "question": "If a line segment is confirmed to be perfectly vertical within the coordinate plane, what must be true about its endpoints, and how is its length evaluated?",
+      "options": [
+        "Their $y$-coordinates are identical; length is evaluated as $|x_2 - x_1|$.",
+        "Their $x$-coordinates are identical; length is evaluated as $|y_2 - y_1|$.",
+        "Their coordinates must add up to zero; length is always evaluated as zero.",
+        "The segment has no measurable length because vertical slopes are mathematically undefined."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A perfectly vertical line does not shift left or right, meaning all points residing on it share the exact same horizontal position ($x_1 = x_2$). Therefore, its length is determined solely by the absolute vertical change between its endpoints, given by $|y_2 - y_1|$.",
+      "hint": "Think about moving up and down along a single vertical grid line; which coordinate value changes and which one stays constant?"
+    },
+    {
+      "question": "According to the review formulas provided in the text, what is the correct formula for calculating the **Total Surface Area (TSA)** of a standard right circular cone with radius `$r$` and slant height `$l$`?",
+      "options": [
+        "$\\text{TSA} = \\pi r^2 + \\pi r l$",
+        "$\\text{TSA} = 2\\pi r(r + l)$",
+        "$\\text{TSA} = \\pi r^2 + 2\\pi r l$",
+        "$\\text{TSA} = \\frac{1}{3}\\pi r(r + l)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The summary sheet states that for a right circular cone, the total surface area combines its flat circular base area ($\\pi r^2$) and its curved lateral surface area ($\\pi r l$), which can be factored as $\\pi r(r + l)$. Option 1 is the formula for a cylinder. Option 2 doubles the lateral component. Option 3 adds an incorrect fractional factor.",
+      "hint": "The total surface area of a single standard cone must include exactly one circular floor plus its unrolled side wall area."
+    },
+    {
+      "question": "A conical portion is scooped out of the top of a solid hemisphere. How does the **Total Surface Area (TSA)** of the remaining carved figure compare to the surface area of the original solid hemisphere?",
+      "options": [
+        "It must decrease, because solid material has been removed from the figure.",
+        "It stays exactly the same because the volume loss balances out the surface area shift.",
+        "It can increase because the process removes a flat circular top area but replaces it with a larger internal curved conical surface area.",
+        "It drops to zero because scooped solids lose their foundational geometric properties."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This tests a common misconception. While scooping out a cone reduces total volume, it replaces the flat circular surface layer that was removed with a completely new interior conical wall. Because the lateral surface area of a cone ($\\pi r l$) is always greater than its flat base area ($\\pi r^2$) when height is positive, the total exposed surface area actually increases.",
+      "hint": "Surface area measures every face exposed to the air. Think about whether carving an internal hole adds or removes touchable surface territory."
+    },
+    {
+      "question": "In the mathematical derivation of the section formula for a point dividing a line segment internally, which geometric condition is established immediately after constructing parallel boundary lines?",
+      "options": [
+        "The line segments are proven to be perpendicular to the origin node.",
+        "Two similar triangles, $\\Delta PSR \\sim \\Delta RTQ$, are identified to set up equal ratios of corresponding sides.",
+        "The area of the bounding rectangle is calculated using coordinate values.",
+        "The distance formula is substituted to find the lengths of the grid diagonals."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Section 7.2 demonstrates that by drawing lines parallel to the coordinate axes, right-angled triangles $\\Delta PSR$ and $\\Delta RTQ$ are formed. Because their corresponding angles are equal, the triangles are similar ($\\Delta PSR \\sim \\Delta RTQ$), which justifies equating the side ratios: $\\frac{PS}{RT} = \\frac{PR}{RQ}$.",
+      "hint": "Look closely at Figure 7.8 in the text and note how matching internal angles create scaled versions of the same triangle shape."
+    },
+    {
+      "question": "Consider the general volume formula for a cone's frustum: $V = \\frac{1}{3}\\pi h(r^2 + r'^2 + rr')$. If the upper base radius `$r'$` shrinks all the way to 0, what does this formula algebraically transform into, and what does this transition signify?",
+      "options": [
+        "It becomes $V = 0$, proving that a frustum cannot exist without two visible base planes.",
+        "It becomes $V = \\frac{1}{3}\\pi r^2 h$, proving that a standard right circular cone is a limiting case of a frustum where the top base collapses to a single vertex.",
+        "It becomes $V = \\pi r^2 h$, converting the figure directly into a standard cylindrical column.",
+        "It becomes an indeterminate form that violates the laws of solid geometry."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Setting $r' = 0$ in the formula leaves $V = \\frac{1}{3}\\pi h(r^2 + 0^2 + r\\cdot0) = \\frac{1}{3}\\pi r^2 h$. This is precisely the volume formula for a standard cone, demonstrating perfect algebraic continuity between a frustum and its parent tapering solid.",
+      "hint": "Substitute zero for the variable $r'$ in the formula and simplify the expression to see what classic solid formula remains."
+    },
+    {
+      "question": "As outlined in Review Exercise Question 5, when a stone is completely submerged in a rectangular water tank with a base measuring 20 cm by 50 cm, the water level rises uniformly by 1 cm. What is the volume of the submerged stone?",
+      "options": [
+        "$70\\text{ cm}^3$",
+        "$500\\text{ cm}^3$",
+        "$1,000\\text{ cm}^3$",
+        "$2,000\\text{ cm}^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Archimedes' principle, the volume of a completely submerged object equals the volume of the fluid it displaces. The displaced water forms a rectangular prism shape with base dimensions 20 cm by 50 cm and a height of 1 cm. Thus, $\\text{Volume} = \\text{length} \\times \\text{width} \\times \\text{height rise} = 20 \\times 50 \\times 1 = 1,000\\text{ cm}^3$.",
+      "hint": "Calculate the volume of the flat slab of water that was pushed upward when the stone entered the tank."
+    },
+    {
+      "question": "A hollow metal pipe has a length `$L$`, an inner radius `$r'$`, and an outer radius `$r$`. When calculating the **Total Surface Area (TSA)** of this physical object, which complete set of surfaces must be included?",
+      "options": [
+        "Only the outer lateral surface area ($2\\pi r L$).",
+        "The outer lateral area and the inner lateral area, ignoring the open ends.",
+        "The outer lateral area, the inner lateral area, and the two ring-shaped (annular) base areas at the ends.",
+        "The outer lateral area minus the inner lateral area plus the full circular base areas."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A physical hollow pipe has exposed surfaces everywhere a substance can touch it. This includes its external outer wall ($2\\pi r L$), its internal hollow wall ($2\\pi r' L$), and the solid rim thickness at both open ends. Each end is a ring (annulus) with an area of $\\pi r^2 - \\pi r'^2$. Option 0 and 1 neglect key exposed surfaces, and option 3 improperly subtracts structural walls.",
+      "hint": "A pipe can be touched on the outside, look through on the inside, and has measurable material thickness at its two open ends. Count all of these regions."
+    },
+    {
+      "question": "## Solid Figures and Coordinate Geometry: Master Assessment\n\nAn advanced, 40-question comprehensive evaluation analyzing spatial geometry derivations, compound solids, and foundational Cartesian coordinate systems.\n\n---\n\nWhich of the following formulas correctly represents the **Lateral Surface Area (LSA)** of a frustum of a right circular cone with slant height `l` and base radii `r` and `r'`?",
+      "options": [
+        "$\\text{LSA} = \\pi l(r - r')$",
+        "$\\text{LSA} = \\pi l(r + r')$",
+        "$\\text{LSA} = 2\\pi l(r + r')$",
+        "$\\text{LSA} = \\pi h(r + r')$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As derived in the text, the lateral surface area of a frustum of a cone is obtained by subtracting the LSA of the smaller top cone from that of the larger cone, resulting in $\\pi l(r + r')$. Option 0 incorrectly uses a subtraction sign. Option 2 incorporates an extra factor of 2, which applies to cylinders, not cones. Option 3 misplaces vertical height $h$ for slant height $l$.",
+      "hint": "Think about how the unwrapped net of a frustum expands linearly based on both the upper and lower circular boundaries."
+    },
+    {
+      "question": "During the derivation of the frustum formulas, the text establishes the structural ratio $\\frac{l'}{L} = \\frac{r'}{r}$. What fundamental geometric property justifies this relationship?",
+      "options": [
+        "The Pythagorean theorem applied to the slant height and vertical altitude.",
+        "The similarity of triangles $\\Delta VO'A \\sim \\Delta VOB$.",
+        "The ratio of the areas of parallel circular bases.",
+        "The congruence of the upper and lower base sectors."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The relationship is derived from the fact that the small top cone and the original larger cone share a vertex and have parallel circular bases, creating similar right-angled triangles ($\\Delta VO'A \\sim \\Delta VOB$). Option 0 describes a relationship between sides of a single triangle, not a ratio between two. Option 2 concerns squared dimensions, whereas this is a linear ratio.",
+      "hint": "Look at the proportional relationship between the dimensions of the small removed cone tip and the entire original cone solid."
+    },
+    {
+      "question": "A frustum of a right circular cone has a height of 24 cm, a larger base radius of 22 cm, and a slant height of 26 cm. What is the radius of its smaller base?",
+      "options": [
+        "10 cm",
+        "12 cm",
+        "14 cm",
+        "16 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the relationship derived from the right triangle inside the frustum walls, $l^2 = h^2 + (r - r')^2$. Substituting the values gives $26^2 = 24^2 + (22 - r')^2 \\implies 676 = 576 + (22 - r')^2 \\implies 100 = (22 - r')^2 \\implies 22 - r' = 10 \\implies r' = 12$ cm.",
+      "hint": "Set up a right-angled triangle using the vertical height, the slant height, and the horizontal difference between the two radii."
+    },
+    {
+      "question": "When calculating the **Total Surface Area (TSA)** of a typical open-top physical bucket shaped like a frustum, which common mistake must be avoided?",
+      "options": [
+        "Omitting the lateral surface area completely.",
+        "Including both the top and bottom circular base areas.",
+        "Using the vertical height instead of the slant height for the lateral area.",
+        "Subtracting the smaller base area from the larger base area."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An open-top bucket only has a physical material surface on its lateral side and its bottom base. Including both base areas ($\\pi r^2 + \\pi r'^2$) calculates a closed solid, not an open container. Option 0 and 3 are completely incorrect procedures, and option 2 confuses the components of the base area formula.",
+      "hint": "Consider which parts of a real-world bucket actually consist of solid material versus open space."
+    },
+    {
+      "question": "The volume of a frustum of a cone or pyramid can be written in terms of its base areas `$A$` and `$A'$` and altitude `$h$`. Which formula represents this relationship?",
+      "options": [
+        "$V = \\frac{1}{3}h(A + A' + AA')$",
+        "$V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$",
+        "$V = h(A + A' + \\sqrt{AA'})$",
+        "$V = \\frac{1}{3}h(A - A' + \\sqrt{AA'})$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states that the volume formula can be rewritten universally as $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$, where the term $\\sqrt{AA'}$ accounts for the geometric mean of the two base areas. Option 0 omits the square root, option 2 omits the one-third factor, and option 3 incorrectly uses a subtraction sign.",
+      "hint": "The formula is a variation of the standard one-third base times height pyramid volume rule, adjusted to account for transitioning base areas."
+    },
+    {
+      "question": "Why can the exact same volume formula, $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$, be used for both a frustum of a right circular cone and a frustum of a regular pyramid?",
+      "options": [
+        "Because circles and regular polygons have identical perimeter-to-area scaling constants.",
+        "Because any frustum is formed by slicing a uniformly tapering solid with a plane parallel to its base.",
+        "Because the slant heights of regular pyramids and cones are always mathematically equivalent.",
+        "Because both figures can be perfectly decomposed into an identical number of uniform rectangular prisms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Both cones and pyramids taper uniformly to a single vertex point. Slicing either solid parallel to its base yields cross-sectional areas that scale quadratically with height, ensuring their frustums share the same volumetric structure. Option 0 is false because shape factors differ. Option 2 is irrelevant to volume, which relies on vertical altitude $h$.",
+      "hint": "Think about what happens when you cut any sharp-peaked, uniformly tapering solid parallel to its floor."
+    },
+    {
+      "question": "A right circular cone of altitude 16 m is cut by a plane parallel to the base 4 m from the vertex to form a frustum. If the radius of the larger base is 12 m, what is the volume of the resulting frustum?",
+      "options": [
+        "$576\\pi\\text{ m}^3$",
+        "$504\\pi\\text{ m}^3$",
+        "$756\\pi\\text{ m}^3$",
+        "$684\\pi\\text{ m}^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The total height of the cone is $H = 16$ m. It is cut 4 m from the vertex, so the small cone height is $h' = 4$ m. The height of the frustum is $h = 16 - 4 = 12$ m. Using similar triangles for the radii: $\\frac{r'}{12} = \\frac{4}{16} \\implies r' = 3$ m. Now compute the frustum volume: $V = \\frac{1}{3}\\pi(12)(12^2 + 3^2 + 12 \\times 3) = 4\\pi(144 + 9 + 36) = 4\\pi(189) = 756\\pi\\text{ m}^3$.",
+      "hint": "First find the radius of the smaller top base using ratios, determine the height of the frustum section, and then apply the volume formula."
+    },
+    {
+      "question": "If the vertical altitude `$h$` of a frustum of a cone is precisely doubled while keeping both base radii `$r$` and `$r'$` completely constant, how does its total volume change?",
+      "options": [
+        "The volume increases by a factor of 4 because volume scales quadratically.",
+        "The volume increases by a factor of 8 because volume scales cubically.",
+        "The volume is exactly doubled because volume is directly proportional to height.",
+        "The volume stays the same because volume depends strictly on base radius changes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Looking at the formula $V = \\frac{1}{3}\\pi h(r^2 + r'^2 + rr')$, the height $h$ appears as a linear multiplier outside the parenthesis. If $h$ is doubled and the radii do not change, the volume doubles exactly. A common trap is assuming that because volume is a three-dimensional metric, any individual parameter change scales cubically or quadratically.",
+      "hint": "Examine the linear role that altitude plays outside the radius terms in the volume equation."
+    },
+    {
+      "question": "Which of the following best defines a **composed solid** as described in the text?",
+      "options": [
+        "A solid figure whose surfaces are entirely composed of regular polygons.",
+        "A solid formed by rotating a two-dimensional shape 360 degrees around a fixed axis.",
+        "A solid structure made up of a combination of two or more independent solids.",
+        "A solid that has been hollowed out by removing an identical inner version of itself."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The text explicitly defines a composed solid as 'a solid that is made up of two or more solids.' Option 0 defines a polyhedron. Option 1 defines a solid of revolution. Option 3 describes a hollow shell, which is only a specific subcategory of composed solids.",
+      "hint": "Think about a composite structure made by joining a cylinder and a cone together."
+    },
+    {
+      "question": "When determining the **Total Surface Area (TSA)** of a composed solid made of a cylinder joined end-to-end with a cone, why can you NOT simply add the independent total surface areas of the cylinder and the cone?",
+      "options": [
+        "Because the overlapping base surfaces are hidden inside the solid and are no longer exposed.",
+        "Because the joining process alters the slant height of the conical component.",
+        "Because the volume of the cylinder partially displaces the surface area of the cone.",
+        "Because the value of $\\pi$ changes depending on whether a surface is flat or curved."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total Surface Area measures only the exposed outer boundaries of a solid. When two solids are joined at a common face, those overlapping faces become interior regions and are no longer part of the external surface area. Option 1 and 3 are mathematically false. Option 2 confuses volume with surface area.",
+      "hint": "Picture painting the outside of the combined object; would your brush touch the overlapping faces?"
+    },
+    {
+      "question": "A solid figure consists of a circular cylinder of radius 4 cm at the bottom and a right circular cone of altitude 3 cm on top. If the overall height of the entire composed solid is 10 cm, what is its **Total Surface Area (TSA)**?",
+      "options": [
+        "$92\\pi\\text{ cm}^2$",
+        "$112\\pi\\text{ cm}^2$",
+        "$76\\pi\\text{ cm}^2$",
+        "$128\\pi\\text{ cm}^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is 4 cm. The cone height is 3 cm, so its slant height $l = \\sqrt{3^2 + 4^2} = 5$ cm. The LSA of the cone is $\\pi r l = 4 \\times 5 \\times \\pi = 20\\pi$. The total height is 10 cm, so the cylinder height is $10 - 3 = 7$ cm. The LSA of the cylinder is $2\\pi r h = 2\\pi(4)(7) = 56\\pi$. The bottom base area of the cylinder is $\\pi r^2 = \\pi(4^2) = 16\\pi$. Adding these exposed surfaces: $20\\pi + 56\\pi + 16\\pi = 92\\pi\\text{ cm}^2$.",
+      "hint": "Break down the exposed outer surfaces into three distinct components: the cone's side wall, the cylinder's side wall, and the single bottom circular floor."
+    },
+    {
+      "question": "A triangular prism hole is cleanly drilled straight through a right circular cylinder. When calculating the **Total Surface Area (TSA)** of the remaining solid, how must the lateral surface area of the inner drilled prism be treated?",
+      "options": [
+        "It must be subtracted from the total, because drilling removes material.",
+        "It must be added to the total, because it creates new exposed internal walls.",
+        "It should be completely ignored, as surface area only counts the outermost boundaries.",
+        "It must be multiplied by $\\pi$ to normalize it with the cylinder's curved face."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drilling a hole through a solid removes volume but increases the total exposed surface area by creating new interior faces that can be touched or painted. Therefore, the inner prism's lateral surface area must be added. Option 0 is a classic trap where students confuse volume reduction with surface area reduction.",
+      "hint": "If you dipped this drilled solid into paint, would the inner walls of the triangular hole get coated?"
+    },
+    {
+      "question": "When dealing with fluid capacities in geometric application problems (such as the bucket example), what is the exact conversion factor between liters and cubic centimeters (`cm³`)?",
+      "options": [
+        "1 liter = $100\\text{ cm}^3$",
+        "1 liter = $1,000\\text{ cm}^3$",
+        "1 liter = $10,000\\text{ cm}^3$",
+        "1 liter = $100,000\\text{ cm}^3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As stated in the text solution for Example 1, 'Since 1 liter is equal to 1000 $\\text{cm}^3$...'. Options 0, 2, and 3 are incorrect volumetric metric scale factors.",
+      "hint": "Think about the volume of a cube that measures 10 cm on each of its three edges."
+    },
+    {
+      "question": "A company paints the outer lateral surface of a cylindrical tank of radius `$r$` and height `$h$` with an anti-rust layer of thickness `$t$`. Why is the exact volume of paint needed calculated using the difference of two cylinders ($\\pi h(r_{\\text{outer}}^2 - r_{\\text{inner}}^2)$) rather than simply multiplying the lateral surface area by the thickness ($2\\pi r h \\times t$)?",
+      "options": [
+        "Because the simple product fails to account for the additional paint volume required to wrap around the increasing outer radius of the layer.",
+        "Because the anti-rust properties of the paint chemically contract its physical dimensions upon application.",
+        "Because the product method incorrectly assumes the top and bottom bases are also being fully painted.",
+        "Because the thickness of the material must always match the vertical altitude of the cylinder."
+      ],
+      "correctAnswer": 0,
+      "explanation": "When paint is applied in a thick layer, it forms a concentric cylindrical shell. The volume of a shell scales with the difference of the squares of the radii ($r_{\\text{outer}}^2 - r_{\\text{inner}}^2$). Using the linear approximation $2\\pi r h \\times t$ treats the layer as a flat sheet, which underestimates the true volume because the outer surface area is larger than the inner surface area.",
+      "hint": "Consider that as a paint layer gets thicker, its outer radius grows, requiring more paint for the outer ring than the inner boundary."
+    },
+    {
+      "question": "On a Cartesian coordinate plane, what is the distance between point `$A(1, 2)$` and point `$B(4, 2)$`?",
+      "options": [
+        "2 units",
+        "3 units",
+        "4 units",
+        "5 units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because both points share the same y-coordinate ($y = 2$), the line segment connecting them is perfectly horizontal. The distance is simply the absolute difference between their x-coordinates: $|x_2 - x_1| = |4 - 1| = 3$ units.",
+      "hint": "Since the vertical positions are identical, you only need to evaluate the horizontal shift between the coordinates."
+    },
+    {
+      "question": "If `$P(x_1, y_1)$` and `$Q(x_2, y_2)$` are the endpoints of an arbitrary line segment, which formula defines the exact distance `$d$` between them?",
+      "options": [
+        "$d = \\sqrt{(x_2 - x_1) + (y_2 - y_1)}$",
+        "$d = (x_2 - x_1)^2 + (y_2 - y_1)^2$",
+        "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$",
+        "$d = \\sqrt{(x_2 + x_1)^2 + (y_2 + y_1)^2}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Definition 7.1 explicitly states that the distance $d$ between two points is given by the formula $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Option 0 misses the squares, option 1 misses the square root, and option 3 adds the coordinates instead of finding their difference.",
+      "hint": "This formula is directly derived from finding the hypotenuse of a right-angled triangle formed in the Cartesian grid."
+    },
+    {
+      "question": "The general distance formula in coordinate geometry relies on constructing horizontal and vertical lines through the endpoints to form a right-angled triangle. Which mathematical theorem is directly applied to these lengths to complete the formula?",
+      "options": [
+        "Thales' Intercept Theorem",
+        "The Pythagorean Theorem",
+        "The Law of Cosines",
+        "Cavalieri's Principle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text states: 'Pythagoras Theorem is used to calculate the distance between two points when the line interval between them is neither vertical nor horizontal.' The horizontal leg is $|x_2 - x_1|$ and the vertical leg is $|y_2 - y_1|$, so the hypotenuse squared equals the sum of their squares.",
+      "hint": "Think about the classic geometric rule used for finding the longest side of a right-angled triangle."
+    },
+    {
+      "question": "Suppose you compute the distance from point `$P$` to point `$Q$` using the distance formula. If you reverse the order of the points to compute the distance from point `$Q$` to point `$P$`, what is the result?",
+      "options": [
+        "The distance changes sign and becomes negative.",
+        "The distance value is completely unaltered because squaring a negative difference yields a positive value.",
+        "The distance becomes the mathematical reciprocal of the original value.",
+        "The distance can only be evaluated if $Q$ lies strictly in the first quadrant."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Because $(x_2 - x_1)^2 = (x_1 - x_2)^2$, the algebraic sign inside the parenthesis is neutralized by the square exponent. Distance is geometrically symmetric; the path from $P$ to $Q$ is identical in length to the path from $Q$ to $P$.",
+      "hint": "Consider what happens to any real number—whether positive or negative—when it is multiplied by itself."
+    },
+    {
+      "question": "Let a line segment have endpoints `$P(x_1, y_1)$` and `$Q(x_2, y_2)$`. If point `$R(x_0, y_0)$` divides the segment internally in the ratio `$p:q$$, what is the correct formula to calculate the x-coordinate `$x_0$`?",
+      "options": [
+        "$x_0 = \\frac{px_1 + qx_2}{p + q}$",
+        "$x_0 = \\frac{px_2 + qx_1}{p + q}$",
+        "$x_0 = \\frac{px_2 - qx_1}{p - q}$",
+        "$x_0 = \\frac{p + q}{px_2 + qx_1}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As derived at the end of section 7.2, cross-multiplying the similar triangle ratio equations yields the coordinate section formula: $x_0 = \\frac{px_2 + qx_1}{p + q}$. Option 0 reverses the weighting factors across the endpoints. Option 2 applies to external division, which is not evaluated here.",
+      "hint": "Notice that the ratio factor $p$ (which scales the distance from $P$) is multiplied by the coordinate of the opposite endpoint $Q(x_2)$."
+    },
+    {
+      "question": "Find the coordinates of point `$R$` that divides the line segment joining `$P(1, 2)$` and `$Q(7, 5)$` internally in the ratio `$2:1$$.",
+      "options": [
+        "$(3, 3)$",
+        "$(5, 4)$",
+        "$(4, 3.5)$",
+        "$(5, 3)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Here, $x_1=1, y_1=2$, $x_2=7, y_2=5$, and $p=2, q=1$. Using the internal section formulas: $x_0 = \\frac{2(7) + 1(1)}{2+1} = \\frac{15}{3} = 5$. For the y-coordinate: $y_0 = \\frac{2(5) + 1(2)}{2+1} = \\frac{12}{3} = 4$. Thus, the coordinates are $(5, 4)$.",
+      "hint": "Substitute the endpoint coordinates and the ratio weights directly into the derived equations $x_0 = \\frac{px_2 + qx_1}{p+q}$ and $y_0 = \\frac{py_2 + qy_1}{p+q}$."
+    },
+    {
+      "question": "If a point `$R$` divides a line segment `$PQ$` internally in a ratio of exactly `$1:1$$, what specific geometric entity does `$R$` represent, and how do the coordinate formulas simplify?",
+      "options": [
+        "The origin; coordinates simplify to $(0, 0)$.",
+        "The midpoint; coordinates simplify to $(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$.",
+        "An intercept; coordinates simplify to $(x_1 + x_2, y_1 + y_2)$.",
+        "An asymptote; coordinates simplify to a division by zero expression."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A ratio of $1:1$ means $R$ is exactly equidistant from both endpoints, making it the midpoint. Substituting $p=1$ and $q=1$ into the section formula yields $x_0 = \\frac{1\\cdot x_2 + 1\\cdot x_1}{1+1} = \\frac{x_1 + x_2}{2}$, which is the standard arithmetic mean of the coordinates.",
+      "hint": "When a line segment is split into two perfectly equal parts, the dividing point sits directly in the center."
+    },
+    {
+      "question": "A line segment `$AB$` has a total physical length of 15 cm. If a point `$C$` divides the segment internally such that the ratio of lengths `$AC:CB$` is `$2:1$$, what are the explicit lengths of the segments `$AC$` and `$CB$`?",
+      "options": [
+        "$AC = 5\\text{ cm}, CB = 10\\text{ cm}$",
+        "$AC = 10\\text{ cm}, CB = 5\\text{ cm}$",
+        "$AC = 7.5\\text{ cm}, CB = 7.5\\text{ cm}$",
+        "$AC = 12\\text{ cm}, CB = 3\\text{ cm}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The text analyzes this scenario in Section 7.2: If $CB = x$, then $AC = 2x$. The total length is $AC + CB = 2x + x = 3x = 15\\text{ cm} \\implies x = 5$ cm. Therefore, $CB = 5$ cm and $AC = 2(5) = 10$ cm. Option 0 incorrectly reverses the mapping of the segments.",
+      "hint": "The ratio tells you that $AC$ is twice as long as $CB$, and together their lengths must combine to match the full distance of 15 cm."
+    },
+    {
+      "question": "How is the standard Cartesian coordinate plane structurally configured by its reference lines?",
+      "options": [
+        "It is split into two equal regions by a single diagonal line passing through $(1, 1)$.",
+        "It is divided into four distinct quadrants by a horizontal $x$-axis and a vertical $y$-axis intersecting at the origin $(0, 0)$.",
+        "It is mapped out using three mutually perpendicular axes that intersect to form concentric spheres.",
+        "It is structured as a continuous linear loop with no definite intersecting nodes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The introduction to Unit 7 states that the Cartesian plane is divided into four quadrants by two perpendicular axes called the $x$-axis (horizontal line) and the $y$-axis (vertical line), which intersect at an origin denoted by $(0,0)$.",
+      "hint": "Think about the classic grid layout used to plot coordinates in two dimensions."
+    },
+    {
+      "question": "If a line segment is confirmed to be perfectly vertical within the coordinate plane, what must be true about its endpoints, and how is its length evaluated?",
+      "options": [
+        "Their $y$-coordinates are identical; length is evaluated as $|x_2 - x_1|$.",
+        "Their $x$-coordinates are identical; length is evaluated as $|y_2 - y_1|$.",
+        "Their coordinates must add up to zero; length is always evaluated as zero.",
+        "The segment has no measurable length because vertical slopes are mathematically undefined."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A perfectly vertical line does not shift left or right, meaning all points residing on it share the exact same horizontal position ($x_1 = x_2$). Therefore, its length is determined solely by the absolute vertical change between its endpoints, given by $|y_2 - y_1|$.",
+      "hint": "Think about moving up and down along a single vertical grid line; which coordinate value changes and which one stays constant?"
+    },
+    {
+      "question": "According to the review formulas provided in the text, what is the correct formula for calculating the **Total Surface Area (TSA)** of a standard right circular cone with radius `$r$` and slant height `$l$`?",
+      "options": [
+        "$\\text{TSA} = \\pi r^2 + \\pi r l$",
+        "$\\text{TSA} = 2\\pi r(r + l)$",
+        "$\\text{TSA} = \\pi r^2 + 2\\pi r l$",
+        "$\\text{TSA} = \\frac{1}{3}\\pi r(r + l)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The summary sheet states that for a right circular cone, the total surface area combines its flat circular base area ($\\pi r^2$) and its curved lateral surface area ($\\pi r l$), which can be factored as $\\pi r(r + l)$. Option 1 is the formula for a cylinder. Option 2 doubles the lateral component. Option 3 adds an incorrect fractional factor.",
+      "hint": "The total surface area of a single standard cone must include exactly one circular floor plus its unrolled side wall area."
+    },
+    {
+      "question": "A conical portion is scooped out of the top of a solid hemisphere. How does the **Total Surface Area (TSA)** of the remaining carved figure compare to the surface area of the original solid hemisphere?",
+      "options": [
+        "It must decrease, because solid material has been removed from the figure.",
+        "It stays exactly the same because the volume loss balances out the surface area shift.",
+        "It can increase because the process removes a flat circular top area but replaces it with a larger internal curved conical surface area.",
+        "It drops to zero because scooped solids lose their foundational geometric properties."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This tests a common misconception. While scooping out a cone reduces total volume, it replaces the flat circular surface layer that was removed with a completely new interior conical wall. Because the lateral surface area of a cone ($\\pi r l$) is always greater than its flat base area ($\\pi r^2$) when height is positive, the total exposed surface area actually increases.",
+      "hint": "Surface area measures every face exposed to the air. Think about whether carving an internal hole adds or removes touchable surface territory."
+    },
+    {
+      "question": "In the mathematical derivation of the section formula for a point dividing a line segment internally, which geometric condition is established immediately after constructing parallel boundary lines?",
+      "options": [
+        "The line segments are proven to be perpendicular to the origin node.",
+        "Two similar triangles, $\\Delta PSR \\sim \\Delta RTQ$, are identified to set up equal ratios of corresponding sides.",
+        "The area of the bounding rectangle is calculated using coordinate values.",
+        "The distance formula is substituted to find the lengths of the grid diagonals."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Section 7.2 demonstrates that by drawing lines parallel to the coordinate axes, right-angled triangles $\\Delta PSR$ and $\\Delta RTQ$ are formed. Because their corresponding angles are equal, the triangles are similar ($\\Delta PSR \\sim \\Delta RTQ$), which justifies equating the side ratios: $\\frac{PS}{RT} = \\frac{PR}{RQ}$.",
+      "hint": "Look closely at Figure 7.8 in the text and note how matching internal angles create scaled versions of the same triangle shape."
+    },
+    {
+      "question": "Consider the general volume formula for a cone's frustum: $V = \\frac{1}{3}\\pi h(r^2 + r'^2 + rr')$. If the upper base radius `$r'$` shrinks all the way to 0, what does this formula algebraically transform into, and what does this transition signify?",
+      "options": [
+        "It becomes $V = 0$, proving that a frustum cannot exist without two visible base planes.",
+        "It becomes $V = \\frac{1}{3}\\pi r^2 h$, proving that a standard right circular cone is a limiting case of a frustum where the top base collapses to a single vertex.",
+        "It becomes $V = \\pi r^2 h$, converting the figure directly into a standard cylindrical column.",
+        "It becomes an indeterminate form that violates the laws of solid geometry."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Setting $r' = 0$ in the formula leaves $V = \\frac{1}{3}\\pi h(r^2 + 0^2 + r\\cdot0) = \\frac{1}{3}\\pi r^2 h$. This is precisely the volume formula for a standard cone, demonstrating perfect algebraic continuity between a frustum and its parent tapering solid.",
+      "hint": "Substitute zero for the variable $r'$ in the formula and simplify the expression to see what classic solid formula remains."
+    },
+    {
+      "question": "As outlined in Review Exercise Question 5, when a stone is completely submerged in a rectangular water tank with a base measuring 20 cm by 50 cm, the water level rises uniformly by 1 cm. What is the volume of the submerged stone?",
+      "options": [
+        "$70\\text{ cm}^3$",
+        "$500\\text{ cm}^3$",
+        "$1,000\\text{ cm}^3$",
+        "$2,000\\text{ cm}^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By Archimedes' principle, the volume of a completely submerged object equals the volume of the fluid it displaces. The displaced water forms a rectangular prism shape with base dimensions 20 cm by 50 cm and a height of 1 cm. Thus, $\\text{Volume} = \\text{length} \\times \\text{width} \\times \\text{height rise} = 20 \\times 50 \\times 1 = 1,000\\text{ cm}^3$.",
+      "hint": "Calculate the volume of the flat slab of water that was pushed upward when the stone entered the tank."
+    },
+    {
+      "question": "A hollow metal pipe has a length `$L$`, an inner radius `$r'$`, and an outer radius `$r$`. When calculating the **Total Surface Area (TSA)** of this physical object, which complete set of surfaces must be included?",
+      "options": [
+        "Only the outer lateral surface area ($2\\pi r L$).",
+        "The outer lateral area and the inner lateral area, ignoring the open ends.",
+        "The outer lateral area, the inner lateral area, and the two ring-shaped (annular) base areas at the ends.",
+        "The outer lateral area minus the inner lateral area plus the full circular base areas."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A physical hollow pipe has exposed surfaces everywhere a substance can touch it. This includes its external outer wall ($2\\pi r L$), its internal hollow wall ($2\\pi r' L$), and the solid rim thickness at both open ends. Each end is a ring (annulus) with an area of $\\pi r^2 - \\pi r'^2$. Option 0 and 1 neglect key exposed surfaces, and option 3 improperly subtracts structural walls.",
+      "hint": "A pipe can be touched on the outside, look through on the inside, and has measurable material thickness at its two open ends. Count all of these regions."
+    },
+    {
+      "question": "A right circular cylinder whose base radius is 10 cm and height is 12 cm has a triangular prism hole drilled through it. If the legs of the triangular base measure 3 cm, 4 cm, and 5 cm, what is the volume of the remaining solid figure? (Use $\\pi = 3.14$)",
+      "options": [
+        "$3,768\\text{ cm}^3$",
+        "$3,696\\text{ cm}^3$",
+        "$3,840\\text{ cm}^3$",
+        "$3,624\\text{ cm}^3$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total volume of the intact cylinder is $\\pi r^2 h = 3.14 \\times 10^2 \\times 12 = 3,768\\text{ cm}^3$. The base of the drilled prism is a right-angled triangle (since $3^2+4^2=5^2$) with an area of $\\frac{1}{2} \\times 3 \\times 4 = 6\\text{ cm}^2$. The volume of the removed prism is $\\text{base area} \\times \\text{height} = 6 \\times 12 = 72\\text{ cm}^3$. Subtracting this from the cylinder yields $3,768 - 72 = 3,696\\text{ cm}^3$.",
+      "hint": "Calculate the total volume of the cylinder first, determine the volume of the prism hole, and find the difference."
+    },
+    {
+      "question": "A right circular cone is perfectly contained inside a cylinder such that their base diameters and vertical heights are completely identical, both equal to a length `$x$`. What fraction of the cylinder's internal volume is occupied by the empty space *outside* the cone but *inside* the cylinder?",
+      "options": [
+        "$\\frac{1}{3}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The volume of a cylinder is $V_{\\text{cyl}} = \\pi r^2 h$ and the volume of a matching cone is $V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$. The space outside the cone but inside the cylinder is $V_{\\text{space}} = V_{\\text{cyl}} - V_{\\text{cone}} = \\frac{2}{3}\\pi r^2 h$. Therefore, this empty region constitutes exactly $\\frac{2}{3}$ of the cylinder's total volume.",
+      "hint": "Recall how the formula for a cone's volume relates fractionally to a cylinder with identical height and base properties."
+    },
+    {
+      "question": "A cylindrical piece of wood of radius 8 cm and height 18 cm has a cone of the same radius scooped out of its top to a depth of 9 cm. What is the exact ratio of the volume of the wood scooped out to the volume of the wood that remains?",
+      "options": [
+        "1 : 2",
+        "1 : 3",
+        "1 : 5",
+        "1 : 6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The total volume of the original cylinder is $\\pi r^2 h = \\pi(8^2)(18) = 1152\\pi\\text{ cm}^3$. The volume of the scooped-out cone is $\\frac{1}{3}\\pi r^2 h_{\\text{cone}} = \\frac{1}{3}\\pi(8^2)(9) = 192\\pi\\text{ cm}^3$. The volume of the remaining wood is $1152\\pi - 192\\pi = 960\\pi\\text{ cm}^3$. The ratio of scooped volume to remaining volume is $\\frac{192\\pi}{960\\pi} = \\frac{1}{5}$, or 1 : 5.",
+      "hint": "Compute the individual volume values for the removed cone tip and the leftover wood body, then simplify their geometric ratio."
+    },
+    {
+      "question": "A construction company designs a cylindrical water tank to hold exactly 100,000 liters of water. If the height of the cylinder is fixed at 8 m, what is the approximate base radius of the tank? (Take $1,000\\text{ liters} = 1\\text{ m}^3$ and $\\pi \\approx 3.14$)",
+      "options": [
+        "1 m",
+        "2 m",
+        "4 m",
+        "5 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "First convert capacity to volume: $100,000\\text{ liters} = 100\\text{ m}^3$. The volume formula for a cylinder is $V = \\pi r^2 h$. Substituting values: $100 = 3.14 \\times r^2 \\times 8 \\implies 100 = 25.12 \\times r^2 \\implies r^2 \\approx 3.98$. Taking the square root gives $r \\approx 2\\text{ m}$.",
+      "hint": "Convert the literal capacity measurement into standard cubic meters first, then reverse-engineer the cylinder volume equation to solve for the radius variable."
+    },
+    {
+      "question": "If a point `$P(x, y)$` plotted on the Cartesian plane satisfies the strict algebraic conditions `$x < 0$` and `$y > 0$$, in which specific quadrant does it reside?",
+      "options": [
+        "Quadrant I",
+        "Quadrant II",
+        "Quadrant III",
+        "Quadrant IV"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Cartesian plane is divided into four quadrants moving counter-clockwise. In Quadrant I, both coordinates are positive. In Quadrant II, horizontal values are negative ($x < 0$) and vertical values are positive ($y > 0$). Quadrant III has both negative, and Quadrant IV has positive $x$ and negative $y$.",
+      "hint": "Identify which region of the grid sits to the left of the vertical center axis but above the horizontal baseline."
+    },
+    {
+      "question": "Suppose a point `$R(x_0, y_0)$` divides the line segment `$PQ$` internally in the ratio `$p:q$$. If it is known that `$p > q$$, what does this structurally imply about the physical position of `$R$` along the segment?",
+      "options": [
+        "Point $R$ is located exactly at the geometric midpoint of $PQ$.",
+        "Point $R$ lies closer to endpoint $P$ than to endpoint $Q$.",
+        "Point $R$ lies closer to endpoint $Q$ than to endpoint $P$.",
+        "Point $R$ has completely escaped the linear boundaries of segment $PQ$."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The internal division ratio is defined as $\\frac{PR}{RQ} = \\frac{p}{q}$. If $p > q$, then the fraction $\\frac{p}{q} > 1$, which algebraically dictates that distance $PR$ must be strictly greater than distance $RQ$. Because segment length $PR$ is longer, point $R$ must position itself closer to endpoint $Q$.",
+      "hint": "Analyze whether the dividing node must cover a greater span of distance moving away from the start point $P$ versus approaching the end point $Q$."
+    },
+    {
+      "question": "What is the exact geometric distance between the Cartesian origin `$(0, 0)$` and the point `$P(\\sqrt{2}, \\sqrt{2})$`?",
+      "options": [
+        "$\\sqrt{2}$ units",
+        "2 units",
+        "$2\\sqrt{2}$ units",
+        "4 units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using the distance formula $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ from the origin: $d = \\sqrt{(\\sqrt{2} - 0)^2 + (\\sqrt{2} - 0)^2} = \\sqrt{(\\sqrt{2})^2 + (\\sqrt{2})^2} = \\sqrt{2 + 2} = \\sqrt{4} = 2$ units.",
+      "hint": "Apply the standard coordinate distance equation, squaring each component coordinate value before summing them beneath the square root radical."
+    },
+    {
+      "question": "When computing the **Total Surface Area (TSA)** of a cylinder with a triangular prism hole drilled completely through its vertical height, which modification must be applied to the base calculations?",
+      "options": [
+        "Add the area of both triangular bases to the cylinder's total base area.",
+        "Subtract the area of one triangular base from the cylinder's total base area.",
+        "Subtract the area of both triangular bases from the cylinder's total base area.",
+        "Completely ignore the base areas since drilling leaves the ends completely open."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Drilling a hole through the solid columns removes material from both the top and bottom circular caps of the cylinder. Therefore, the remaining solid surface on the ends equals the original circular base areas minus the triangular entrance and exit profiles created by the prism. You must subtract the triangle's area twice.",
+      "hint": "Think about how the solid metal surfaces on the top face and bottom face of the cylinder are affected when a prism cuts entirely through them."
+    },
+    {
+      "question": "If two points `$M(-3, -2)$` and `$N(2, -2)$` are plotted on a Cartesian plane, what is the precise distance between them, and what type of line segment do they form?",
+      "options": [
+        "1 unit; vertical line segment",
+        "5 units; vertical line segment",
+        "5 units; horizontal line segment",
+        "$\\sqrt{13}$ units; diagonal line segment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Because both points share the exact same y-coordinate ($y = -2$), the line segment linking them is horizontal and parallel to the x-axis. The distance is computed as the absolute difference of their x-coordinates: $d = |x_2 - x_1| = |2 - (-3)| = |2 + 3| = 5$ units.",
+      "hint": "Examine which coordinate axis values remain fixed and evaluate the absolute spread along the changing axis dimension."
+    },
+    {
+      "question": "In the structural derivation of the frustum volume equation, the text establishes the proportions $H = h + h'$ and $\\frac{h'}{H} = \\frac{r'}{r}$. When solving explicitly for the height of the smaller removed top cone (`$h'$`), which expression is correct?",
+      "options": [
+        "$h' = \\frac{hr}{r - r'}$",
+        "$h' = \\frac{hr'}{r - r'}$",
+        "$h' = \\frac{hr'}{r + r'}$",
+        "$h' = \\frac{h(r - r')}{r'}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substituting $H = h + h'$ into the ratio gives $\\frac{h'}{h + h'} = \\frac{r'}{r}$. Cross-multiplying yields $r\\cdot h' = r'\\cdot h + r'\\cdot h'$. Collecting the $h'$ terms on one side gives $r\\cdot h' - r'\\cdot h' = r'\\cdot h \\implies h'(r - r') = hr'$. Dividing by $(r - r')$ produces equation (4) from the text: $h' = \\frac{hr'}{r - r'}$.",
+      "hint": "Isolate the variable representing the small top cone's height by cross-multiplying the similar triangle scale factors."
+    }
+  ],
+  "quizId": "combined-solid-figures-and-coordinate-geometry-advanced-assessment"
+}
