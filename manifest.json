@@ -79,6 +79,12 @@
       "title": "Cycloalkanes and Alkenes Deep Understanding Assessment",
       "path": "cycloalkanes-and-alkenes-deep-understanding-assessment.json",
       "name": "Cycloalkanes and Alkenes Deep Understanding Assessment"
+    },
+    {
+      "id": "solid-figures-and-coordinate-geometry-advanced-assessment",
+      "title": "Solid Figures and Coordinate Geometry: Advanced Assessment",
+      "path": "solid-figures-and-coordinate-geometry-advanced-assessment.json",
+      "name": "Solid Figures and Coordinate Geometry: Advanced Assessment"
     }
   ]
 }
