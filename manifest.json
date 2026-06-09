@@ -85,6 +85,12 @@
       "title": "Solid Figures and Coordinate Geometry: Advanced Assessment",
       "path": "solid-figures-and-coordinate-geometry-advanced-assessment.json",
       "name": "Solid Figures and Coordinate Geometry: Advanced Assessment"
+    },
+    {
+      "id": "solid-figures-coordinate-geometry-high-precision-assessment",
+      "title": "Solid Figures & Coordinate Geometry: High-Precision Assessment",
+      "path": "solid-figures-coordinate-geometry-high-precision-assessment.json",
+      "name": "Solid Figures & Coordinate Geometry: High-Precision Assessment"
     }
   ]
 }
