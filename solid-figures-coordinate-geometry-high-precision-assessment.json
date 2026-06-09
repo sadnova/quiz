@@ -1,0 +1,366 @@
+{
+  "quizTitle": "Solid Figures & Coordinate Geometry: High-Precision Assessment",
+  "quizDescription": "An advanced diagnostic evaluation designed to measure conceptual depth, structural reasoning, and multi-step geometric problem-solving capabilities.",
+  "questions": [
+    {
+      "question": "In deriving the lateral surface area ($LSA$) formula for a frustum of a right circular cone, which geometric relationship serves as the foundational starting point?",
+      "options": [
+        "The application of the Pythagorean Theorem on the slant height $l$.",
+        "The similarity of triangles $\\Delta VO'A \\sim \\Delta VOB$ yielding the ratio $\\frac{l'}{L} = \\frac{r'}{r}$.",
+        "The calculation of the sector angle of the cone's flattened lateral net.",
+        "Cavalieri's principle relating planar cross-sections to altitude."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The derivation relies directly on the similarity of the two right-angled triangles formed by the axis, radii, and slant heights of the smaller and larger cones. This gives the geometric proportion $\\frac{l'}{L} = \\frac{r'}{r}$. Option 0 is a secondary step used later to link height and radii, while Option 2 describes the visual layout of the net but isn't the algebraic starting point.",
+      "hint": "Look for the proportional relationship between the small cone at the top and the total large cone before truncation."
+    },
+    {
+      "question": "If the smaller radius $r'$ of a right circular cone's frustum approaches zero while maintaining the total slant height $L$, what structural transformation occurs to the formula $\\text{LSA} = \\pi l(r + r')$?",
+      "options": [
+        "It collapses into a flat circular disk equation: $\\text{LSA} = \\pi r^2$.",
+        "It doubles in magnitude because the slant height becomes equal to the vertical height.",
+        "It simplifies back to the standard lateral area of a complete cone, $\\text{LSA} = \\pi r L$.",
+        "It becomes undefined due to a division-by-zero error in the linear scaling ratio."
+      ],
+      "correctAnswer": 2,
+      "explanation": "As $r' \\to 0$, the frustum ceases to be truncated and becomes a complete right circular cone. The slant height of the frustum $l$ becomes identical to the total slant height $L$, and the formula $\\pi l(r + r')$ transforms into $\\pi r L$. Option 0 is incorrect because a disk represents base area, not lateral surface area.",
+      "hint": "Think about what physical shape is created when the top cut of a frustum shrinks down to a single point."
+    },
+    {
+      "question": "A frustum of a right circular cone has a vertical height of $24\\text{ cm}$, a lower base radius of $22\\text{ cm}$, and a slant height of $26\\text{ cm}$. What is the radius of its upper base ($r'$)?",
+      "options": [
+        "$12\\text{ cm}$",
+        "$10\\text{ cm}$",
+        "$14\\text{ cm}$",
+        "$2\\text{ cm}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the relation $l^2 = h^2 + (r - r')^2$, we substitute the known values: $26^2 = 24^2 + (22 - r')^2$. This simplifies to $676 = 576 + (22 - r')^2$, which gives $(22 - r')^2 = 100$. Taking the square root gives $22 - r' = 10$, meaning $r' = 12\\text{ cm}$. Option 1 uses the value of the difference $(r - r')$ instead of solving for $r'$.",
+      "hint": "Set up a right-angled triangle inside the frustum where the hypotenuse is the slant height and one leg is the vertical height."
+    },
+    {
+      "question": "A student attempts to solve for the slant height $l$ of a cone's frustum and mistakenly writes the equation as $l^2 = h^2 + (r + r')^2$. What is the conceptual flaw in this formula?",
+      "options": [
+        "It mistakenly scales the height by a factor of two.",
+        "It assumes the lateral faces are flat rectangles rather than curves.",
+        "It implies the cross-section is an equilateral triangle.",
+        "It incorrectly sums the radii instead of evaluating their geometric difference to find the horizontal leg of the right triangle."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The right triangle used to find $l$ has a vertical leg equal to the frustum's height $h$ and a horizontal leg equal to the difference between the outer and inner radii, $(r - r')$. Summing them as $(r + r')$ implies an impossible geometry extending outside the bounds of the figure. Option 0 and 2 are unrelated to the spatial right triangle construction.",
+      "hint": "Visualize a rectangle and a right triangle side-by-side inside the frustum cross-section. What is the length of the triangle's base?"
+    },
+    {
+      "question": "The volume of a frustum of a regular pyramid is given by $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$. What does the mathematical term $\\sqrt{AA'}$ structurally represent?",
+      "options": [
+        "The arithmetic average of the perimeter zones.",
+        "The geometric mean of the upper and lower base areas.",
+        "The absolute surface divergence factor between the faces.",
+        "The volume of a imaginary cube connecting the two bases."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term $\\sqrt{AA'}$ is the definition of the geometric mean of the two cross-sectional base areas $A$ and $A'$. It accounts for the non-linear scaling of the cross-sectional area as it changes continuously along the height $h$. Option 0 describes an arithmetic calculation, which does not model quadratic area scaling.",
+      "hint": "Recall the difference between an arithmetic average ($a+b/2$) and a geometric mean ($\\sqrt{ab}$) in scaling operations."
+    },
+    {
+      "question": "Why can the volume of a frustum of a right circular cone be written interchangeably as $V = \\frac{1}{3}\\pi h(r^2 + r'^2 + r r')$ and $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$?",
+      "options": [
+        "Because $\\pi$ scales linearly with the altitude, allowing it to move inside the square root.",
+        "Because the terms are approximations that match only when $r = r'$.",
+        "Because substituting $A = \\pi r^2$ and $A' = \\pi r'^2$ into $\\sqrt{AA'}$ simplifies precisely to $\\pi r r'$, proving algebraic equivalence.",
+        "Because the formulas describe a cylinder wrapped around a square prism structure."
+      ],
+      "correctAnswer": 2,
+      "explanation": "When we define the base areas as circular ($A = \\pi r^2$ and $A' = \\pi r'^2$), the term $\\sqrt{AA'}$ becomes $\\sqrt{(\\pi r^2)(\\pi r'^2)} = \\sqrt{\\pi^2 r^2 r'^2} = \\pi r r'$. Factoring out $\\pi$ from all three terms yields the exact conical expression. Option 1 is algebraically invalid.",
+      "hint": "Substitute the area formulas of a circle for $A$ and $A'$ inside the radical and simplify."
+    },
+    {
+      "question": "Calculate the volume of a frustum of a cone whose top diameter is $6\\text{ m}$, bottom diameter is $10\\text{ m}$, and vertical height is $12\\text{ m}$ (Use $\\pi = 3.14$).",
+      "options": [
+        "$615.44\\text{ m}^3$",
+        "$2461.76\\text{ m}^3$",
+        "$196.00\\text{ m}^3$",
+        "$1846.32\\text{ m}^3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First convert diameters to radii: $r' = 3\\text{ m}$ and $r = 5\\text{ m}$. Apply the volume formula: $V = \\frac{1}{3}\\pi(12)(5^2 + 3^2 + (5)(3)) = 4\\pi(25 + 9 + 15) = 4\\pi(49) = 196\\pi$. Substituting $\\pi = 3.14$ gives $196 \\times 3.14 = 615.44\\text{ m}^3$. Option 1 is incorrect because it uses diameters directly instead of radii.",
+      "hint": "Be careful with the distinction between diameter and radius before plugging dimensions into the volume equation."
+    },
+    {
+      "question": "What primary geometric commonality allows a regular square pyramid frustum and a right circular cone frustum to share the generalized volume formula $V = \\frac{1}{3}h(A + A' + \\sqrt{AA'})$?",
+      "options": [
+        "They both have circular cross-sections along their horizontal cut lines.",
+        "Their lateral faces are made of identical equilateral triangles.",
+        "They are both generated by rotating a 2D polynomial function around an axis.",
+        "Both solids scale quadratically from their vertex, making their cross-sectional area a quadratic function of height."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Any solid that tapers linearly to a single point (vertex) has cross-sectional areas that scale quadratically relative to distance from that vertex. This mathematical property satisfies Cavalieri's integration rules, resulting in the exact same generalized frustum volume formula regardless of base shape. Options 0 and 1 are incorrect because a pyramid does not have circular profiles or necessarily equilateral sides.",
+      "hint": "Consider how area scales when you change linear dimensions of any 2D shape uniformly."
+    },
+    {
+      "question": "A student incorrectly computes the volume of a frustum by doubling the radii instead of dividing the given diameters by 2. If the calculated volume is $X$, how does it relate to the true volume?",
+      "options": [
+        "It is exactly double the true volume.",
+        "It is exactly four times larger than the true volume.",
+        "It is eight times larger than the true volume.",
+        "It remains completely identical due to proportional balancing."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The terms inside the volume formula ($r^2$, $r'^2$, and $r r'$) are all of degree 2 (quadratic). Doubling each radius scales every term inside the parenthesis by $2^2 = 4$. Since volume is linear with respect to this sum, the overall result becomes exactly 4 times larger. Option 0 represents a linear error misconception.",
+      "hint": "If every instance of a radius variable is replaced by $2r$, look at what factor can be factored out mathematically."
+    },
+    {
+      "question": "When analyzing a **composed solid** made up of two distinct geometric shapes that share a flush boundary, what is the core structural rule regarding its total volume and total surface area?",
+      "options": [
+        "Both total volume and total surface area are directly additive without exceptions.",
+        "Total volume is subtracted, while surface areas are multiplied together.",
+        "Total volume is the sum of both individual volumes, but total surface area must exclude the shared internal contact interface.",
+        "Total surface area adds the contact interface twice to ensure interior structural integrity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume measures total 3D spatial occupancy, which remains purely additive when shapes are joined. Surface area, however, only tracks exposed outer boundaries. The intersecting boundary becomes internal and hidden, so it must be subtracted from the sum of individual surface areas. Option 0 fails to recognize that interior boundaries are no longer part of the surface area.",
+      "hint": "If you glue two blocks together, can you still paint the faces that are touching each other?"
+    },
+    {
+      "question": "In a lab flask composed solid containing a cylinder stacked directly on top of a cone frustum, why is the upper base area of the frustum omitted during total surface area computation?",
+      "options": [
+        "The cylinder's bottom base and the frustum's top base seal against each other internally, removing them from the exposed surface.",
+        "The upper base area is mathematically accounted for inside the cylinder's lateral area formula.",
+        "The thickness of the glass material reduces the area calculation to a baseline zero.",
+        "Conical structures inherently cancel out horizontal flat projections."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because the cylinder sits flush on top of the frustum's top opening, that shared region is entirely enclosed inside the flask solid. Surface area only accounts for outer exposed boundaries. Option 1 is false because lateral area formulas only calculate the curved sides, not flat bases.",
+      "hint": "Trace your finger along the outside of a flask. Do you ever touch the flat circle where the neck meets the body?"
+    },
+    {
+      "question": "A composed solid consists of a cylinder of radius $4\\text{ cm}$ and height $7\\text{ cm}$, capped by a cone with a matching radius of $4\\text{ cm}$ and an altitude of $3\\text{ cm}$. Find the total surface area of this solid in terms of $\\pi$.",
+      "options": [
+        "$112\\pi\\text{ cm}^2$",
+        "$128\\pi\\text{ cm}^2$",
+        "$76\\pi\\text{ cm}^2$",
+        "$92\\pi\\text{ cm}^2$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "First, find the cone's slant height: $l = \\sqrt{3^2 + 4^2} = 5\\text{ cm}$. The exposed surfaces are: 1) Cone LSA = $\\pi(4)(5) = 20\\pi$. 2) Cylinder LSA = $2\\pi(4)(7) = 56\\pi$. 3) Bottom cylinder base = $\\pi(4)^2 = 16\\pi$. Total Surface Area = $20\\pi + 56\\pi + 16\\pi = 92\\pi\\text{ cm}^2$. Option 1 is incorrect because it adds both bases of the cylinder or includes the hidden internal boundary.",
+      "hint": "Identify the three exposed sections: the cone's skirt, the cylinder's wall, and the single bottom circular base."
+    },
+    {
+      "question": "A triangular prism hole is drilled completely through a solid cylinder along its longitudinal axis. What is the mathematical operation needed to find the **total surface area** of the remaining solid?",
+      "options": [
+        "Subtract the prism's total surface area from the cylinder's total surface area.",
+        "Add the cylinder's total surface area to the prism's lateral area, then subtract both base areas of the prism twice.",
+        "Multiply the remaining volumetric fraction by the original cylinder area profile.",
+        "Subtract the internal perimeter from the external circumference and scale by height."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Drilling a hole removes the two triangular base areas from the cylinder's flat surfaces (subtract $2 \\times \\text{Base}_{\\text{prism}}$). However, it creates a brand new internal tunnel surface, which corresponds to the lateral surface area of the prism (add $\\text{LSA}_{\\text{prism}}$). Therefore, $\\text{TSA} = \\text{LSA}_{\\text{cyl}} + \\text{LSA}_{\\text{prism}} + 2\\text{Base}_{\\text{cyl}} - 2\\text{Base}_{\\text{prism}}$. Option 0 incorrectly assumes internal surface area is subtracted.",
+      "hint": "Think about how drilling a hole affects things: you lose two flat end-pieces, but you gain new interior walls that can be touched."
+    },
+    {
+      "question": "A cylinder with a base radius of $10\\text{ cm}$ and a height of $12\\text{ cm}$ has a right-triangular prism hole drilled through its entire length. The triangular base has legs of $3\\text{ cm}$ and $4\\text{ cm}$. Compute the remaining solid volume (Use $\\pi = 3.14$).",
+      "options": [
+        "$3768\\text{ cm}^3$",
+        "$3756\\text{ cm}^3$",
+        "$3696\\text{ cm}^3$",
+        "$3624\\text{ cm}^3$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Original Cylinder Volume = $\\pi r^2 h = 3.14 \\times 10^2 \\times 12 = 3768\\text{ cm}^3$. Drilled Prism Volume = $\\text{Base Area} \\times h = (\\frac{1}{2} \\times 3 \\times 4) \\times 12 = 6 \\times 12 = 72\\text{ cm}^3$. Remaining Volume = $3768 - 72 = 3696\\text{ cm}^3$. Option 0 is the volume of the cylinder before drilling.",
+      "hint": "Calculate the volume of the full cylinder first, then subtract the volume of the prism that was hollowed out."
+    },
+    {
+      "question": "A right circular cone is nested tightly inside a cylinder such that their base diameters and vertical heights are identical ($x\\text{ cm}$). What percentage of the cylinder's internal space remains outside of the cone?",
+      "options": [
+        "$\\approx 66.67\\%$",
+        "$\\approx 33.33\\%$",
+        "$\\approx 50.00\\%$",
+        "$\\approx 75.00\\%$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The volume of a cone is exactly $\\frac{1}{3}$ of the volume of a cylinder with identical dimensions ($V_{\\text{cone}} = \\frac{1}{3}\\pi r^2 h$). The space remaining outside the cone but inside the cylinder is $1 - \\frac{1}{3} = \\frac{2}{3}$ of the total volume, which equals $66.67\\%$. Option 1 represents the volume occupied by the cone itself.",
+      "hint": "Recall the geometric ratio between a cone's volume and a cylinder's volume when they share the same dimensions."
+    },
+    {
+      "question": "A cylindrical wooden block has a radius of $8\\text{ cm}$ and a height of $18\\text{ cm}$. A cone with the same radius is scooped out from one end down to a depth of $9\\text{ cm}$. Determine the ratio of the volume of wood scooped out to the volume of wood that remains.",
+      "options": [
+        "$1:3$",
+        "$1:2$",
+        "$2:5$",
+        "$1:5$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Total cylinder volume = $\\pi r^2 h = \\pi (8^2)(18) = 1152\\pi$. Volume of scooped cone = $\\frac{1}{3}\\pi r^2 h_{\\text{cone}} = \\frac{1}{3}\\pi (8^2)(9) = 192\\pi$. Volume of remaining wood = $1152\\pi - 192\\pi = 960\\pi$. The ratio of scooped to remaining is $\\frac{192\\pi}{960\\pi} = \\frac{1}{5}$, or $1:5$. Option 0 is a trap based on the standard cone-to-cylinder ratio without considering different heights.",
+      "hint": "Calculate the volume of the short cone and subtract it from the total volume of the tall cylinder to find the remaining material."
+    },
+    {
+      "question": "An industrial fluid container holds $12,500\\text{ cm}^3$ of liquid compound. Converted to standard volumetric capacity, how many liters can this container hold?",
+      "options": [
+        "$12.5\\text{ liters}$",
+        "$1.25\\text{ liters}$",
+        "$125\\text{ liters}$",
+        "$0.125\\text{ liters}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By definition, $1\\text{ liter} = 1000\\text{ cm}^3$. Therefore, to convert cubic centimeters to liters, divide by $1000$: $\\frac{12500}{1000} = 12.5\\text{ liters}$. Option 2 represents an incorrect scaling multiplication factor.",
+      "hint": "Divide the volume value in cubic centimeters by the metric conversion factor for one single liter."
+    },
+    {
+      "question": "When modeling an anti-rust paint layer applied with a uniform thickness $t$ onto the exterior lateral surface of a cylinder, why does the volumetric calculation take the form $V = \\pi h(r_{\\text{outer}}^2 - r_{\\text{inner}}^2)$?",
+      "options": [
+        "Because paint behaves as a non-Newtonian fluid expanding exponentially.",
+        "Because the paint application converts the cylinder into a frustum profile.",
+        "Because the dried paint layer forms a concentric hollow cylindrical shell whose volume is the difference between two solid cylinders.",
+        "Because the thickness dimension replaces the standard radius value in linear calculations."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The paint layer coats the cylinder uniformly, increasing its overall radius from $r_{\\text{inner}}$ to $r_{\\text{outer}}$ (where $r_{\\text{outer}} = r_{\\text{inner}} + t$). The physical volume of the paint layer matches the volume of this thin outer shell, calculated by subtracting the inner cylinder volume from the outer cylinder volume. Option 1 is a scientific distractor.",
+      "hint": "Visualize the paint layer as a thin pipe wrapped around the core tank. How do you find the volume of the pipe wall?"
+    },
+    {
+      "question": "A manufacturing firm produces open-top buckets with an exposed outer surface area of $1758.4\\text{ cm}^2$. If the fabrication material costs $50\\text{ birr}$ per $100\\text{ cm}^2$, what is the total raw material cost per bucket?",
+      "options": [
+        "$879.20\\text{ birr}$",
+        "$87.92\\text{ birr}$",
+        "$351.68\\text{ birr}$",
+        "$1758.40\\text{ birr}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area is divided by the cost unit baseline: $\\frac{1758.4}{100} = 17.584$ units of material. Multiplying by the unit cost: $17.584 \\times 50 = 879.20\\text{ birr}$. Option 1 is off by a factor of 10 due to a decimal error.",
+      "hint": "First find how many blocks of $100\\text{ cm}^2$ fit into the total area, then multiply by the cost of one block."
+    },
+    {
+      "question": "In the Cartesian coordinate system, if two distinct coordinates $P(x_1, y_1)$ and $Q(x_2, y_2)$ satisfy the constraint $y_1 = y_2$, what does the distance between them simplify to?",
+      "options": [
+        "$d = y_2 - y_1$",
+        "$d = x_2 + x_1$",
+        "$d = \\sqrt{x_1^2 + x_2^2}$",
+        "$d = |x_2 - x_1|$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "When $y_1 = y_2$, the line segment connecting the points is horizontal. The distance formula simplifies to $d = \\sqrt{(x_2 - x_1)^2 + (0)^2} = \\sqrt{(x_2 - x_1)^2} = |x_2 - x_1|$. Absolute value bars ensure the distance value remains positive. Option 0 is wrong because the vertical difference is zero.",
+      "hint": "Since the points share the same vertical position, focus only on their horizontal gap along the x-axis."
+    },
+    {
+      "question": "Why are absolute value bars mathematically required when defining horizontal or vertical distances, such as $d = |x_2 - x_1|$, on a coordinate axis?",
+      "options": [
+        "To convert Cartesian measurements into polar coordinate orientations.",
+        "Because distance is a geometric magnitude that must always be non-negative, regardless of subtraction order.",
+        "To indicate that the coordinates belong exclusively to imaginary number planes.",
+        "Because the horizontal axis values decrease when moving toward the right side of the origin."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distance measures spatial separation and cannot be negative. Subtracting a larger coordinate from a smaller one yields a negative value; the absolute value bars correct this to ensure a valid geometric magnitude. Option 3 is factually false.",
+      "hint": "Consider what happens if you compute $1 - 4$ vs $4 - 1$. How do you keep the distance reading positive?"
+    },
+    {
+      "question": "The coordinate geometry general distance formula $d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ is derived as a direct extension of which mathematical principle?",
+      "options": [
+        "The Law of Sines for oblique triangles.",
+        "Thales's intercept theorem on parallel cross lines.",
+        "The Pythagorean Theorem, using horizontal and vertical coordinate offsets as the legs of a right triangle.",
+        "Cavalieri's differential integration framework."
+      ],
+      "correctAnswer": 2,
+      "explanation": "By drawing a horizontal line through $P$ and a vertical line through $Q$, they meet at a right angle at point $R(x_2, y_1)$. This creates a right-angled triangle $\\Delta PQR$ where the hypotenuse is $PQ$. Applying the Pythagorean Theorem gives $(PQ)^2 = (PR)^2 + (RQ)^2$, which leads directly to the distance formula. Option 0 is used for non-right triangles.",
+      "hint": "Think about how horizontal lines and vertical lines intersect on a grid to form right angles."
+    },
+    {
+      "question": "Calculate the exact distance between the coordinate points $P(-3, 5)$ and $Q(4, 10)$ in the $xy$-plane.",
+      "options": [
+        "$\\sqrt{74}$",
+        "$\\sqrt{26}$",
+        "$12$",
+        "$\\sqrt{50}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the distance formula: $d = \\sqrt{(4 - (-3))^2 + (10 - 5)^2} = \\sqrt{(7)^2 + (5)^2} = \\sqrt{49 + 25} = \\sqrt{74}$. Option 1 is a common trap caused by incorrectly calculating $(4 - 3)^2$ instead of properly handling the double negative.",
+      "hint": "Watch the signs carefully when subtracting a negative coordinate value: $x_2 - x_1 = 4 - (-3)$."
+    },
+    {
+      "question": "A student evaluates the distance between $(0, -1)$ and $(-3, 3)$. They state that the vertical distance squared term is $(3 - (-1))^2 = 4$. What error did they make?",
+      "options": [
+        "They inverted the coordinates and used the x-axis values instead.",
+        "They forgot to find the square root of the final answer.",
+        "They changed the subtraction operation into a division operation.",
+        "They computed the value inside the parentheses correctly as 4, but forgot to square it to get 16."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The expression $(3 - (-1))$ simplifies to $3 + 1 = 4$. However, the student stated the *squared term* is $4$, forgetting to perform the squaring step ($4^2 = 16$). Option 0 is incorrect because 3 and -1 are indeed the correct y-coordinates.",
+      "hint": "Check whether the squaring operation was actually completed after simplifying the inside of the parentheses."
+    },
+    {
+      "question": "What is the exact distance separating the coordinate origin $(0, 0)$ from the radical point $P(\\sqrt{2}, \\sqrt{2})$?",
+      "options": [
+        "$\\sqrt{2}$",
+        "$2$",
+        "$4$",
+        "$2\\sqrt{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applying the distance formula: $d = \\sqrt{(\\sqrt{2} - 0)^2 + (\\sqrt{2} - 0)^2} = \\sqrt{(\\sqrt{2})^2 + (\\sqrt{2})^2} = \\sqrt{2 + 2} = \\sqrt{4} = 2$. Option 0 forgets to add the two squared components together before evaluating the root.",
+      "hint": "Remember that squaring a square root removes the radical sign: $(\\sqrt{2})^2 = 2$."
+    },
+    {
+      "question": "A point $R(x_0, y_0)$ divides the internal segment connecting $P(x_1, y_1)$ and $Q(x_2, y_2)$ in a positive ratio $p:q$. Which equation determines the correct value for the coordinate $x_0$?",
+      "options": [
+        "$x_0 = \\frac{px_1 + qx_2}{p + q}$",
+        "$x_0 = \\frac{px_2 - qx_1}{p - q}$",
+        "$x_0 = \\frac{px_2 + qx_1}{p + q}$",
+        "$x_0 = \\frac{x_1 + x_2}{p + q}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The internal division formula states that $x_0 = \\frac{px_2 + qx_1}{p + q}$. The ratio weight $p$ (associated with segment $PR$) multiplies the distant coordinate $x_2$, while weight $q$ (associated with segment $RQ$) multiplies $x_1$. Option 0 is a trap that pairs the weights with the wrong coordinates.",
+      "hint": "Note how cross-multiplication in the derivation equation $q(x_0 - x_1) = p(x_2 - x_0)$ pairs the variables."
+    },
+    {
+      "question": "During the algebraic derivation of the line segment division formula, what principle allows us to set the coordinate ratios equal to the ratio of lengths $\\frac{x_0 - x_1}{x_2 - x_0} = \\frac{p}{q}$?",
+      "options": [
+        "The similarity of triangles $\\Delta PSR \\sim \\Delta RTQ$, which means their corresponding horizontal legs are proportional to their hypotenuses.",
+        "The definition of the midpoint tangent slope.",
+        "The application of the distance formula across a single linear coordinate axis.",
+        "The assumption that all line segments are perfectly balanced relative to the origin."
+      ],
+      "correctAnswer": 0,
+      "explanation": "By dropping vertical and horizontal lines from points $P$, $R$, and $Q$, we form two right-angled triangles $\\Delta PSR$ and \\Delta $RTQ$. Because the line is straight, these triangles share equal angles and are similar, meaning their side lengths are proportional: $\\frac{PS}{RT} = \\frac{PR}{RQ} = \\frac{p}{q}$. Substituting $PS = x_0 - x_1$ and $RT = x_2 - x_0$ yields the equation. Options 1 and 3 do not explain why the ratios are equal.",
+      "hint": "Look at how matching angles in stacked triangle steps create proportional width and height steps."
+    },
+    {
+      "question": "When a line segment is bisected evenly ($n=2$), the ratio parameters become equal ($p = q = 1$). Under these conditions, what does the internal division formula simplify to?",
+      "options": [
+        "The slope calculation formula.",
+        "The distance to the origin equation.",
+        "The general equation of a perpendicular line.",
+        "The standard midpoint formula: $x_0 = \\frac{x_1 + x_2}{2}$ and $y_0 = \\frac{y_1 + y_2}{2}$."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Substituting $p = 1$ and $q = 1$ into $x_0 = \\frac{px_2 + qx_1}{p + q}$ yields $x_0 = \\frac{(1)x_2 + (1)x_1}{1 + 1} = \\frac{x_1 + x_2}{2}$. This is the arithmetic mean of the coordinates, known as the midpoint formula. Options 0 and 1 represent different geometric metrics.",
+      "hint": "Set both $p$ and $q$ to 1 in the section formula and simplify the fractions."
+    },
+    {
+      "question": "A string segment $AB$ measuring $15\\text{ cm}$ is divided internally by point $C$ in a ratio of $2:1$. What are the actual lengths of segments $AC$ and $CB$ if $C$ is closer to $B$?",
+      "options": [
+        "$AC = 5\\text{ cm}$ and $CB = 10\\text{ cm}$",
+        "$AC = 10\\text{ cm}$ and $CB = 5\\text{ cm}$",
+        "$AC = 7.5\\text{ cm}$ and $CB = 7.5\\text{ cm}$",
+        "$AC = 12\\text{ cm}$ and $CB = 3\\text{ cm}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total ratio parts equal $2 + 1 = 3$. Let the common factor be $x$, so $2x + x = 15\\text{ cm}$, which simplifies to $3x = 15 \\implies x = 5\\text{ cm}$. Therefore, segment $AC = 2(5) = 10\\text{ cm}$ and $CB = 1(5) = 5\\text{ cm}$. Option 0 reverses the lengths, putting $C$ closer to $A$ instead of $B$.",
+      "hint": "Divide the total length of 15 by the sum of the ratio parts ($2+1=3$) to find the size of one unit segment."
+    },
+    {
+      "question": "If a point $R$ divides a line segment $PQ$ in the ratio $3:2$, how should the ratio weights be distributed to the coordinates in the section formula numerator?",
+      "options": [
+        "Multiply $x_1$ by 3 and $x_2$ by 2.",
+        "Multiply both coordinates by the average factor $\\frac{3}{2}$.",
+        "Multiply $x_2$ by 3 and $x_1$ by 2.",
+        "Square both coordinate values and divide by 5."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Since $\\frac{PR}{RQ} = \\frac{3}{2}$, cross-multiplication gives $2(x_0 - x_1) = 3(x_2 - x_0)$, which simplifies to $2x_0 - 2x_1 = 3x_2 - 3x_0$. Combining terms gives $5x_0 = 3x_2 + 2x_1$. Thus, the weight $3$ multiplies $x_2$ and the weight $2$ multiplies $x_1$. Option 0 is a common mistake that applies the weights to the adjacent points instead of the opposite ones.",
+      "hint": "Remember that the ratio term for the first segment segment ($PR=3$) cross-multiplies with the coordinate change toward the second point ($Q$)."
+    }
+  ]
+}
