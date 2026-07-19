@@ -97,6 +97,12 @@
       "title": "Comprehensive Electrical Circuits, Metering, and Safety Master Assessment",
       "path": "comprehensive-electrical-circuits-metering-and-safety-master-assessment.json",
       "name": "Comprehensive Electrical Circuits, Metering, and Safety Master Assessment"
+    },
+    {
+      "id": "atomic-structure-and-periodic-properties-of-the-elements",
+      "title": "Atomic Structure and Periodic Properties of the Elements",
+      "path": "atomic-structure-and-periodic-properties-of-the-elements.json",
+      "name": "Atomic Structure and Periodic Properties of the Elements"
     }
   ]
 }
