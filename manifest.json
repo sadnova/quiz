@@ -103,6 +103,12 @@
       "title": "Atomic Structure and Periodic Properties of the Elements",
       "path": "atomic-structure-and-periodic-properties-of-the-elements.json",
       "name": "Atomic Structure and Periodic Properties of the Elements"
+    },
+    {
+      "id": "grade-11-mathematics-unit-1-relations-and-functions-deep-dive-assessment",
+      "title": "Grade 11 Mathematics: Unit 1 — Relations and Functions Deep-Dive Assessment",
+      "path": "grade-11-mathematics-unit-1-relations-and-functions-deep-dive-assessment.json",
+      "name": "Grade 11 Mathematics: Unit 1 — Relations and Functions Deep-Dive Assessment"
     }
   ]
 }
