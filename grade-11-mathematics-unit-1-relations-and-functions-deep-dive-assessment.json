@@ -1,0 +1,487 @@
+{
+  "quizTitle": "Grade 11 Mathematics: Unit 1 — Relations and Functions Deep-Dive Assessment",
+  "quizDescription": "A comprehensive 30-question high-level assessment on Relations and Functions covering set relations, domains/ranges, algebraic operations, function composition, inverse functions, graph transformations, and parity properties.",
+  "questions": [
+    {
+      "question": "If set $A$ contains $m$ elements and set $B$ contains $n$ elements, how many distinct **relations** can be defined from $A$ to $B$?",
+      "options": [
+        "$m \\cdot n$",
+        "$m^n$",
+        "$2^{m \\cdot n}$",
+        "$2^{m+n}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A relation from $A$ to $B$ is defined as any subset of the Cartesian product $A \\times B$. Since $|A \\times B| = m \\cdot n$, the total number of possible subsets (and thus relations) is the cardinality of the power set of $A \\times B$, which equals $2^{m \\cdot n}$. Option 0 represents the cardinality of $A \\times B$, while Option 1 represents the total number of *functions* from $B$ to $A$.",
+      "hint": "Recall that a relation is a subset of the Cartesian product $A \\times B$. Consider how many subsets a set of size $k$ possesses."
+    },
+    {
+      "question": "What primary formal condition must a relation $R \\subseteq A \\times B$ satisfy to be classified as a **function** $f: A \\to B$?",
+      "options": [
+        "Every element in $B$ must be paired with at least one element in $A$.",
+        "Every element in $A$ must be paired with **exactly one** element in $B$.",
+        "Every element in $A$ must be paired with at most one element in $B$.",
+        "No two elements in $A$ can share the same target image in $B$."
+      ],
+      "correctAnswer": 1,
+      "explanation": "By definition, a relation $R$ from $A$ to $B$ is a function if and only if every domain element $x \\in A$ is assigned to exactly one codomain element $y \\in B$. Option 0 describes surjectivity (onto), Option 2 allows domain elements to remain unassigned (which violates the definition of a total function), and Option 3 describes injectivity (one-to-one).",
+      "hint": "Think about the Vertical Line Test on a graph: every input $x$ in the domain must yield a unique single output $y$."
+    },
+    {
+      "question": "Consider the real relation $R = \\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : y = \\sqrt{4 - x^2}\\}$. What are the **domain** and **range** of its inverse relation $R^{-1}$?",
+      "options": [
+        "$\\text{Domain} = [-2, 2]$ and $\\text{Range} = [0, 2]$",
+        "$\\text{Domain} = [-2, 2]$ and $\\text{Range} = [-2, 2]$",
+        "$\\text{Domain} = [0, 4]$ and $\\text{Range} = [-2, 2]$",
+        "$\\text{Domain} = [0, 2]$ and $\\text{Range} = [-2, 2]$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "For $R$, the radicand requires $4 - x^2 \\ge 0 \\implies x \\in [-2, 2]$, so $\\text{Domain}(R) = [-2, 2]$. Since principal square roots produce non-negative values, $y \\in [0, 2]$, so $\\text{Range}(R) = [0, 2]$. By the property of inverse relations, $\\text{Domain}(R^{-1}) = \\text{Range}(R) = [0, 2]$ and $\\text{Range}(R^{-1}) = \\text{Domain}(R) = [-2, 2]$.",
+      "hint": "Remember that the domain and range swap places when taking the inverse of any relation."
+    },
+    {
+      "question": "A student applies the **Horizontal Line Test** to a relation's graph and finds that a horizontal line intersects the curve at two distinct points. What does this result prove?",
+      "options": [
+        "If the relation is a function, it cannot be **one-to-one** (injective).",
+        "The relation fails to be a valid function.",
+        "The relation is guaranteed to be surjective (onto).",
+        "The inverse of the relation is guaranteed to be a well-defined function."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Horizontal Line Test checks for injectivity (one-to-one property). Multiple intersections mean two distinct inputs yield the same output $y$, so the function is not one-to-one and lacks a functional inverse. Option 1 is incorrect because the *Vertical Line Test* determines whether a relation is a function, not the horizontal line test.",
+      "hint": "Distinguish between tests: Vertical Line Test checks if $y$ is a function of $x$; Horizontal Line Test checks if $x$ can be uniquely recovered from $y$."
+    },
+    {
+      "question": "Find the natural domain of the real-valued function $f(x) = \\frac{\\sqrt{x+3}}{x^2 - 4}$.",
+      "options": [
+        "$[-3, \\infty)$",
+        "$(-3, \\infty) \\setminus \\{2\\}$",
+        "$[-3, -2) \\cup (-2, 2) \\cup (2, \\infty)$",
+        "$(-\\infty, -2) \\cup (-2, 2) \\cup (2, \\infty)$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The numerator requires $x + 3 \\ge 0 \\implies x \\ge -3$. The denominator requires $x^2 - 4 \\neq 0 \\implies x \\neq \\pm 2$. Combining these constraints yields $x \\in [-3, \\infty)$ excluding $x = -2$ and $x = 2$, which in interval notation is $[-3, -2) \\cup (-2, 2) \\cup (2, \\infty)$. Option 0 forgets to exclude denominator roots.",
+      "hint": "Analyze constraints simultaneously: square roots require non-negative radicands, while denominators cannot equal zero."
+    },
+    {
+      "question": "Which of the following real functions is strictly **one-to-one** over its entire domain $\\mathbb{R}$?",
+      "options": [
+        "$f(x) = x^2 - 4x + 5$",
+        "$g(x) = |x - 3|$",
+        "$h(x) = x^3 - 3x$",
+        "$k(x) = x^3 + 2x$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A function is one-to-one if it is strictly monotonic. $k(x) = x^3 + 2x$ has derivative $k'(x) = 3x^2 + 2 > 0$ for all $x \\in \\mathbb{R}$, making it strictly increasing everywhere. In contrast, $f(x)$ is a symmetric parabola, $g(x)$ is V-shaped (e.g., $g(2) = g(4) = 1$), and $h(x)$ has local extrema at $x = \\pm 1$ ($h(0) = h(\\sqrt{3}) = 0$).",
+      "hint": "Look for a function that is strictly increasing across all real numbers without turning back or flattening into local peaks."
+    },
+    {
+      "question": "A function $f: A \\to B$ is classified as **surjective (onto)** if and only if which condition holds?",
+      "options": [
+        "The **range** of $f$ is equal to its **codomain** $B$.",
+        "For every $x_1, x_2 \\in A$, if $f(x_1) = f(x_2)$, then $x_1 = x_2$.",
+        "The domain of $f$ is equal to set $B$.",
+        "The function possesses a unique horizontal asymptote."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Surjectivity requires that every element in the target set (codomain $B$) is mapped to by at least one element from the domain $A$, which means $\\text{Range}(f) = B$. Option 1 is the definition of injectivity (one-to-one), not surjectivity.",
+      "hint": "Think about target coverage: does the function hit every possible value in the codomain?"
+    },
+    {
+      "question": "Given $f(x) = \\sqrt{9 - x^2}$ and $g(x) = \\sqrt{x - 1}$, what is the domain of the quotient function $(f / g)(x)$?",
+      "options": [
+        "$[1, 3]$",
+        "$(1, 3]$",
+        "$[-3, 3]$",
+        "$(1, 3)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\text{Dom}(f) = [-3, 3]$ (since $9 - x^2 \\ge 0$) and $\\text{Dom}(g) = [1, \\infty)$ (since $x - 1 \\ge 0$). The domain of $(f/g)(x)$ is $\\text{Dom}(f) \\cap \\text{Dom}(g)$ minus values where $g(x) = 0$. $\\text{Dom}(f) \\cap \\text{Dom}(g) = [1, 3]$. Setting $g(x) = \\sqrt{x-1} = 0$ yields $x = 1$. Excluding $x = 1$ gives $(1, 3]$.",
+      "hint": "Intersect the domains of $f$ and $g$, then exclude any $x$-value that causes the denominator $g(x)$ to become zero."
+    },
+    {
+      "question": "A student evaluates the domain of $(f \\circ g)(x)$ where $f(x) = \\frac{1}{x-2}$ and $g(x) = \\sqrt{x+1}$. The student claims $\\text{Dom}(f \\circ g) = [-1, 3) \\cup (3, \\infty)$. Is this claim correct?",
+      "options": [
+        "Incorrect, because $x = 2$ must also be excluded from the domain.",
+        "Incorrect, because the domain of $f \\circ g$ depends only on the simplified formula.",
+        "Correct, but only when restricted to positive integers.",
+        "Correct, because $x$ must be in $\\text{Dom}(g)$ ($x \\ge -1$) and $g(x)$ must satisfy $g(x) \\neq 2$ ($x \\neq 3$)."
+      ],
+      "correctAnswer": 3,
+      "explanation": "By definition, $\\text{Dom}(f \\circ g) = \\{x \\in \\text{Dom}(g) : g(x) \\in \\text{Dom}(f)\\}$. First, $x \\in \\text{Dom}(g) \\implies x + 1 \\ge 0 \\implies x \\ge -1$. Second, $g(x)$ cannot equal 2 (the restricted value of $f$) $\\implies \\sqrt{x+1} \\neq 2 \\implies x + 1 \\neq 4 \\implies x \\neq 3$. Thus, $x \\in [-1, 3) \\cup (3, \\infty)$. The student's claim is mathematically exact.",
+      "hint": "Check two layers of constraints: $x$ must be valid inside $g(x)$, and $g(x)$ must produce an output valid inside $f(x)$."
+    },
+    {
+      "question": "Let $f(x) = 2x + 1$ and $g(x) = x^2 - k$. For what value of the constant $k$ will $(f \\circ g)(2) = (g \\circ f)(2)$?",
+      "options": [
+        "$k = -16$",
+        "$k = 16$",
+        "$k = 8$",
+        "$k = -8$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Compute $(f \\circ g)(2) = f(g(2)) = f(4 - k) = 2(4 - k) + 1 = 9 - 2k$. Compute $(g \\circ f)(2) = g(f(2)) = g(2(2) + 1) = g(5) = 5^2 - k = 25 - k$. Equating the two expressions: $9 - 2k = 25 - k \\implies -k = 16 \\implies k = -16$.",
+      "hint": "Evaluate $g(2)$ and $f(2)$ separately, plug them into their respective outer functions, and solve the resulting linear equation for $k$."
+    },
+    {
+      "question": "The graph of an invertible function $f$ and the graph of its inverse $f^{-1}$ display reflectional symmetry across which line?",
+      "options": [
+        "The $x$-axis ($y = 0$)",
+        "The $y$-axis ($x = 0$)",
+        "The line $y = -x$",
+        "The line $y = x$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "If point $(a, b)$ lies on the graph of $y = f(x)$, then $(b, a)$ lies on the graph of $y = f^{-1}(x)$. Swapping $x$ and $y$ coordinates corresponds geometrically to a reflection across the identity line $y = x$.",
+      "hint": "The inverse operation swaps input $x$ and output $y$. Which diagonal line maps $(a, b)$ directly to $(b, a)$?"
+    },
+    {
+      "question": "Find the formula for the inverse function $f^{-1}(x)$ of $f(x) = \\frac{3x - 1}{2x + 5}$ for $x \\neq -\\frac{5}{2}$.",
+      "options": [
+        "$f^{-1}(x) = \\frac{2x + 5}{3x - 1}$",
+        "$f^{-1}(x) = \\frac{5x - 1}{2x + 3}$",
+        "$f^{-1}(x) = \\frac{5x + 1}{3 - 2x}$",
+        "$f^{-1}(x) = \\frac{3x + 1}{2x - 5}$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Set $y = \\frac{3x - 1}{2x + 5}$. Solve for $x$: $y(2x + 5) = 3x - 1 \\implies 2xy + 5y = 3x - 1 \\implies 2xy - 3x = -5y - 1 \\implies x(2y - 3) = -(5y + 1) \\implies x = \\frac{5y + 1}{3 - 2y}$. Swapping variables yields $f^{-1}(x) = \\frac{5x + 1}{3 - 2x}$. Option 0 is a common mistake where the student simply reciprocates the fraction.",
+      "hint": "Set $y = f(x)$, multiply out the denominator, collect all terms involving $x$ on one side, factor out $x$, and isolate it."
+    },
+    {
+      "question": "Let $f: [2, \\infty) \\to [-1, \\infty)$ be defined by $f(x) = x^2 - 4x + 3$. What are the domain and formula for $f^{-1}(x)$?",
+      "options": [
+        "$f^{-1}(x) = 2 + \\sqrt{x+1}$ with domain $[-1, \\infty)$",
+        "$f^{-1}(x) = 2 - \\sqrt{x+1}$ with domain $[-1, \\infty)$",
+        "$f^{-1}(x) = 2 \\pm \\sqrt{x+1}$ with domain $[3, \\infty)$",
+        "$f^{-1}(x) = \\sqrt{x - 3} + 2$ with domain $[3, \\infty)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complete the square: $y = (x - 2)^2 - 1 \\implies y + 1 = (x - 2)^2$. Taking square roots yields $x - 2 = \\pm\\sqrt{y + 1}$. Since the restricted domain of $f$ is $x \\ge 2$, we select the positive root: $x = 2 + \\sqrt{y + 1}$. Thus $f^{-1}(x) = 2 + \\sqrt{x + 1}$. The domain of $f^{-1}$ is the range of $f$, which is $[-1, \\infty)$.",
+      "hint": "Complete the square to isolate $x$, choose the principal root compatible with $x \\ge 2$, and remember $\\text{Dom}(f^{-1}) = \\text{Range}(f)$."
+    },
+    {
+      "question": "How is the graph of $g(x) = f(x + 4) - 2$ obtained from the parent graph $y = f(x)$?",
+      "options": [
+        "Shift $f(x)$ right by 4 units and down by 2 units.",
+        "Shift $f(x)$ **left by 4 units** and **down by 2 units**.",
+        "Shift $f(x)$ left by 4 units and up by 2 units.",
+        "Shift $f(x)$ right by 4 units and up by 2 units."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Replacing $x$ with $x + 4$ (or $x - (-4)$) shifts the graph horizontally **left** by 4 units. Subtracting 2 outside the function shifts the graph vertically **down** by 2 units. Option 0 confuses horizontal addition with a right shift.",
+      "hint": "Horizontal transformations operate counter-intuitively: $f(x + h)$ shifts left for $h > 0$, while vertical additions shift in the expected direction."
+    },
+    {
+      "question": "The graph of $y = f(x)$ is stretched vertically by a factor of 3, reflected across the $x$-axis, and shifted upward by 5 units. What is the equation of the resulting function $g(x)$?",
+      "options": [
+        "$g(x) = -3f(x + 5)$",
+        "$g(x) = 3f(-x) + 5$",
+        "$g(x) = -3f(x) + 5$",
+        "$g(x) = -\\frac{1}{3}f(x) + 5$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "1) Vertical stretch by 3: $3f(x)$. 2) Reflection across $x$-axis: $-3f(x)$. 3) Vertical shift upward by 5 units: $-3f(x) + 5$. Option 0 mistakenly applies the shift inside the argument (horizontal shift), while Option 1 reflects across the $y$-axis.",
+      "hint": "Apply transformations sequentially: vertical stretch multiplies $f(x)$, $x$-axis reflection negates $f(x)$, and upward shift adds to $f(x)$."
+    },
+    {
+      "question": "A non-zero real function $f(x)$ satisfies $f(-x) = -f(x)$ for all $x$ in its domain. What classification and symmetry apply to $f(x)$?",
+      "options": [
+        "$f(x)$ is an even function and its graph is symmetric about the $y$-axis.",
+        "$f(x)$ is an **odd function** and its graph is symmetric about the **origin $(0,0)$**.",
+        "$f(x)$ is an odd function and its graph is symmetric about the $x$-axis.",
+        "$f(x)$ is both even and odd, so it must represent a line."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The condition $f(-x) = -f(x)$ defines an **odd function**. Geometrically, odd functions possess point symmetry with respect to the origin $(0,0)$ (a $180^\\circ$ rotation leaves the graph unchanged). Option 0 defines even functions.",
+      "hint": "Test specific values: if $f(2) = 5$, then $f(-2) = -5$. This diagonal sign reversal corresponds to origin symmetry."
+    },
+    {
+      "question": "Classify the function $f(x) = \\frac{x^3}{x^2 + 1}$ as even, odd, or neither.",
+      "options": [
+        "Even function, because $x^2 + 1$ is an even expression in the denominator.",
+        "Neither even nor odd, because it contains both odd ($x^3$) and even ($x^2$) exponents.",
+        "Both even and odd because $f(0) = 0$.",
+        "**Odd function**, because $f(-x) = -f(x)$ for all $x \\in \\mathbb{R}$."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Substitute $-x$ into $f(x)$: $f(-x) = \\frac{(-x)^3}{(-x)^2 + 1} = \\frac{-x^3}{x^2 + 1} = -\\left(\\frac{x^3}{x^2 + 1}\\right) = -f(x)$. Since $f(-x) = -f(x)$, $f$ is an odd function. Option 1 is a common trap: the quotient of an odd function and an even function is odd.",
+      "hint": "Algebraically evaluate $f(-x)$ by replacing every $x$ with $(-x)$ and simplifying the overall algebraic sign."
+    },
+    {
+      "question": "Let $f(x) = 3x$ and $g(x) = x + 2$. Which option correctly distinguishes $(f \\cdot g)(x)$ from $(f \\circ g)(x)$?",
+      "options": [
+        "$(f \\cdot g)(x) = 3x^2 + 6x$, whereas $(f \\circ g)(x) = 3x + 6$.",
+        "Both $(f \\cdot g)(x)$ and $(f \\circ g)(x)$ equal $3x^2 + 6x$.",
+        "$(f \\cdot g)(x) = 3x + 6$, whereas $(f \\circ g)(x) = 3x^2 + 6x$.",
+        "$(f \\circ g)(x) = 3x^2 + 6$, whereas $(f \\cdot g)(x) = 3x + 6$."
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(f \\cdot g)(x)$ represents function **multiplication**: $f(x) \\cdot g(x) = (3x)(x + 2) = 3x^2 + 6x$. On the other hand, $(f \\circ g)(x)$ represents function **composition**: $f(g(x)) = f(x + 2) = 3(x + 2) = 3x + 6$. Option 1 confuses composition with pointwise multiplication.",
+      "hint": "Distinguish between the product of outputs $f(x) \\cdot g(x)$ and nesting function inputs $f(g(x))$."
+    },
+    {
+      "question": "Let $f(x) = \\begin{cases} x^2 & \\text{if } x \\ge 0 \\\\ 2x & \\text{if } x < 0 \\end{cases}$ and $g(x) = x - 3$. Evaluate $(f \\circ g)(1) + (g \\circ f)(-2)$.",
+      "options": [
+        "$-11$",
+        "$-3$",
+        "$1$",
+        "$5$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1) For $(f \\circ g)(1)$: $g(1) = 1 - 3 = -2$. Since $-2 < 0$, evaluate $f(-2) = 2(-2) = -4$. 2) For $(g \\circ f)(-2)$: since $-2 < 0$, $f(-2) = 2(-2) = -4$. Then $g(-4) = -4 - 3 = -7$. 3) Sum: $-4 + (-7) = -11$.",
+      "hint": "Evaluate the inner function first in each composition, then select the appropriate piece of $f(x)$ based on the domain condition."
+    },
+    {
+      "question": "Why is it necessary for a continuous function on an interval to be **strictly monotonic** to possess a functional inverse?",
+      "options": [
+        "Strict monotonicity guarantees that every element in the domain yields a positive output.",
+        "Strict monotonicity ensures that the function satisfies the Vertical Line Test.",
+        "Strict monotonicity guarantees that the function is **one-to-one (injective)**, ensuring each output corresponds to a unique input.",
+        "Strict monotonicity ensures that the graph passes through the origin."
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a continuous function is not strictly monotonic, it turns around (has local extrema), meaning a horizontal line will intersect its graph at multiple points. Strict monotonicity guarantees that $x_1 \\neq x_2 \\implies f(x_1) \\neq f(x_2)$, satisfying injectivity, which is the essential requirement for an inverse function to exist.",
+      "hint": "If a continuous graph increases and then decreases, it passes through the same height twice, breaking injectivity."
+    },
+    {
+      "question": "Consider $f(x) = \\sqrt{x - 2}$. A student asserts that $g(x) = (f(x))^2$ and $h(x) = f(x^2)$ have identical natural domains. Is this assertion correct?",
+      "options": [
+        "Yes, because in both functions the square root and squaring operations cancel out.",
+        "No, because $\\text{Dom}(g) = [2, \\infty)$, while $\\text{Dom}(h) = (-\\infty, -\\sqrt{2}] \\cup [\\sqrt{2}, \\infty)$.",
+        "No, because $\\text{Dom}(g) = \\mathbb{R}$, while $\\text{Dom}(h) = [2, \\infty)$.",
+        "Yes, because both functions evaluate to non-negative real numbers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For $g(x) = (\\sqrt{x-2})^2$, the inner function requires $x - 2 \\ge 0 \\implies x \\in [2, \\infty)$ (even though the expression simplifies to $x - 2$). For $h(x) = \\sqrt{x^2 - 2}$, the radicand requires $x^2 - 2 \\ge 0 \\implies x^2 \\ge 2 \\implies x \\in (-\\infty, -\\sqrt{2}] \\cup [\\sqrt{2}, \\infty)$. Their domains are fundamentally different.",
+      "hint": "For $g(x)$, $f(x)$ must be evaluated first, restricting $x$. For $h(x)$, solve the inequality $x^2 - 2 \\ge 0$ directly."
+    },
+    {
+      "question": "If $f: A \\to B$ is a bijective function, what is the value of the composite function $(f^{-1} \\circ f)(x)$ for any $x \\in A$?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$x$",
+        "$f(x)$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By definition, an inverse function undoes the mapping of the original function. Applying $f$ maps $x \\mapsto y$, and then applying $f^{-1}$ maps $y \\mapsto x$. Thus, $(f^{-1} \\circ f)(x) = I_A(x) = x$, which is the identity function on set $A$.",
+      "hint": "Applying a function and then immediately applying its inverse returns you right back to your starting point."
+    },
+    {
+      "question": "If the graph of $y = f(x)$ has an $x$-intercept at $(6, 0)$, what is the corresponding $x$-intercept of the transformed graph $y = f(3x)$?",
+      "options": [
+        "$(18, 0)$",
+        "$(2, 0)$",
+        "$(9, 0)$",
+        "$(-6, 0)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The transformation $y = f(3x)$ represents a **horizontal compression** by a factor of $\\frac{1}{3}$. Setting $3x = 6$ yields $x = 2$. Therefore, the new $x$-intercept is at $(2, 0)$. Option 0 incorrectly multiplies by 3 instead of dividing.",
+      "hint": "Horizontal modifications inside the function argument scale inputs inversely: $f(cx)$ compresses the graph horizontally by factor $\\frac{1}{c}$."
+    },
+    {
+      "question": "Given the finite relation $R = \\{(1, 2), (2, 3), (3, 1), (4, 2)\\}$, which statement accurately describes $R$?",
+      "options": [
+        "$R$ is not a function because $2$ is paired with two distinct domain elements.",
+        "$R$ is a function, and it is a one-to-one function.",
+        "$R$ is a **function**, but it is **not one-to-one** because $R(1) = R(4) = 2$.",
+        "$R$ is an invertible function with domain $\\{1, 2, 3\\}$."
+      ],
+      "correctAnswer": 2,
+      "explanation": "$R$ is a function because every domain element $\\{1, 2, 3, 4\\}$ maps to exactly one output. However, both $1$ and $4$ map to the output $2$ ($R(1) = 2$ and $R(4) = 2$). Since different inputs share the same output, $R$ is not one-to-one and cannot have a functional inverse.",
+      "hint": "Check whether any single input maps to multiple outputs (function check), and whether multiple inputs map to the same output (one-to-one check)."
+    },
+    {
+      "question": "Which of the following identities correctly expresses the inverse of a composite function $(f \\circ g)^{-1}$?",
+      "options": [
+        "$(f \\circ g)^{-1} = f^{-1} \\circ g^{-1}$",
+        "$(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$",
+        "$(f \\circ g)^{-1} = \\frac{1}{f(g(x))}$",
+        "$(f \\circ g)^{-1} = f \\circ g^{-1}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When reversing a multi-step process, operations must be undone in **reverse order** (the 'shoes and socks' principle). Thus, $(f \\circ g)^{-1} = g^{-1} \\circ f^{-1}$. Option 0 is a widespread misconception that forgets to reverse the order of composition.",
+      "hint": "To undo putting on socks then shoes, you must first take off shoes, then take off socks."
+    },
+    {
+      "question": "Replacing $f(x)$ with $3f(x)$ produces what geometrical transformation on the graph of $y = f(x)$?",
+      "options": [
+        "It shifts the graph vertically upward by 3 units.",
+        "It compresses the graph horizontally toward the $y$-axis by a factor of 3.",
+        "It reflects the graph across the line $y = 3$.",
+        "It **stretches the graph vertically** away from the $x$-axis by a factor of 3."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Multiplying the entire function by a constant factor $c > 1$ multiplies every $y$-coordinate by $c$, resulting in a **vertical stretch** by a factor of $c$. Option 0 describes $f(x) + 3$, and Option 1 describes $f(3x)$.",
+      "hint": "Consider what happens to the $y$-coordinates of points on the graph when you evaluate $3 \\cdot f(x)$ vs $f(x)$."
+    },
+    {
+      "question": "Starting with $f(x) = \\sqrt{x}$, which sequence of transformations accurately builds the graph of $g(x) = -\\sqrt{2 - x} + 1$?",
+      "options": [
+        "Reflect across the $y$-axis, shift right by 2 units, reflect across the $x$-axis, and shift up by 1 unit.",
+        "Reflect across the $x$-axis, shift left by 2 units, reflect across the $y$-axis, and shift down by 1 unit.",
+        "Shift left by 2 units, reflect across the $y$-axis, reflect across the $x$-axis, and shift up by 1 unit.",
+        "Shift right by 2 units, reflect across the $x$-axis, and shift down by 1 unit."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewrite $g(x) = -\\sqrt{-(x - 2)} + 1$. 1) $f(-x) = \\sqrt{-x}$ (reflect across $y$-axis). 2) Replace $x$ with $(x - 2) \\implies \\sqrt{-(x - 2)} = \\sqrt{2 - x}$ (shift right 2 units). 3) Negate outside $\\implies -\\sqrt{2 - x}$ (reflect across $x$-axis). 4) Add $1 \\implies -\\sqrt{2 - x} + 1$ (shift up 1 unit).",
+      "hint": "Rewrite $2 - x$ inside the radical as $-(x - 2)$ to clearly separate the horizontal reflection from the horizontal translation."
+    },
+    {
+      "question": "Given $f(x) = \\frac{x+1}{x-3}$ and $g(x) = 2x + 5$, what is the domain of $(f \\circ g)(x)$?",
+      "options": [
+        "$(-\\infty, 3) \\cup (3, \\infty)$",
+        "$(-\\infty, -1) \\cup (-1, \\infty)$",
+        "$(-\\infty, -3) \\cup (-3, \\infty)$",
+        "$(-\\infty, \\infty)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Compose the functions: $(f \\circ g)(x) = f(2x + 5) = \\frac{(2x+5) + 1}{(2x+5) - 3} = \\frac{2x+6}{2x+2}$. The domain of $g(x)$ is $\\mathbb{R}$. The denominator of $f(g(x))$ cannot be zero: $2x + 2 \\neq 0 \\implies 2x \\neq -2 \\implies x \\neq -1$. Thus $\\text{Dom}(f \\circ g) = (-\\infty, -1) \\cup (-1, \\infty)$.",
+      "hint": "Find the composition formula, check the domain of $g(x)$, and set the resulting denominator unequal to zero."
+    },
+    {
+      "question": "If $f(x)$ is an **even function**, what is the exact relationship between the graph of $y = f(-x)$ and the graph of $y = -f(x)$?",
+      "options": [
+        "$y = f(-x)$ is identical to $y = f(x)$, whereas $y = -f(x)$ is the reflection of $y = f(x)$ across the $x$-axis.",
+        "They are identical because even functions are symmetric about both axes.",
+        "$y = f(-x)$ reflects the graph across the $x$-axis, whereas $y = -f(x)$ reflects it across the $y$-axis.",
+        "Both expressions result in an odd function."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because $f$ is even, $f(-x) = f(x)$, meaning $y = f(-x)$ is identical to the original graph $y = f(x)$. Conversely, $y = -f(x)$ negates all output values, reflecting the graph across the $x$-axis. Option 1 is false because even functions are symmetric about the $y$-axis, not the $x$-axis.",
+      "hint": "Apply the defining property of even functions: $f(-x) = f(x)$. What does this mean for $y = f(-x)$?"
+    },
+    {
+      "question": "Let $f(x) = 3x - 5$ and $g(x) = \\frac{x + 2}{4}$. Find the explicit formula for $(f \\circ g)^{-1}(x)$.",
+      "options": [
+        "$(f \\circ g)^{-1}(x) = \\frac{4x - 14}{3}$",
+        "$(f \\circ g)^{-1}(x) = \\frac{3x + 14}{4}$",
+        "$(f \\circ g)^{-1}(x) = \\frac{4x + 5}{3}$",
+        "$(f \\circ g)^{-1}(x) = \\frac{4x + 14}{3}$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "First, find $(f \\circ g)(x) = f\\left(\\frac{x+2}{4}\\right) = 3\\left(\\frac{x+2}{4}\\right) - 5 = \\frac{3x + 6 - 20}{4} = \\frac{3x - 14}{4}$. To find the inverse, set $y = \\frac{3x - 14}{4} \\implies 4y = 3x - 14 \\implies 3x = 4y + 14 \\implies x = \\frac{4y + 14}{3}$. Thus $(f \\circ g)^{-1}(x) = \\frac{4x + 14}{3}$. Alternatively, using $g^{-1}(f^{-1}(x))$ gives $4\\left(\\frac{x+5}{3}\\right) - 2 = \\frac{4x + 20 - 6}{3} = \\frac{4x + 14}{3}$.",
+      "hint": "Either find $(f \\circ g)(x)$ first and isolate $x$, or compute $g^{-1}(f^{-1}(x))$ using the reversal rule."
+    },
+    {
+      "question": "## Grade 11 Mathematics: Unit 1 — Relations and Functions (Extension Set)\n\nAn additional 10 high-level multiple-choice questions focusing on advanced domains, piecewise functions, range evaluations, transformations, and inverse properties.\n\n---\n\nGiven the piecewise function $f(x) = \\begin{cases} 2x + 1 & \\text{if } x < 1 \\\\ x^2 - 3 & \\text{if } x \\ge 1 \\end{cases}$, what is the **range** of $f(x)$ over all real numbers?",
+      "options": [
+        "$(-\\infty, 3)$",
+        "$[-2, \\infty)$",
+        "$(-\\infty, \\infty)$",
+        "$[-2, 3)$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For $x < 1$, $2x + 1 < 3$, yielding the output interval $(-\\infty, 3)$. For $x \\ge 1$, $x^2 - 3 \\ge -2$, yielding the output interval $[-2, \\infty)$. Taking the union $(-\\infty, 3) \\cup [-2, \\infty)$ covers all real numbers $(-\\infty, \\infty)$. Option 0 and Option 1 represent only the output of a single piece.",
+      "hint": "Find the range of each piece individually and take their set union."
+    },
+    {
+      "question": "Let $A = \\{1, 2, 3\\}$ and $B = \\{a, b\\}$. If $R$ is a relation from $A$ to $B$ defined by $R = \\{(x, y) \\in A \\times B : x \\text{ is odd}\\}$, how many ordered pairs belong to $R$?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The odd elements in set $A$ are $1$ and $3$. Pairing each odd element with all elements of $B = \\{a, b\\}$ gives $R = \\{(1, a), (1, b), (3, a), (3, b)\\}$. Hence, $R$ contains $4$ elements. Option 3 represents the cardinality of the full Cartesian product $A \\times B$.",
+      "hint": "Identify which elements of $A$ meet the condition 'odd', then count all possible pairs combining them with elements in $B$."
+    },
+    {
+      "question": "Every function $f(x)$ defined on a symmetric domain $(-a, a)$ can be decomposed into $f(x) = E(x) + O(x)$, where $E(x)$ is even and $O(x)$ is odd. What is the algebraic formula for $E(x)$?",
+      "options": [
+        "$E(x) = \\frac{f(x) - f(-x)}{2}$",
+        "$E(x) = \\frac{f(x) + f(-x)}{2}$",
+        "$E(x) = f(x^2)$",
+        "$E(x) = \\frac{f(x) \\cdot f(-x)}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To isolate the even part, compute $E(-x) = \\frac{f(-x) + f(x)}{2} = E(x)$, satisfying the even function criterion. Option 0 gives the odd component $O(x)$ because $O(-x) = \\frac{f(-x) - f(x)}{2} = -O(x)$.",
+      "hint": "Test which formula satisfies $E(-x) = E(x)$ when replacing $x$ with $-x$."
+    },
+    {
+      "question": "What is the natural domain of the real-valued function $f(x) = \\frac{1}{\\sqrt{x^2 - 5x + 6}}$?",
+      "options": [
+        "$(-\\infty, 2] \\cup [3, \\infty)$",
+        "$(2, 3)$",
+        "$(-\\infty, 2) \\cup (3, \\infty)$",
+        "$[-2, 3]$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Because the expression is under a square root in the denominator, the radicand must be strictly positive: $x^2 - 5x + 6 > 0 \\implies (x - 2)(x - 3) > 0$. Testing intervals yields $x < 2$ or $x > 3$, which in interval notation is $(-\\infty, 2) \\cup (3, \\infty)$. Option 0 incorrectly includes $2$ and $3$, which cause division by zero.",
+      "hint": "Set the quadratic inside the square root strictly greater than zero to avoid both negative radicands and division by zero."
+    },
+    {
+      "question": "The graph of $y = f(x)$ undergoes a **horizontal stretch** by a factor of 2, followed by a **vertical shift down** by 3 units. What is the equation of the transformed function $g(x)$?",
+      "options": [
+        "$g(x) = f(2x) - 3$",
+        "$g(x) = f\\left(\\frac{x}{2}\\right) - 3$",
+        "$g(x) = 2f(x) - 3$",
+        "$g(x) = f\\left(\\frac{1}{2}x - 3\\right)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A horizontal stretch by a factor of 2 replaces $x$ with $\\frac{x}{2}$ (or $\\frac{1}{2}x$). A vertical shift down by 3 units subtracts 3 from the entire function. Thus, $g(x) = f\\left(\\frac{x}{2}\\right) - 3$. Option 0 represents a horizontal compression by a factor of $\\frac{1}{2}$.",
+      "hint": "Horizontal stretching divides the independent variable $x$ by the stretch factor."
+    },
+    {
+      "question": "A function $f$ is called an **involution** (or self-inverse) if $f(f(x)) = x$ for all $x$ in its domain. Which of the following functions is an involution on its domain $\\mathbb{R} \\setminus \\{0\\}$?",
+      "options": [
+        "$f(x) = \\frac{1}{x}$",
+        "$f(x) = x^2$",
+        "$f(x) = 2x$",
+        "$f(x) = x + 1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For $f(x) = \\frac{1}{x}$, substituting $f(x)$ into itself yields $f(f(x)) = f\\left(\\frac{1}{x}\\right) = \\frac{1}{1/x} = x$. Thus $f$ is its own inverse. For Option 2, $f(f(x)) = 2(2x) = 4x \\neq x$.",
+      "hint": "Apply the function to its own output: $f(f(x))$. Look for the rule where applying it twice returns $x$."
+    },
+    {
+      "question": "Consider the real function $f: \\mathbb{R} \\to \\mathbb{R}$ defined by $f(x) = x^3 + 1$. How should $f$ be classified in terms of injectivity and surjectivity?",
+      "options": [
+        "Injective but not surjective",
+        "Surjective but not injective",
+        "**Bijective** (both injective and surjective)",
+        "Neither injective nor surjective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$f(x) = x^3 + 1$ is strictly increasing across all real numbers ($x_1 \\neq x_2 \\implies x_1^3 + 1 \\neq x_2^3 + 1$), making it **injective**. Its range covers all real numbers $(-\\infty, \\infty)$, matching the codomain $\\mathbb{R}$, making it **surjective**. Since it is both, $f$ is **bijective**.",
+      "hint": "Check if every output comes from a unique input (injective) and if every real number can be produced as an output (surjective)."
+    },
+    {
+      "question": "Find the **range** of the quadratic function $f(x) = -x^2 + 4x - 1$ defined on the restricted domain $x \\in [0, 3]$.",
+      "options": [
+        "$[-1, 2]$",
+        "$[-1, 3]$",
+        "$[2, 3]$",
+        "$(-\\infty, 3]$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertex occurs at $x = -\\frac{b}{2a} = -\\frac{4}{2(-1)} = 2$, which lies inside $[0, 3]$. The vertex yield is $f(2) = -(2)^2 + 4(2) - 1 = 3$ (maximum). Evaluate domain endpoints: $f(0) = -1$ and $f(3) = -(3)^2 + 4(3) - 1 = 2$. The minimum value on $[0, 3]$ is $-1$ and maximum is $3$, giving range $[-1, 3]$.",
+      "hint": "Locate the vertex to see if it lies within the restricted interval, then compare the vertex value with the endpoint values."
+    },
+    {
+      "question": "If $f(x) = |x - 2|$ and $g(x) = 3 - x^2$, evaluate the composite value $(g \\circ f)(-1)$.",
+      "options": [
+        "$-6$",
+        "$2$",
+        "$6$",
+        "$-1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "1) Calculate inner output: $f(-1) = |-1 - 2| = |-3| = 3$. 2) Pass this value to $g(x)$: $g(3) = 3 - (3)^2 = 3 - 9 = -6$. Option 2 incorrectly treats $|-3|$ as $-3$ inside $g(x)$.",
+      "hint": "First compute $f(-1)$ using absolute value rules, then substitute that result into $g(x)$."
+    },
+    {
+      "question": "Let $f: [0, \\infty) \\to [1, \\infty)$ be defined by $f(x) = x + 1$. What is the formula and domain for $f^{-1}(x)$?",
+      "options": [
+        "$f^{-1}(x) = x - 1$ with domain $[1, \\infty)$",
+        "$f^{-1}(x) = x - 1$ with domain $[0, \\infty)$",
+        "$f^{-1}(x) = \\frac{1}{x+1}$ with domain $[0, \\infty)$",
+        "$f^{-1}(x) = 1 - x$ with domain $[1, \\infty)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solving $y = x + 1$ for $x$ gives $x = y - 1 \\implies f^{-1}(x) = x - 1$. The domain of $f^{-1}(x)$ must equal the range of $f(x)$, which is $[1, \\infty)$. Option 1 uses the domain of $f$ instead of its range.",
+      "hint": "Inverse function domains are inherited directly from the range of the original function."
+    }
+  ],
+  "quizId": "combined-grade-11-mathematics-unit-1-relations-and-functions-deep-dive-assessment"
+}
